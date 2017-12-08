@@ -225,16 +225,16 @@
 % -----------------------------------------------------------------------------------
 %                   WORD COUTNER - for XeLaTex
 % -----------------------------------------------------------------------------------
-\usepackage{xesearch}
-\newcounter{words}
-\newenvironment{counted}{%
-  \setcounter{words}{0}
-  \SearchList!{wordcount}{\stepcounter{words}}
-    {a?,b?,c?,d?,e?,f?,g?,h?,i?,j?,k?,l?,m?,
-    n?,o?,p?,q?,r?,s?,t?,u?,v?,w?,x?,y?,z?}
-  \UndoBoundary{'}
-  \SearchOrder{p;}}{%
-  \StopSearching}
+% \usepackage{xesearch}
+% \newcounter{words}
+% \newenvironment{counted}{%
+%   \setcounter{words}{0}
+%   \SearchList!{wordcount}{\stepcounter{words}}
+%     {a?,b?,c?,d?,e?,f?,g?,h?,i?,j?,k?,l?,m?,
+%     n?,o?,p?,q?,r?,s?,t?,u?,v?,w?,x?,y?,z?}
+%   \UndoBoundary{'}
+%   \SearchOrder{p;}}{%
+%   \StopSearching}
 
 % -----------------------------------------------------------------------------------
 %                   MARGINS, HEADERS & FOOTERS
@@ -335,38 +335,38 @@
 % \textbf{\SupervisorNameB}
 \end{flushleft}
 \end{minipage}
-~
+
 \begin{minipage}{0.4\textwidth}
 \begin{flushright} \large
 \emph{Email:} \\
-\SupervisorEmailA\\
+\SupervisorEmailA \\
 % \SupervisorEmailB
 
 \end{flushright}
-\end{minipage}\\[1cm]
+\end{minipage} \\[1cm]
 
 \begin{minipage}{0.4\textwidth}
 \begin{flushleft} \large
-\emph{Author:}\\
-	\textbf{\StudentNameA}\\
-  \textbf{\StudentNameB}\\
-  \textbf{\StudentNameC}\\
+\emph{Author:} \\
+	\textbf{\StudentNameA} \\
+  \textbf{\StudentNameB} \\
+  \textbf{\StudentNameC} \\
 \end{flushleft}
 \end{minipage}
-~
+
 \begin{minipage}{0.4\textwidth}
 \begin{flushright} \large
 \emph{Author Email:} \\
-(\StudentNumberA)\\
-(\StudentNumberB)\\
-(\StudentNumberC)\\
+(\StudentNumberA) \\
+(\StudentNumberB) \\
+(\StudentNumberC) \\
 \end{flushright}
-\end{minipage}\\[2cm]
+\end{minipage} \\[2cm]
 
 %----------------------------------------------------------------------------------------
 %	DATE SECTION
 %----------------------------------------------------------------------------------------
-\textit{{\large \today}}\\[1cm] % Date, change the \today to a set date if you want to be precise
+\textit{{\large \today}} \\[1cm] % Date, change the \today to a set date if you want to be precise
 %----------------------------------------------------------------------------------------
 \vfill % Fill the rest of the page with whitespace
 \end{titlepage}
@@ -410,4 +410,4 @@
 \clearpage
 \rfoot{Page \thepage\ of \pageref{LastPage}}
 \pagenumbering{arabic}
-\begin{counted} %<<<<<<<<<<<<<<STARTS WORD COUNTER
+% \begin{counted} %<<<<<<<<<<<<<<STARTS WORD COUNTER
