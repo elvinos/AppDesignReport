@@ -22,7 +22,7 @@ cp  sectionbuild.md "$path3"/sectionbuild.md
 cd "$path3"
 
 # Run Pandoc to turn the markdown file with the bulk of the document into a .TeX file
-pandoc -f markdown --latex-engine=xelatex -R -i sectionbuild.md -o pandocked.tex
+pandoc -f markdown --pdf-engine=xelatex -i sectionbuild.md -o pandocked.tex
 
 # Remove some of the junk that Markdown adds when converting to TeX.
 sed -i .bak 's/\[<+->\]//g' "$path3"/pandocked.tex
@@ -54,7 +54,7 @@ open /Applications/preview.app "$parent_path"/LatestReport.pdf
 
 # Archives a copy of the md and tex files by date, leaving a trail of prior drafts
 # tar cfvz "$path3"/latest.tar.gz sectionbuild.md Report.tex header.tex footer.tex
-tar cfvz ~/Documents/Programmes/LaTeXFiles/MarkdownLatex/LatestBuild/latest.tar.gz sectionbuild.md Report.tex header.tex footer.tex
+tar cfvz ~"$path2"/latest.tar.gz sectionbuild.md Report.tex header.tex footer.tex
 
 # Rename the archived version, including the date generated.
 mv "$path3"/latest.tar.gz "$parent_path"/Archive/rep_bu_$date.tar.gz
