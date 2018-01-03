@@ -13,5 +13,5 @@ this is some nice text bellow is an image. \cite{blanchard2003macroeconomic}
  \end{figure}
 
  this image \cite{rumelt2012good} is of persona1 it is pretty good \ref{persona1}
-
  \newpage
+ 

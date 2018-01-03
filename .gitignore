@@ -35,3 +35,8 @@
 *.xdy
 *.tdo
 *.pdf
+*.bak
+*.DS_Store
+
+LatestBuild/Report-blx.bib
+Archive
