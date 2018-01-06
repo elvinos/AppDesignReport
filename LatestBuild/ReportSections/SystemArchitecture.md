@@ -12,3 +12,5 @@ The full open source Roots stack \cite{rootsweb} was selected as it provided all
 \end{figure}
 
 \newpage
+
+# Design Principles

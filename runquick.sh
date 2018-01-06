@@ -52,10 +52,10 @@ cp Report.pdf "$parent_path"/LatestReport.pdf
 open /Applications/preview.app "$parent_path"/LatestReport.pdf
 
 # Archives a copy of the md and tex files by date, leaving a trail of prior drafts
-# tar cfvz "$path3"/latest.tar.gz sectionbuild.md Report.tex header.tex footer.tex
-tar cfvz ~/Documents/Programmes/LaTeXFiles/MarkdownLatex/LatestBuild/latest.tar.gz sectionbuild.md Report.tex header.tex footer.tex
+tar cfvz "$path3"/latest.tar.gz sectionbuild.md Report.tex header.tex footer.tex
 
 # Rename the archived version, including the date generated.
 mv "$path3"/latest.tar.gz "$parent_path"/Archive/rep_bu_$date.tar.gz
 
 # killall Terminal
+
