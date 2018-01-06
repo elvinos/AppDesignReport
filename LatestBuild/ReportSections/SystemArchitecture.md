@@ -13,4 +13,4 @@ The full open source Roots stack \cite{rootsweb} was selected as it provided all
 
 \newpage
 
-# Design Principles
+# Design Patterns
