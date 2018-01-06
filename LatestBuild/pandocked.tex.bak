@@ -8,16 +8,6 @@ the organisation to attract new industry partners.
 \hypertarget{the-client}{%
 \subsection{The Client}\label{the-client}}
 
-<<<<<<< HEAD
-The website described in this report was appointed by Dr Yun Fu,
-Teaching Fellow, App Project Manager and Student Internship Manager at
-University College London. An important part of Dr Fu's profession is to
-connect students to the industry, therefore, having a website to
-showcase the work done by the Computer Science department to the
-industry is fundamental. Consequently, the Industry Exchange Network
-(IXN) website was commissioned with the intent to bridge the gap between
-students and industry
-=======
 The IXN project was appointed by Dr Yun Fu, a Teaching Fellow, App
 Project Manager and Student Internship Manager at University College
 London (UCL). An important part of Dr Fu's profession is to connect
@@ -26,24 +16,10 @@ work done by the Computer Science department to the industry is
 significant. Consequently, the Industry Exchange Network (IXN) website
 was commissioned with the intent to bridge the gap between students and
 industry
->>>>>>> master
 
 \hypertarget{the-project}{%
 \subsection{The Project}\label{the-project}}
 
-<<<<<<< HEAD
-The Industry Exchange Network website allows students of the UCL
-Computer Science department to get involved with term-based client
-projects \cite{g1} . The projects showcased by the page are varied and
-range from 1st Year Students to the more advanced MSc Data science
-endeavours. The clients are entrepreneurs, charities, healthcare
-companies, researchers, SMEs, the government and large enterprises. All
-in all, the IXN website is a platform for individuals in the real world
-industries to get in touch with the Computer Science Department at UCL.
-Consequently, the website was created with the objective of, not only,
-being suitable for a professional environment, but also, to showcase the
-abilities of the Computer Science students at UCL.
-=======
 The Industry Exchange Network website allows UCL Computer Science
 students to get involved with term-based client projects \cite{g1}. The
 website showcases a variety of student projects, ranging from 1st Year
@@ -54,7 +30,26 @@ allow individuals in the industry to get in touch with the members of
 the IXN team. The main objective of the website, therefore, is to market
 IXN to professionals; showcasing the abilities of UCL Computer Science
 students.
->>>>>>> master
+
+\hypertarget{project-goals}{%
+\subsection{Project Goals}\label{project-goals}}
+
+\begin{itemize}
+\item
+  Attract new partners to get UCL students involved in their ventures
+\item
+  Facilitate interaction between the industry and UCL scholars
+\item
+  Showcase the excellence of Projects made by the Department of Computer
+  Science
+\item
+  Inform students and partners regarding events held by the Industry
+  Exchange Network
+\item
+  Display the News regarding the achievements of the IXN
+\item
+  Allow the Professors to speedily and effortlessly update the webpage
+\end{itemize}
 
 \hypertarget{website-overview}{%
 \subsection{Website Overview}\label{website-overview}}
@@ -286,10 +281,6 @@ then be deployed onto the web.
       \label{PageFlow}
  \end{figure}
 
-<<<<<<< HEAD
-\newpage
-
-=======
 \newpage
 
 \hypertarget{requirements-definition}{%
@@ -391,7 +382,6 @@ figure ``X'' the MoSCoW of the IXN project is displayed:
  \end{figure}
  \end{landscape}
 
->>>>>>> master
 \hypertarget{user-definition}{%
 \section{User Definition}\label{user-definition}}
 

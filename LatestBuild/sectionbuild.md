@@ -9,6 +9,20 @@ The IXN project was appointed by Dr Yun Fu, a Teaching Fellow, App Project Manag
 
 The Industry Exchange Network website allows UCL Computer Science students to get involved with term-based client projects \cite{g1}. The website showcases a variety of student projects, ranging from 1st Year Students to the more advanced MSc Data Science endeavours.  The clients are entrepreneurs, charities, healthcare companies, researchers, SMEs, the government and large enterprises.  The IXN website is a platform to allow individuals in the industry to get in touch with the members of the IXN team. The main objective of the website, therefore, is to market IXN to professionals; showcasing the abilities of UCL Computer Science students.
 
+## Project Goals
+
+-	Attract new partners to get UCL students involved in their ventures
+
+-	Facilitate interaction between the industry and UCL scholars
+
+-	Showcase the excellence of Projects made by the Department of Computer Science 
+
+-	Inform students and partners regarding events held by the Industry Exchange Network
+
+-	Display the News regarding the achievements of the IXN
+
+-	Allow the Professors to speedily and effortlessly update the webpage
+
 ## Website Overview
 
 \begin{figure}[H]
@@ -117,9 +131,6 @@ Development was the final phase of the project. A complete understanding of how 
       \label{PageFlow}
  \end{figure}
 
-<<<<<<< HEAD
-\newpage# User Definition
-=======
 \newpage
 # Requirements Definition
 
@@ -164,7 +175,6 @@ To distinguish between Must Have requirements, Should and Could Haves the team u
  \end{figure}
  \end{landscape}
 # User Definition
->>>>>>> master
 
 ## Round One User Feedback
 Evaluation is concerned with gathering the usability of a design or a product by a specified group of users within a specified environment or work context. A first round of user surveys was taken based on sketches in order to assess essential site content. The results were used to inform a MoSCoW, storyboards, and subsequent sketches. The results of the survey are outlined below:
