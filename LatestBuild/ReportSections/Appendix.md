@@ -26,7 +26,7 @@
       \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app4.png}
       \caption{Possible features to be implemented in the future}
  \end{figure}
-  \end{landscape}
+\end{landscape}
 
  \newpage
 
@@ -71,4 +71,3 @@
 
 
 
- 

@@ -15,7 +15,10 @@ The Industry Exchange Network website allows UCL Computer Science students to ge
 
 -	Facilitate interaction between the industry and UCL scholars
 
--	Showcase the excellence of Projects made by the Department of Computer Science 
+-	Showcase the excellence of Projects made by the Department of Computer Science
+
+-	Enable communication between industrial exponents and UCL professors
+
 
 -	Inform students and partners regarding events held by the Industry Exchange Network
 
@@ -31,8 +34,11 @@ The Industry Exchange Network website allows UCL Computer Science students to ge
  \end{figure}
 
 # Project Management
+
 ## The Team
+
 ### Alexander Charles (Team Leader)
+
 Alexander obtained a Bachelor of Engineering in Engineering Design specialising in Aerospace. He has worked with firms including Babcock International in Marine and Defence and The Manufacturing Technology Centre (MTC) in Aerospace. Lately he transitioned into Strategy Consulting working on advising Telecommunications CEO's on the use of blockchain technology while at Redshift Strategy. In his spare time, Alexander has practised web development, building WordPress website for an array of small clients.
 
 **Roles:**
@@ -59,7 +65,8 @@ Giovanni obtained a Bachelor of Science in Economics and Finance at the Universi
 
 ### Phoebe Staab
 
-A graduate from the BSc Chemistry Programme at University College Dublin, Phoebe had little to no real programming experience before attending UCL. She had done a couple of online courses in Java and Python and did some novice-level statistics programming in R during her undergraduate degree. Outside of technology-related work, Phoebe has completed several lab-based research internships at University of Queensland and University College Dublin. 
+A graduate from the BSc Chemistry Programme at University College Dublin, Phoebe had little to no real programming experience before attending UCL. She had done a couple of online courses in Java and Python and did some novice-level statistics programming in R during her undergraduate degree. Outside of technology-related work, Phoebe has completed several lab-based research internships at University of Queensland and University College Dublin.
+
 
 **Roles:**
 
@@ -275,6 +282,37 @@ An outline of the use cases can be found below. This is essentially a list of th
       \caption{Detailed UCU4}
  \end{figure}
 
+# User Interface Design
+
+## UI Design Cycle
+
+After the initial debrief with the client, describing what the Industry exchange Network does and the primary website requirements, the HCI design process began. Initial research into competing solutions revealed that there was no exact equivalent to IXN. However, there were specific features of similar sites that would later inspire IXN content, such as "How to use" sections, "Events" sections and prominent placement of industry links.
+
+Based on initial research including competing solutions, initial user surveys and client meetings, a shortlist of potential user types was obtained and was used to inform several personas and use-case scenarios. Throughout the entire research process, iterations of hand-drawn sketches were made in an attempt to hone in on an ideal data-driven design. Additionally, storyboards were made to outline specific user experiences.
+
+After the second round of user feedback, a MoSCow requirements table was defined in order to inform several generations of wireframes. Down-selection of such wireframes gave way to an initial prototype which was then scrutinised via Heuristic and Think-Aloud user evaluation.  The final prototype that inspired the IXN website design was developed over several iterations based on all of the data obtained during the HCI portion of the course.
+
+\begin{figure}[H]
+\centering
+\includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{UIDesign.png}
+\caption{UI Design Cycle}
+\label{UIDesign}
+\end{figure}
+
+## Detailed Design
+
+Sketch was used to make the final prototype, which was then employed directly in front-end development. Each member of the team took responsibility for designing both the web and mobile views for particular components of the IXN site. In Sketch, both Symbols and UI Components sheets were made, housing key design elements of the site in order to avoid redundancy and maintain consistency throughout the site. Sketch's ability to produce exportable CSS code based on prototype design elements made the tool particularly useful during the implementation stage of development. An example would be the IXN website's section headings. A symbol was created in order to maintain a consistent design of this feature for all of the sections on the homepage and throughout the external pages. 
+
+After components were individually designed, the team came together to ensure a cohesive flow was maintained throughout the site. Small tweaks were made to individual components in order to ensure a consistent user experience across every part of the IXN website. After this collaborative effort concluded, front-end development commenced.
+
+\begin{figure}[H]
+\centering
+\includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{SketchDD.png}
+\caption{Diagram showing an overview of the final detailed design Sketch template}
+\label{sketchdd}
+\end{figure}
+
+
 # Technical Research
 
 ## Prototyping
@@ -430,6 +468,22 @@ For the IXN website there was a group repository where code was shared and updat
       \caption{Post implementation annotated MoSCoW}
  \end{figure}
 
+## Build Cycle
+
+The build cycle for the implementation of the Industry Exchange Program was a process strongly based on iteration. Each team member was assigned single components to design, construct and implement. This decision was made to streamline and facilitate the process making the webpage. 
+The process the team has followed for every single component of the site can be summarized in the following steps: 
+
+1.	From the Prototype done by using Sketch extract the final design of the element to be developed, paying careful attention to the exact size in pixels of each one of its parts.
+2.	CodePen was used to construct the elements of the website, this tool was chosen because of its ability of displaying each change made to the HTML and CSS codes live.  
+3.	The code created on Codepen was then transferred to a text editor and statically tested in the local environment to create the Front-End of the website. If the code did not perform well the team would fix the bugs starting from step 2 again. 
+4.	Once the local environment displayed positive static results, PHP was embedded in the HTML code to enable and simplify the connection to WordPress and the Maria DB database.
+5.	Another element was chosen and the iterative process was followed all over again.
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph21.png}
+      \caption{Itereation process followed to create the footer of the IXN website}
+ \end{figure}
 
 # Testing
 
@@ -514,3 +568,76 @@ Moreover, the additional and less requested requirements of the “Could” sect
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph6.png}
       \caption{Possible features to be implemented in the future}
  \end{figure}
+# Appendix
+
+## Login Guide
+
+1. Go to WordPress Login Page at ixn.host/wp-admin
+2. Use the Username: YunFu
+3. Use the Password: AppDesign
+
+## Competing Solutions
+\begin{landscape}
+  \begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app5.png}
+      \caption{Possible features to be implemented in the future}
+ \end{figure}
+ \end{landscape}
+
+ \newpage
+
+## Sketches
+
+\begin{landscape}
+ \begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app4.png}
+      \caption{Possible features to be implemented in the future}
+ \end{figure}
+  \end{landscape}
+
+ \newpage
+
+\begin{landscape}
+ \begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app3.png}
+      \caption{Possible features to be implemented in the future}
+ \end{figure}
+  \end{landscape}
+
+\newpage
+
+## Storyboards
+\begin{landscape}
+ \begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app2.png}
+      \caption{Possible features to be implemented in the future}
+ \end{figure}
+  \end{landscape}
+
+ \newpage
+
+
+## Wire-framing
+\begin{landscape}
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app1.png}
+      \caption{Possible features to be implemented in the future}
+ \end{figure}
+
+ \end{landscape}
+
+ \newpage
+
+
+
+
+
+
+
+
+ 
