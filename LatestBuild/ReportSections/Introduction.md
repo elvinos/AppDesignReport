@@ -1,72 +1,81 @@
 
 # Introduction
-## The Client 
+This report describes the creation of the new Industry Exchange Network website showcasing UCL Computer Science student's projects and marketing the organisation to attract new industry partners.
 
-The website described in this report was appointed by Dr Yun Fu, Teaching Fellow, App Project Manager and Student Internship Manager at University College London. An important part of Dr Fu’s profession is to connect students to the industry, therefore, having a website to showcase the work done by the Computer Science department to the industry is fundamental. Consequently, the Industry Exchange Network (IXN) website was commissioned with the intent to bridge the gap between students and industry 
+## The Client
+The IXN project was appointed by Dr Yun Fu, a Teaching Fellow, App Project Manager and Student Internship Manager at University College London (UCL). An important part of Dr Fu’s profession is to connect students to the industry, therefore, having a website to showcase the work done by the Computer Science department to the industry is significant. Consequently, the Industry Exchange Network (IXN) website was commissioned with the intent to bridge the gap between students and industry
 
 ## The Project
 
-The Industry Exchange Network website allows students of the UCL Computer Science department to get involved with  term-based client projects \cite{g1} . The projects showcased by the page are varied and range from 1st Year Students to the more advanced MSc Data science endeavours.  The clients are entrepreneurs, charities, healthcare companies, researchers, SMEs, the government and large enterprises.  All in all, the IXN website is a platform for individuals in the real world industries to get in touch with the Computer Science Department at UCL. Consequently, the website was created with the objective of, not only, being suitable for a professional environment, but also, to showcase the abilities of the Computer Science students at UCL. 
+The Industry Exchange Network website allows UCL Computer Science students to get involved with term-based client projects \cite{g1}. The website showcases a variety of student projects, ranging from 1st Year Students to the more advanced MSc Data Science endeavours.  The clients are entrepreneurs, charities, healthcare companies, researchers, SMEs, the government and large enterprises.  The IXN website is a platform to allow individuals in the industry to get in touch with the members of the IXN team. The main objective of the website, therefore, is to market IXN to professionals; showcasing the abilities of UCL Computer Science students.
 
-# Website Overview
+## Website Overview
 
 \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph13.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{ph13.png}
  \end{figure}
 
-# The Team
-## Alexander Charles (Team Leader)
+# Project Management
+## The Team
+### Alexander Charles (Team Leader)
+Alexander obtained a Bachelor of Engineering in Engineering Design specialising in Aerospace. He has worked with firms including Babcock International in Marine and Defence and The Manufacturing Technology Centre (MTC) in Aerospace. Lately he transitioned into Strategy Consulting working on advising Telecommunications CEO's on the use of blockchain technology while at Redshift Strategy. In his spare time, Alexander has practised web development, building WordPress website for an array of small clients.
 
-### Roles 
+**Roles:**
 
-## Giovanni Tenderini
+- Project Management
+- Front End-Development and Optimisation
+- Back-end Development and Deployment
+- UI Design
+- Prototyping
+- Report Writing
 
-Giovanni obtained a Bachelor of Science in Economics and Finance at the University of Exeter. His work experience includes a Summer Internship in the Investment Banking division of a Family Office in Milan named CFO and another internship at Generali Italia insurance sales division. His overall knowledge in programming skills is basic, however, he is an expert in statistical analysis and some related programs.
+### Giovanni Tenderini
 
-### Roles
--	Testing 
--	Sketching and Design 
+Giovanni obtained a Bachelor of Science in Economics and Finance at the University of Exeter. His work experience includes a Summer Internship in the Investment Banking division of a Family Office in Milan named CFO and another internship at Generali Italia insurance sales division. His overall knowledge in programming skills is basic. However, he is an expert in statistical analysis and some related programs.
+
+**Roles:**
+
+-   Testing
+-   Sketching and Design
 -   Prototyping
--	Final and Weekly report  writing
--	Video making
--	Minimal Front-End implementation
+-   Final and Weekly Report Writing
+-   Video Making
+-   Minimal Front-End Implementation
 
-## Phoebe Staab
+### Phoebe Staab
 
-A graduate from the BSc Chemistry Programme at University College Dublin, Phoebe had little to no real programming experience before attending UCL. She had done a couple of online courses in Java and Python and did some novice-level statistics programming in R during her undergraduate degree. 
+A graduate of the BSc Chemistry Programme at University College Dublin, Phoebe had little to no real programming experience before attending UCL. She had done a couple of online courses in Java and Python and did some novice-level statistics programming in R during her undergraduate degree.
 
-### Roles
- - Prototyping 
+**Roles:**
+
+ - Prototyping
  - Front End-Development
- - Report Writing 
- - Content creator
+ - Report Writing
+ - Content Creator
  - Research
- - Minimal Back-end development 
+ - Minimal Back-end Development
 
 ## Team Coordination
 
-In team projects a good organization is fundamental for efficient collaboration. Thought has gone into which platforms to utilize and how to split the work. Slack was used as the main communication device, it was chosen because of its ability of sharing files, tracking conversation and setting alerts on it. Trello was used as a dashboard to distinguish between work to be done, in progress or completed. Onedrive was used as a cloud sharing tool.
-Usually, for confidentiality reasons, clients require their repository to be private. Our team had already got past experience with GitHub, however, this platform only offers private repositories at a cost \cite{g2}. Fortunately, our client did not require a private repository, therefore, there was no need of buying private space on GitHub or switching to a platform as BitBucket. 
+In team projects, good organisation is fundamental to effective collaboration. Productivity tools and workflow management has been key to the team working efficiently. The key technologies used by the IXN team included:
 
-## Scheduling 
+- **Slack:** allowing team members to communicate. Chosen due to its ability to share files, track conversations via thread and create alerts
+- **Trello:** used as a dashboard to distinguish between work to be done, in progress or completed
+- **OneDrive:** used as a cloud sharing tool
+- **GitHub:** used to share code between developers, provide version control, manage conflicts and deploy the site to the live server. A private repository provided by UCL was used to keep any work out of the public domain
 
-Work packages were allocated according to each team members’ strengths and weaknesses. The aim of the job distribution was to optimize the time of each individual and allow every team member to learn from the creation of the website. Moreover, to make sure each and every deadline was met a precise Gantt chart was created: 
+## Scheduling
 
+Work packages were allocated according to each team members’ strengths and weaknesses. Jobs were distributed to optimise team members time while allowing all individuals to learn.  A Gantt chart was used to map out the timeline of the project to keep tasks on track and manage deadlines. Figure \ref{gantt}, shows a slimmed down version of the Gantt chart used.
+
+\begin{landscape}
 \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{Picture1.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=1.3\textwidth]{Picture1.png}
       \caption{Gantt chart where "w" stands for weeks dedicated to the development of each task}
+\label{gantt}
  \end{figure}
+ \end{landscape}
 
-
-# Client Requirements
-
-The requirements of the website were highlighted in the first meeting with Dr Yun Fu. The existing website for the IXN network was shown to the group and presented design, content and responsiveness issues. In fact, the aim of the Industry Exchange Network website is to be guide and convince industry leaders to join by contacting the administrators, such a problematic website was not suitable to represent the Computer Science department at UCL. Therefore, new website had to be a high quality exemplification of what the department is able to do and the following features were required by the client:
-
--	High quality and professional design
--	Fully responsive website
--	Content management system to allow the Administrator to update the website without touching code
--	Separate sections for Events, News and Featured Projects.
--	A navigation bar always present at the top of the website
-
+ \newpage
