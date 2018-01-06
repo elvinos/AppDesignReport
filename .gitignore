@@ -37,6 +37,7 @@
 *.pdf
 *.bak
 *.DS_Store
+!LatestBuild/Img/*.pdf
 
 LatestBuild/Report-blx.bib
 LatestBuild/latest.tar.gz
