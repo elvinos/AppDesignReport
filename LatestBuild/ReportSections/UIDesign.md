@@ -9,6 +9,13 @@ Based on initial research including competing solutions, initial user surveys an
 
 After the second round of user feedback, a MoSCow requirements table was defined in order to inform several generations of wireframes. Down-selection of such wireframes gave way to an initial prototype which was then scrutinised via Heuristic and Think-Aloud user evaluation.  The final prototype that inspired the IXN website design was developed over several iterations based on all of the data obtained during the HCI portion of the course. 
 
+\begin{figure}[H]
+\centering
+\includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{UIDesign.png}
+\caption{UI Design Cycle}
+\label{UIDesign}
+\end{figure}
+
 ## Detailed Design 
 
 Sketch was used to make the final prototype, which was then employed directly in front-end development. Each member of the team took responsibility for designing both the web and mobile views for particular components of the IXN site. In Sketch, both Symbols and UI Components sheets were made, housing key design elements of the site in order to avoid redundancy and maintain consistency throughout the site. Sketch's ability to produce exportable CSS code based on prototype design elements made the tool particularly useful during the implementation stage of development. An example would be the IXN website's section headings. (Fig) A symbol was created in order to maintain a consistent design of this feature for all of the sections on the homepage and throughout the external pages. 
@@ -21,4 +28,4 @@ After components were individually designed, the team came together to ensure a 
 \caption{Diagram showing an overview of the final detailed design Sketch template}
 \label{sketchdd}
 \end{figure}
->>>>>>> master
+
