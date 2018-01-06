@@ -19,7 +19,7 @@ The Industry Exchange Network website allows UCL Computer Science students to ge
 # Project Management
 ## The Team
 ### Alexander Charles (Team Leader)
-Alexander obtained a Bachelor of Engineering in Engineering Design specialising in Aerospace. He has worked with firms including Babcock International in Marine and Defence and The Manufacturing Technology Centre (MTC) in Aerospace. Lately transitioned into Strategy Consulting working on advising Telecommunications CEO's on the use of blockchain technology while at Redshift Strategy. In his spare time, Alexander has practised web development, building WordPress website for an array of small clients.
+Alexander obtained a Bachelor of Engineering in Engineering Design specialising in Aerospace. He has worked with firms including Babcock International in Marine and Defence and The Manufacturing Technology Centre (MTC) in Aerospace. Lately he transitioned into Strategy Consulting working on advising Telecommunications CEO's on the use of blockchain technology while at Redshift Strategy. In his spare time, Alexander has practised web development, building WordPress website for an array of small clients.
 
 **Roles:**
 

@@ -52,11 +52,11 @@ Leader)}\label{alexander-charles-team-leader}}
 Alexander obtained a Bachelor of Engineering in Engineering Design
 specialising in Aerospace. He has worked with firms including Babcock
 International in Marine and Defence and The Manufacturing Technology
-Centre (MTC) in Aerospace. Lately transitioned into Strategy Consulting
-working on advising Telecommunications CEO's on the use of blockchain
-technology while at Redshift Strategy. In his spare time, Alexander has
-practised web development, building WordPress website for an array of
-small clients.
+Centre (MTC) in Aerospace. Lately he transitioned into Strategy
+Consulting working on advising Telecommunications CEO's on the use of
+blockchain technology while at Redshift Strategy. In his spare time,
+Alexander has practised web development, building WordPress website for
+an array of small clients.
 
 \textbf{Roles:}
 
@@ -256,7 +256,7 @@ then be deployed onto the web.
 
 \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{PageFlowFinal.pdf}
+      \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{PageFlow.png}
       \caption{Page Flow}
       \label{PageFlow}
  \end{figure}
