@@ -10,7 +10,7 @@ cd "$path2"
 
 # Gather the files which together constitute a dissertation into one place. Add Section Files Here/ Aims.md Background.md Content.md > sectionbuild.md
 ###########
-# Add the list of report sections here in the order you want them processed e.g section1.md section2.md section3.md > sectionbuild.md
+# Add the list of report sections here in the order you want them processed e.g cat section1.md section2.md section3.md > sectionbuild.md
 ###########
 
 cat Introduction.md Requirements.md Design.md UserResearch.md TechnicalResearch.md SystemArchitecture.md Implementation.md Testing.md Conclusion.md > sectionbuild.md
@@ -54,7 +54,7 @@ open /Applications/preview.app "$parent_path"/LatestReport.pdf
 
 # Archives a copy of the md and tex files by date, leaving a trail of prior drafts
 # tar cfvz "$path3"/latest.tar.gz sectionbuild.md Report.tex header.tex footer.tex
-tar cfvz ~"$path2"/latest.tar.gz sectionbuild.md Report.tex header.tex footer.tex
+tar cfvz "$path3"/latest.tar.gz sectionbuild.md Report.tex header.tex footer.tex
 
 # Rename the archived version, including the date generated.
 mv "$path3"/latest.tar.gz "$parent_path"/Archive/rep_bu_$date.tar.gz
