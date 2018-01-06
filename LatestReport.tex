@@ -454,6 +454,28 @@ the IXN team. The main objective of the website, therefore, is to market
 IXN to professionals; showcasing the abilities of UCL Computer Science
 students.
 
+\hypertarget{project-goals}{%
+\subsection{Project Goals}\label{project-goals}}
+
+\begin{itemize}
+\item
+  Attract new partners to get UCL students involved in their ventures
+\item
+  Facilitate interaction between the industry and UCL scholars
+\item
+  Showcase the excellence of Projects made by the Department of Computer
+  Science
+\item
+  Enable communication between industrial exponents and UCL professors
+\item
+  Inform students and partners regarding events held by the Industry
+  Exchange Network
+\item
+  Display the News regarding the achievements of the IXN
+\item
+  Allow the Professors to speedily and effortlessly update the webpage
+\end{itemize}
+
 \hypertarget{website-overview}{%
 \subsection{Website Overview}\label{website-overview}}
 
@@ -530,11 +552,13 @@ expert in statistical analysis and some related programs.
 \hypertarget{phoebe-staab}{%
 \subsubsection{Phoebe Staab}\label{phoebe-staab}}
 
-A graduate of the BSc Chemistry Programme at University College Dublin,
-Phoebe had little to no real programming experience before attending
-UCL. She had done a couple of online courses in Java and Python and did
-some novice-level statistics programming in R during her undergraduate
-degree.
+A graduate from the BSc Chemistry Programme at University College
+Dublin, Phoebe had little to no real programming experience before
+attending UCL. She had done a couple of online courses in Java and
+Python and did some novice-level statistics programming in R during her
+undergraduate degree. Outside of technology-related work, Phoebe has
+completed several lab-based research internships at University of
+Queensland and University College Dublin.
 
 \textbf{Roles:}
 
@@ -950,6 +974,72 @@ outlined in detail.
       \caption{Detailed UCU4}
  \end{figure}
 
+\hypertarget{user-interface-design}{%
+\section{User Interface Design}\label{user-interface-design}}
+
+\hypertarget{ui-design-cycle}{%
+\subsection{UI Design Cycle}\label{ui-design-cycle}}
+
+After the initial debrief with the client, describing what the Industry
+exchange Network does and the primary website requirements, the HCI
+design process began. Initial research into competing solutions revealed
+that there was no exact equivalent to IXN. However, there were specific
+features of similar sites that would later inspire IXN content, such as
+``How to use'' sections, ``Events'' sections and prominent placement of
+industry links.
+
+Based on initial research including competing solutions, initial user
+surveys and client meetings, a shortlist of potential user types was
+obtained and was used to inform several personas and use-case scenarios.
+Throughout the entire research process, iterations of hand-drawn
+sketches were made in an attempt to hone in on an ideal data-driven
+design. Additionally, storyboards were made to outline specific user
+experiences.
+
+After the second round of user feedback, a MoSCow requirements table was
+defined in order to inform several generations of wireframes.
+Down-selection of such wireframes gave way to an initial prototype which
+was then scrutinised via Heuristic and Think-Aloud user evaluation. The
+final prototype that inspired the IXN website design was developed over
+several iterations based on all of the data obtained during the HCI
+portion of the course.
+
+\begin{figure}[H]
+\centering
+\includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{UIDesign.png}
+\caption{UI Design Cycle}
+\label{UIDesign}
+\end{figure}
+
+\hypertarget{detailed-design}{%
+\subsection{Detailed Design}\label{detailed-design}}
+
+Sketch was used to make the final prototype, which was then employed
+directly in front-end development. Each member of the team took
+responsibility for designing both the web and mobile views for
+particular components of the IXN site. In Sketch, both Symbols and UI
+Components sheets were made, housing key design elements of the site in
+order to avoid redundancy and maintain consistency throughout the site.
+Sketch's ability to produce exportable CSS code based on prototype
+design elements made the tool particularly useful during the
+implementation stage of development. An example would be the IXN
+website's section headings. A symbol was created in order to maintain a
+consistent design of this feature for all of the sections on the
+homepage and throughout the external pages.
+
+After components were individually designed, the team came together to
+ensure a cohesive flow was maintained throughout the site. Small tweaks
+were made to individual components in order to ensure a consistent user
+experience across every part of the IXN website. After this
+collaborative effort concluded, front-end development commenced.
+
+\begin{figure}[H]
+\centering
+\includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{SketchDD.png}
+\caption{Diagram showing an overview of the final detailed design Sketch template}
+\label{sketchdd}
+\end{figure}
+
 \hypertarget{technical-research}{%
 \section{Technical Research}\label{technical-research}}
 
@@ -1177,8 +1267,7 @@ code \cite{p18} .
       \caption{Front-End and Back-End interaction}
  \end{figure}
 
-\hypertarget{system-architecture}{%
-\section{System Architecture}\label{system-architecture}}
+\newpage \# System Architecture
 
 In order to be able to create a high performance website, using the
 latest technologies to optimises run time and speed up the design
@@ -1200,15 +1289,62 @@ Trellis, and their relationship to the system architecture.
 \label{systemarchitecture}
 \end{figure}
 
-\newpage
+\hypertarget{design-patterns}{%
+\subsection{Design Patterns}\label{design-patterns}}
 
-\hypertarget{design-principles}{%
-\section{Design Principles}\label{design-principles}}
+Due to the complexity of IXN's websites system architecture, multiple
+design patterns were used; simplifying development workflow and improve
+code readability. The Roots Sage starter theme was selected due the
+being setup as was designed to offer many design pattern benefits off
+the shelf. Some of the typical benefits of using design patterns
+include:
+
+\begin{itemize}
+\tightlist
+\item
+  The ability to reuse large amounts of code \cite{deanDesignPatterns}
+\item
+  Capture expert knowledge from other developers where design trade offs
+  have already been evaluated
+\item
+  Improve communication between the IXN development team
+\end{itemize}
+
+\textbf{Strategy:} This is where a family of algorithms are defined and
+are made interchangeable depending on the client use case
+\cite{gamma1995design}. This design pattern was used in the handling of
+JavaScript files, splitting the files into common, main and custom.
+Different JavaScript files would be loaded dependent on which page was
+being called.
+
+\textbf{Singleton:} This is where a class is ensured not to have anymore
+than one instance \cite{gamma1995design}. When creating php
+functionality for the website such as Reading Time
+(\emph{reading\_time()}), found on news posts or the string chopper tool
+(\emph{chop\_string()}) these classes where defied once in the
+\emph{extras.php} file and then called using namespaces. This ensured
+the classes was only created once and the functionality could be
+accessed elsewhere in the code (see Figure \ref{ddcode}).
+
+\textbf{Template Method:} This is where a skeleton is used to define
+reusable components for subclasses \cite{gamma1995design}. This means
+that subclasses can redefine certain steps of the over-aching class
+without changing the codes structure. Through using the Larval
+templating engine, a skeleton for each view could be defined in the
+\emph{app.blade.php}, different templates files could then be selected
+and swapped out depending on the page selected.
+
+\begin{figure}[H]
+\centering
+\includegraphics[trim = 0 0 0 0, clip, width=0.75\textwidth]{ddcode.png}
+\caption{Overview of project code structure, including singleton design pattern in extras.php}
+\label{ddcode}
+\end{figure}
+
+\newpage
 
 \hypertarget{implementation}{%
 \section{Implementation}\label{implementation}}
-
-\#\#Code Organization
 
 \hypertarget{communication}{%
 \subsection{Communication}\label{communication}}
@@ -1260,14 +1396,11 @@ using text editors such as Atom and Sublime, each member had their own
 preferences. This was where PHP was added. In the later stages of
 development, all of the code was edited and written using text editors.
 
-\hypertarget{github}{%
-\subsubsection{GitHub}\label{github}}
-
-Finally, GitHub was used for collaboration. Git is a version control
-system, allowing revisions in the code to be stored neatly and
-chronologically. The changes can then be seen by other developers who
-can download and modify it. \cite{p20} GitHub is the community of
-developers and where they store their work.
+\textbf{GitHub:} Finally, GitHub was used for collaboration. Git is a
+version control system, allowing revisions in the code to be stored
+neatly and chronologically. The changes can then be seen by other
+developers who can download and modify it. \cite{p20} GitHub is the
+community of developers and where they store their work.
 
 For the IXN website there was a group repository where code was shared
 and updated. In order to organize to code and ensure the integrity of
@@ -1283,6 +1416,47 @@ the site at any given time.
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph15.png}
       \caption{Post implementation annotated MoSCoW}
+ \end{figure}
+
+\hypertarget{build-cycle}{%
+\subsection{Build Cycle}\label{build-cycle}}
+
+The build cycle for the implementation of the Industry Exchange Program
+was a process strongly based on iteration. Each team member was assigned
+single components to design, construct and implement. This decision was
+made to streamline and facilitate the process making the webpage. The
+process the team has followed for every single component of the site can
+be summarized in the following steps:
+
+\begin{enumerate}
+
+\tightlist
+\item
+  From the Prototype done by using Sketch extract the final design of
+  the element to be developed, paying careful attention to the exact
+  size in pixels of each one of its parts.
+\item
+  CodePen was used to construct the elements of the website, this tool
+  was chosen because of its ability of displaying each change made to
+  the HTML and CSS codes live.\\
+\item
+  The code created on Codepen was then transferred to a text editor and
+  statically tested in the local environment to create the Front-End of
+  the website. If the code did not perform well the team would fix the
+  bugs starting from step 2 again.
+\item
+  Once the local environment displayed positive static results, PHP was
+  embedded in the HTML code to enable and simplify the connection to
+  WordPress and the Maria DB database.
+\item
+  Another element was chosen and the iterative process was followed all
+  over again.
+\end{enumerate}
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph21.png}
+      \caption{Itereation process followed to create the footer of the IXN website}
  \end{figure}
 
 \hypertarget{testing}{%
@@ -1452,6 +1626,86 @@ how the features can be realised, is present below:
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph6.png}
       \caption{Possible features to be implemented in the future}
  \end{figure}
+
+\hypertarget{appendix}{%
+\section{Appendix}\label{appendix}}
+
+\hypertarget{login-guide}{%
+\subsection{Login Guide}\label{login-guide}}
+
+\begin{enumerate}
+
+\tightlist
+\item
+  Go to WordPress Login Page at ixn.host/wp-admin
+\item
+  Use the Username: YunFu
+\item
+  Use the Password: AppDesign
+\end{enumerate}
+
+\hypertarget{competing-solutions}{%
+\subsection{Competing Solutions}\label{competing-solutions}}
+
+\begin{landscape}
+  \begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app5.png}
+      \caption{Possible features to be implemented in the future}
+ \end{figure}
+ \end{landscape}
+
+\newpage
+
+\hypertarget{sketches}{%
+\subsection{Sketches}\label{sketches}}
+
+\begin{landscape}
+ \begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app4.png}
+      \caption{Possible features to be implemented in the future}
+ \end{figure}
+  \end{landscape}
+
+\newpage
+
+\begin{landscape}
+ \begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app3.png}
+      \caption{Possible features to be implemented in the future}
+ \end{figure}
+  \end{landscape}
+
+\newpage
+
+\hypertarget{storyboards}{%
+\subsection{Storyboards}\label{storyboards}}
+
+\begin{landscape}
+ \begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app2.png}
+      \caption{Possible features to be implemented in the future}
+ \end{figure}
+  \end{landscape}
+
+\newpage
+
+\hypertarget{wire-framing}{%
+\subsection{Wire-framing}\label{wire-framing}}
+
+\begin{landscape}
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app1.png}
+      \caption{Possible features to be implemented in the future}
+ \end{figure}
+
+ \end{landscape}
+
+\newpage
 % -----------------------------------------------------------------------------------
 %                                  APENDIX
 % -----------------------------------------------------------------------------------
