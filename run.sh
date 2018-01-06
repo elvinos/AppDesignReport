@@ -35,6 +35,10 @@ perl -pi -w -e 's/F0/F\$_{0}\$/g;' "$path3"/pandocked.tex
 # Concatenate the header file (with the preambles, TOC, etc), the pandoc-created TeX file, and the footer file (with the bibliography) into a single buildable TeX file
 cat "$path3"/header.tex "$path3"/pandocked.tex "$path3"/footer.tex > "$path3"/Report.tex
 
+cp Report.tex "$path3"/Aux/Report.tex
+
+cd "$path3"/Aux
+
 # Build the TeX once without stopping for errors (as the hyperref plugin throws errors on the first run)
 /Library/TeX/texbin/xelatex -output-driver="/Library/TeX/texbin/xdvipdfmx" -interaction=nonstopmode -synctex=1 Report.tex
 
@@ -43,7 +47,7 @@ cat "$path3"/header.tex "$path3"/pandocked.tex "$path3"/footer.tex > "$path3"/Re
 
 # Render the file twice more, to ensure that the bibliographical references are included and that the TOC reflects everything accurately
 /Library/TeX/texbin/xelatex -output-driver="/Library/TeX/texbin/xdvipdfmx" -synctex=1 Report.tex
-/Library/TeX/texbin/xelatex -output-driver="/Library/TeX/texbin/xdvipdfmx" -synctex=1  Report.tex
+# /Library/TeX/texbin/xelatex -output-driver="/Library/TeX/texbin/xdvipdfmx" -synctex=1  Report.tex
 
 # Copy the PDF and final TeX out of the build folder for accessibility
 cp Report.tex "$parent_path"/LatestReport.tex
@@ -54,6 +58,8 @@ open /Applications/preview.app "$parent_path"/LatestReport.pdf
 
 # Archives a copy of the md and tex files by date, leaving a trail of prior drafts
 # tar cfvz "$path3"/latest.tar.gz sectionbuild.md Report.tex header.tex footer.tex
+cd "$path3"
+
 tar cfvz "$path3"/latest.tar.gz sectionbuild.md Report.tex header.tex footer.tex
 
 # Rename the archived version, including the date generated.
