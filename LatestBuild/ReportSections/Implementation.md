@@ -33,9 +33,3 @@ For the IXN website there was a group repository where code was shared and updat
       \caption{Post implementation annotated MoSCoW}
  \end{figure}
 
- # Site Map & Page Flow
-\begin{figure}[H]
-      \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph16.png}
-      \caption{Site Map}
- \end{figure}
