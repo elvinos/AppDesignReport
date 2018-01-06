@@ -530,11 +530,13 @@ expert in statistical analysis and some related programs.
 \hypertarget{phoebe-staab}{%
 \subsubsection{Phoebe Staab}\label{phoebe-staab}}
 
-A graduate of the BSc Chemistry Programme at University College Dublin,
-Phoebe had little to no real programming experience before attending
-UCL. She had done a couple of online courses in Java and Python and did
-some novice-level statistics programming in R during her undergraduate
-degree.
+A graduate from the BSc Chemistry Programme at University College
+Dublin, Phoebe had little to no real programming experience before
+attending UCL. She had done a couple of online courses in Java and
+Python and did some novice-level statistics programming in R during her
+undergraduate degree. Outside of technology-related work, Phoebe has
+completed several lab-based research internships at University of
+Queensland and University College Dublin.
 
 \textbf{Roles:}
 
@@ -1177,8 +1179,7 @@ code \cite{p18} .
       \caption{Front-End and Back-End interaction}
  \end{figure}
 
-\hypertarget{system-architecture}{%
-\section{System Architecture}\label{system-architecture}}
+\newpage \# System Architecture
 
 In order to be able to create a high performance website, using the
 latest technologies to optimises run time and speed up the design
@@ -1200,15 +1201,62 @@ Trellis, and their relationship to the system architecture.
 \label{systemarchitecture}
 \end{figure}
 
-\newpage
+\hypertarget{design-patterns}{%
+\subsection{Design Patterns}\label{design-patterns}}
 
-\hypertarget{design-principles}{%
-\section{Design Principles}\label{design-principles}}
+Due to the complexity of IXN's websites system architecture, multiple
+design patterns were used; simplifying development workflow and improve
+code readability. The Roots Sage starter theme was selected due the
+being setup as was designed to offer many design pattern benefits off
+the shelf. Some of the typical benefits of using design patterns
+include:
+
+\begin{itemize}
+\tightlist
+\item
+  The ability to reuse large amounts of code \cite{deanDesignPatterns}
+\item
+  Capture expert knowledge from other developers where design trade offs
+  have already been evaluated
+\item
+  Improve communication between the IXN development team
+\end{itemize}
+
+\textbf{Strategy:} This is where a family of algorithms are defined and
+are made interchangeable depending on the client use case
+\cite{gamma1995design}. This design pattern was used in the handling of
+JavaScript files, splitting the files into common, main and custom.
+Different JavaScript files would be loaded dependent on which page was
+being called.
+
+\textbf{Singleton:} This is where a class is ensured not to have anymore
+than one instance \cite{gamma1995design}. When creating php
+functionality for the website such as Reading Time
+(\emph{reading\_time()}), found on news posts or the string chopper tool
+(\emph{chop\_string()}) these classes where defied once in the
+\emph{extras.php} file and then called using namespaces. This ensured
+the classes was only created once and the functionality could be
+accessed elsewhere in the code (see Figure \ref{ddcode}).
+
+\textbf{Template Method:} This is where a skeleton is used to define
+reusable components for subclasses \cite{gamma1995design}. This means
+that subclasses can redefine certain steps of the over-aching class
+without changing the codes structure. Through using the Larval
+templating engine, a skeleton for each view could be defined in the
+\emph{app.blade.php}, different templates files could then be selected
+and swapped out depending on the page selected.
+
+\begin{figure}[H]
+\centering
+\includegraphics[trim = 0 0 0 0, clip, width=0.75\textwidth]{ddcode.png}
+\caption{Overview of project code structure, including singleton design pattern in extras.php}
+\label{ddcode}
+\end{figure}
+
+\newpage
 
 \hypertarget{implementation}{%
 \section{Implementation}\label{implementation}}
-
-\#\#Code Organization
 
 \hypertarget{communication}{%
 \subsection{Communication}\label{communication}}
@@ -1260,14 +1308,11 @@ using text editors such as Atom and Sublime, each member had their own
 preferences. This was where PHP was added. In the later stages of
 development, all of the code was edited and written using text editors.
 
-\hypertarget{github}{%
-\subsubsection{GitHub}\label{github}}
-
-Finally, GitHub was used for collaboration. Git is a version control
-system, allowing revisions in the code to be stored neatly and
-chronologically. The changes can then be seen by other developers who
-can download and modify it. \cite{p20} GitHub is the community of
-developers and where they store their work.
+\textbf{GitHub:} Finally, GitHub was used for collaboration. Git is a
+version control system, allowing revisions in the code to be stored
+neatly and chronologically. The changes can then be seen by other
+developers who can download and modify it. \cite{p20} GitHub is the
+community of developers and where they store their work.
 
 For the IXN website there was a group repository where code was shared
 and updated. In order to organize to code and ensure the integrity of
