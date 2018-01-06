@@ -1,17 +1,126 @@
 
 # User Research
 
-this is some nice text bellow is an image. \cite{blanchard2003macroeconomic}
+## Round One User Feedback
+A first round of user surveys was taken based on sketches in order to assess necessary content. The results were used to inform a MoSCoW, storyboards, and subsequent sketches. Evaluation is concerned with gathering the usability of a design or a product by a specified group of users within a specified environment or work context. The results of the survey are outlined below:
 
-## This is a sub heading
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph3.png}
+      \caption{IXN network round one User Feedback result summary}
+ \end{figure}
+
+ As it can be seen, the features which are given more importance are the ones related to the showcasing of projects, enforcing the fact that the quality of the design is of fundamental importance for IXN. Indeed, industry individuals who are thinking of relying on IXN for their ventures would feel comforted by seeing past projects displayed in a skilled and professional way.
+
+## Related Readings
+
+Related readings were highly important due to the red tape imposed on research by regulations at UCL. External sources were used to understand the type of audience the website would appeal to and what level of digital ability the users typical would have. The image below shows the main findings:
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{p21.png}
+      \caption{Summarized statistics extracted from the readings explaied below}
+ \end{figure}
+
+Data providing a fuller picture of the demographics of IXN Students was found primarily using UCL student statistics \cite{ps1}. This information was provided on the UCL website. It was determined that the IXN student audience is typically british and male. This evidence helped us develop a data-driven persona. The client indicated that this is not a target-user, but never the less, user research determined that UCL IXN student would be an audience regardless of the website’s intent, since they would like to see their work, the work of other students, and possible industry partners.
+
+The client’s target audience for the IXN site was potential and current partners. Based on the assigned projects for GC02 during the current term, the partners tend to be from technology companies and charity institutions.
+
+Research was done on the demographics of a typical charity volunteer/ employee in the United Kingdom using sources such as The Charity Commission \cite{ps2} and National Council for Voluntary Organisations \cite{ps3}. Based on worked published from these organizations, it was determined that the typical charity employee was aged 45 or older and usually holds a degree. A persona and use-case was developed regarding this data. This data also indicated that the site should be streamlined and simple without confusion on how to navigate through different pages.
+
+In order to obtain a profile for a technology employee sources such as the Atlantic \cite{ps4} and The Harvard business review \cite{ps5} were utilized. The research indicated that employees at such businesses are typically males in their early to mid thirties. This data was, again, used to inform a persona/ use-case. It was determined that this type of user is typically technology-proficient and that the site should reflect the high calibre of technical capability of IXN students.
+
+## Limitations
+
+The main limitations were imposed by the decision taken by the HCI department which did not allow questionnaires to be shown and completed by people outside of the computer science department. Fortunately, in the case of the Industrial Exchange Network UCL Computer Science students account to a high percentage of its users.  To enable more in depth research for our website having more time to dedicate to research could have helped to broaden the number of people questioned. Having a budget to dedicate to research could have also helped to obtain more statistically significant results. For example, questionnaires could have been sponsored to attract a larger public to complete them.
+
+## Users and personas
+
+Based on client specification and demographics research, 5 personas were created to gain understanding of the end user of the product. Please refer to Figure “X” in the Appendix for detailed personas. The two main user categories to focus on are: ​
+
+• Small-Medium Tech Enterprise Owners: ​
+-	Digital Native Users who have got strong tech background​
+-	Look for a business opportunity​
+-	High expectations from design and quality of website​
+-	The platform has to appear professional for them to be incentivised to join IXN​.
+
+The main design principles which have to be considered for this specific persona are: ​
+consistency: essential for a professional looking website​
+affordance: for an intuitive interaction with the platform. ​
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph1.png}
+      \caption{SME Tech Enterprise Owner}
+\end{figure}
+
+• UCL Computer Science Students: ​
+-	Highly trained digital users​
+-	They require the projects they have worked on to be very visible​
+-	Expect to be well represented by the design of the website​
+-	They desire the platform to be as entertaining as possible. ​
+
+The main design principle which has to be considered for this specific persona is: ​
+visibility: especially in relation to how the projects are showcased. ​
 
 \begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{persona1.png}
-      \caption{This is a persona}
-      \label{persona1}
+      \caption{UCL Computer Science Student}
+\end{figure}
+
+Use Cases
+
+Use cases are constructed to represent the standard user navigation and interaction with the platform needed to accomplish a given task \cite{g3}. These are useful to shape the development and design of the website, facilitating the interaction between the website and its users. In the case of the IXN website the role of the administrator has also been taken into account. 
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph9.png}
+      \caption{Use case graph}
+\end{figure}
+
+An outline of the use cases can be found below. This is essentially a list of the actions realated to the Must and Should sections of the MoSCoW.  To avoid repetition, the main routes (in bold) have been outlined in detail.
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph10.png}
+      \caption{Use case list}
  \end{figure}
 
- this image \cite{rumelt2012good} is of persona1 it is pretty good \ref{persona1}
- \newpage
- 
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph12.png}
+      \caption{Detailed UCU3}
+ \end{figure}
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph11.png}
+      \caption{Detailed UCU4}
+ \end{figure}
+
+## MoScCoW 
+
+To distinguish between Must Have requirements, Should and Could Haves the team used a MoSCoW analysis framework \cite{g4}. The tool was constructed by combining statistics extracted form a questionnaire posed to UCL students,  Client Requirements, Personas and Use Cases. A well developed MoSCoW facilitates the implementation and design of a project by streamlining the creation and implementation processes. Below in figure “X” the MoSCoW of the IXN project is displayed:
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph2.png}
+      \caption{MoSCoW framework applied to IXN website requirements}
+ \end{figure}
+
+## Types of requirements 
+There are two types of requirements web development: functional and non-functional. The former, are ones which define specific tasks and activities the project must be able to perform. The latter, are ones which outline the way a system operates and strongly related to the architecture of the system \cite{g5}. Due to the nature of a website used to showcase projects which have already been made, most of the requirements fall under the functional category, nonetheless, the most important ones of both types for IXN website are summarized below:
+
+### Functional requirements
+-	Professional and highly polished design suitable for the business environment
+-	Displaying news related  and events related to the Industrial Exchange network 
+-	Showcasing projects made by the CS department through images and videos 
+-	A navigation bar which is always present at the top of the webpage
+-	Displaying partners of the IXN
+-	Project Sorting tool 
+
+### Non-functional requirements
+-	Content Management System to be able to update the website without having to modify the code directly.
+-	Scailability when inserting new projects, news and events
+

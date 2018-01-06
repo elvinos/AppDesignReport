@@ -1,4 +1,3 @@
-
 # System Architecture
 
 In order to be able to create a high performance website, using the latest technologies to optimises run time and speed up the design process; a stack of Wordpress technologies were used in three tier system architecture. The stack was run across both local and production servers enabling a testing environment which was fully representative of the production server while all code could be kept offline.
