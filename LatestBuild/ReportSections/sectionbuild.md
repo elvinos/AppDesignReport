@@ -44,6 +44,7 @@ this is some nice text bellow is an image. \cite{blanchard2003macroeconomic}
 
  this image \cite{rumelt2012good} is of persona1 it is pretty good \ref{persona1}
  \newpage
+<<<<<<< HEAD
  
 # Technical Research
 
@@ -73,3 +74,207 @@ The full open source Roots stack \cite{rootsweb} was selected as it provided all
 # Conclusion
 
 \newpage
+=======
+# Technical Research
+
+## Prototyping 
+
+Given the importance for the website to display a very accurate, proficient and effective design a great amount of effort was placed into prototyping. Various tools were used to turn handmade sketches into a final prototype. The table below explains which methods have been used and the reason they have been chosen:
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph19.png}
+      \caption{Prototyping methods and tools used}
+ \end{figure}
+
+## Content management system
+
+A content management system (CMS) is defined as a piece of software that is designed to provide some level of automation for the tasks required to effectively manage content. It is usually server-based, interacting with content stored in a repository, which may be located on the same server \cite{p1} . In web development, the ultimate purpose of such tools is to allow an administrative user to edit the content on web page without having to append HTML directly.
+
+The CMS used for the IXN project was WordPress.  There are other free, open-source CMS options, such as Drupal or Joomla, but WordPress was selected due to a few critical advantages. 
+These can be boiled down to: 1) Better support options and availability, 2) Superior access to themes and add-ons and 3) Easy website maintenance. 
+
+### Support options and availability 
+
+WordPress support is available on a plethora of developer support channels for web developers and beginners alike on a myriad of platforms. These include docs, handbooks, codex, Slack channels and Stack Exchange to name a few. Being the most popular CMS, there are entire websites dedicated to support in addition to thousands of online tutorials. 
+Unlike WordPress, finding expert support for Joomla or Drupal is not quite so simple. All of the platforms provide extensive primary source documentation, but because of WordPress’s popularity, it outshines its competitors as far as ease of access to efficient troubleshooting. 
+
+### Access to themes and add-ons 
+
+While Drupal and Joomla also both offer themes and add-ons, the access and variety are not comparable to WordPress, which offers around 40,000 additional plugins.  In Joomla, there is a feature that allows users to add install from web features for extensions. However, in order to access a template, a user would still have to manually search templates and then install them by adding their URL, which is a bit more arduous that the streamlined WordPress process using the dashboard. Worse still, Drupal users have to have to exit their site, search for the module and theme they want, find the zip file URL and submit the URL to the Modules or Themes page to install them. 
+
+ 
+Not only does WordPress take minutes to install, but also the dashboard interface after the install is simple and easy to navigate. This is especially useful if you are developing a simple site for a client and they want to be able to manage and modify the site easily. When WordPress undergoes updates, the process is seamless and developers usually won’t have to make any changes. It should also be mentioned that WordPress has an app from which one can manage their site. Joomla’s post-install panel is not as intuitive and has many more features. Seasoned web developers may prefer this, but for simplicity, WordPress wins out. Drupal offers users ‘distributions’, particular to the type of site that they want to develop. This could be a bit confusing for beginners. Finally, Drupal’s updates can require developer knowledge \cite{p2} \cite{p3} \cite{p4} .
+
+### Bedrock and Trellis
+
+Bedrock is a secure way to install and manage WordPress, implementing an alternative to the conventional WordPress structuring. 
+
+Traditionally, WordPress can be installed on both a local device and also a production server, having a Git repository for a sites theme. In this case, deployment means a Git pull of the repository from the server or FTP of the theme. In some cases, the whole site, including WordPress files can be kept under Git as well \cite{p6} . 
+
+This approach is troublesome because when WordPress/plugin updates occur, the production site can be broken. To illustrate, after writing code in order update some updated WordPress or plugin functionality, it is time to deploy. When a developer does so, they must install or update the correct version of the plugin on the production site, compile assets, update the theme on the remote server, and then ensure the plugin has been activated on the production site.  This manual and laborious approach is quite error prone and can lead to downtime. 
+
+Bedrock is a modern WordPress stack that brings more automation to web development and site maintenance and does so using a better folder structure. (fig 1) It uses PHP doting for environment variables, which are part of the twelve-factor app, a methodology created by Heroku for building web apps\cite{p5}. The main goal of this methodology is to improve work on a growing codebase. The details of underlying principles of this methodology are beyond the scope of this work, but can be found in reference 6 \cite{p8} .
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph20.png}
+      \caption{Difference between Bedrock and standard Wordpress Structure}
+ \end{figure}
+
+ Composer, a tool for dependency management in PHP,  is used to pull in both dotenv and WordPress, along with WordPress plugins \cite{p7} . Suppose a developer has a project that depends on a number of libraries and some of those libraries depend on other libraries. In essence, Composer allows the developer to declare the libraries they depend on and finds out the correct versions of packages needed and installs them into the project \cite{p8} .
+
+Bedrock also makes use of Capistrano, a remote server automation tool, for automated deployments \cite{p9}. Vagrant is used to implement easy-to-use development environments. It is a virtual environment manager with a focus on automation \cite{p10} .  Vagrant provides work environments that are easy to configure, reproducible, and transportable controlled by a single reliable workflow. To do so, machines are provisioned on top of a virtualizer, such as VMWare or VirtualBox. Then, industry-standard provisioning tools such as shell scripts, Chef, or Puppet, can automatically install and configure software on the virtual machine \cite{p10} . 
+
+The combination of Ansible, an IT automation/server configuration tool, and bedrock give us Trellis \cite{p11}.   Ansible is used for automation of cloud provisioning, configuration management, application deployment, and many other IT needs \cite{p12}. The combination of the Bedrock structure and Ansible automation means that Trellis allows WordPress developers to create and manage more professional server environments almost automatically.
+
+An alternative to using Trellis would be MAMP, which has distinct disadvantages. With MAMP, a developer is tied to the versions of the software that MAMP precludes. Updates may be made, to PHP 5.6 for example, but the local MAMP install would be different from your shared host, or VPS, or dedicated server. The differences between the environments of your host machine with MAMP and that of a remote server can cause issues during deployment. This can also cause problems when something goes wrong on your production server and you can’t replicate it on your local machine or vice versa \cite{p13} .  Trellis creates staging and production environments, meaning that’s the staging/production server matches your development virtual machine. 
+
+
+
+## Front-End 
+As the name would suggest, front-end development encompasses the creation of the parts of a website with which the user interacts, through the use of technologies such as HTML, CSS, and JavaScript.  In other words, this is where the site’s content, styling and dynamic interface is coded. 
+
+HyperText Markup Language, or HTML, is the backbone of the IXN website. This is where the site’s content is kept. It is in the HTML documents where a developer uses PHP to connect the site with the content management system. 
+
+The site’s styling was done using SCSS, a version of cascading style sheet (CSS) written for SASS, a program written in Ruby that assembles CSS style sheets for a browser. The advantage of using SASS is that is has added functionality, allowing the use of variables, nested rules, mixins and more within CSS-compatible syntax \cite{p14} .  
+
+Because the IXN website will be accessed from many different devices with different screen sizes, responsive design principle were used during front end development. In order to achieve 
+a consistent, responsive interface, Bootstrap 4, a front-end web framework based on CSS styling, was used. It has set of fixed classes that allow developers to quickly create applications that scale to devices of all sizes. Additionally, Bootstrap aids developers in adding common components such as navigation bars and panels to a site. It has become the industry standard for responsive web development \cite{p15} .  
+
+In order to add dynamic functionality to the IXN website JavaScript (JS) was used.  JS is a front-end development language which many websites employ and it is supported by all modern web browsers. JQuery is a JavaScript library that simplifies animation, event handling and much more. It was also used to add functionality to the IXN website \cite{p16}. 
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph18.png}
+      \caption{Front-End and Back-End interaction}
+ \end{figure}
+
+## Back-End
+Back end development refers to the server -side code written to ensure that a site is robust and usable. This is the code that is run on the server and is responsible for things such as database interactions, logic, and calculations. For the IXN website, PHP was used for server-side scripting in order to query the MariaDB database \cite{p17} .  
+
+Since WordPress was used as the content management system, it was also deployed on our server so that content could be updated via the user-friendly dashboard. This would then update the database, and strategically placed PHP embedded in HTML would then be used to display the content on the appropriate part of the site. 
+
+Blade, a templating engine was used in conjunction with PHP, which can be detected when the file extension blade.php is used. Blade employs the concepts of template inheritance and sections. The @section notation allows for easy organization of a site and it can be see embedded in the html. The @extends notation can be used in order to inherit other layouts. These tools are extremely convenient for effectively organizing code \cite{p18} .  
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph17.png}
+      \caption{Front-End and Back-End interaction}
+ \end{figure}
+
+# Requirementss
+_(Describe the overall team goals for the two weeks. These should be an umbrella for the individual bi-weekly objectives, in prose)_
+
+# Implementation 
+
+## Development Tools
+
+After prototyping using Sketch was completed, each team member took responsibility for the development of specific sections of the site. CodePen was used to make each component for the website before all of the sections were integrated into the appropriate page layouts. The benefit of using CodePen is that HTML, CSS and JavaScript code can be written in the browser, and compiled in real time, with the result visible in the same window. \cite{p19}  Ultimately, it allows for faster development and easy troubleshooting. 
+
+From CodePen, the front-end code was integrated into the site’s pages using text editors such as Atom and Sublime, each member had their own preferences. This was where PHP was added. In the later stages of development, all of the code was edited and written using text editors. 
+
+
+##Code Organization
+
+### Remote Server
+Trellis was used to set up a remote server to be used for the IXN website’s development. When Trellis sets up a local development environment, it automatically creates a server, provisions it, and installs WordPress \cite{p21} . This is done by Vagrant in Trellis, by which a Vagrantfile uses the Ansible provisioner to run dev.yml to set up a virtual machine on the WordPress site using VirtualBox \cite{p22} .
+
+This was done through a few simple steps. First the site was configured based on the WordPress Sites docs. Then, group_vars/development/wordpress_sites.yml and group_vars/development/vault.yml were edited. Finally, vagrant up was run from the command line from the Trellis folder in the site directory.  
+
+To create a remote server from the remote development environment, a couple of extra steps were needed: Provision and Deploy. Provisioning was done in order to ensure MariaDB and Nginx were installed, Nginx was configured, and a database was set up for the IXN site. The server was provisioned using server.yml. Deployment was done using deploy.yml which took the codebase from GitHub, ran Composer, created config files and reloaded Nginx. \cite{p23}.
+
+### GitHub
+
+Finally, GitHub was used for collaboration. Git is a version control system, allowing revisions in the code to be stored neatly and chronologically. The changes can then be seen by other developers who can download and modify it. \cite{p20}  GitHub is the community of developers and where they store their work. 
+
+For the IXN website there was a group repository where code was shared and updated. In order to organize to code and ensure the integrity of the site, five branches were made. There was a branch made for each individual member (Alexcode, PhoebeCode and GioCode). This is where code was written the majority of the time. When updates were finalized, code from these branches was then pushed to the Dev branch. After this code was reviewed and if there were no clashes, the code was then pushed to the master branch which housed the cleanest and most current version of the site at any given time. 
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph15.png}
+      \caption{Post implementation annotated MoSCoW}
+ \end{figure}
+
+ # Site Map & Page Flow
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph16.png}
+      \caption{Site Map}
+ \end{figure}
+
+# Testing
+
+## Compatibility & Responsiveness
+
+The team underwent research on which browser simulators to use while for testing compatibility and responsiveness of the IXN website. BrowserStack because of its free trial plan and the span of emulators was the tool chosen to perform the tests \cite{g6}. BrowserStack, in fact, offered the possibility of testing the IXN website on a multitude of Operating System, Devices and Browsers. Moreover, to integrate and broaden the results of the tests the team tested the IXN project on physical devices as well. The results obtained for desktops and laptops are displayed below:
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph7.png}
+      \caption{Laptop/Desktop browser testing results}
+ \end{figure}
+
+ As regards testing on mobile devices BrowserStack was the platform chosen. Moreover, as not all of the emulators were available on free trial, physical device testing also played a very important part. The webpage appears fully responsive on modern software versions, however, as occurred with the desktop devices older versions of software (around 2012/2013) struggle with the desing, SCSS and Bootstrap 4. The mobile testing results are displayed below:
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph8.png}
+      \caption{Laptop/Desktop browser testing results}
+ \end{figure}
+
+
+## Server Stability Issues
+
+The team has encountered issues in launching the website trough Microsoft Azure. The website sporadically shows that the page is not redirecting properly or that the page is in a redirect loop. The problem seems to disappear after the page is reloaded a second time. The team was not able to fix this matter. Future teams working in the IXN project will have to improve the relationship between the website and the Azure servers to increase stability and avoid the occasional redirect errors. 
+
+
+## Acceptance Testing
+
+The IXN User Acceptance Testing (UAT) has been generated around the requirements of the website \cite{g7} . In fact, Use Cases have been used to pick and prepare tasks for users to perform while testing. The procedure the IXN team has followed for User Acceptance Testing is the following:
+1.	Design tests for users to cover functional scenarios of the website
+2.	Select a varied background testing team, in accordance to the main users of the website
+3.	Perform the tests and record the results
+4.	Bug fix with the faults encountered, or improve the defective features features
+
+For the IXN website UAT 35 individuals of varied technological knowledge were asked to complete the tasks given and the time of completion was recorded. The table below summarizes the results obtained:
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph4.png}
+      \caption{User Acceptance Testing summarized results}
+ \end{figure}
+
+## Error Guessing
+
+Error guessing has been put into practice by making the most of the expertise of fellow UCL Computer Science Students. The IXN team asked members of the department of Computer Science to come up with, consider and assess circumstances in which the software behind the website might have had problems in coping with the requests made. The efficiency of this testing technique depends on the tester’s abilities. In the case of the IXN website some minor bugs were spotted in the news section. Consequently, the team went on to fixing them.
+
+
+
+# Conclusion
+
+## Requirements Accomplishments
+Comparing the initial MoSCoW to the achievements obtained by the team it is visible that all of the “Must” (in green) and “Should” (in yellow)have requirements have been fulfilled. An extra “Could” (in red) feature has been included to give a more comprehensive user experience.  An annotated MoSCoW, explaining how the requirements have been implemented, can be found below:
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph5.png}
+      \caption{Post implementation annotated MoSCoW}
+ \end{figure}
+
+## Team achievements
+
+Teamwork always has its advantages and disadvantages. The IXN team had to face some issues related to the background knowledge, the workload division and the different culture of its team members. There have been times of disagreement between team members, however, through open minded discussion, honesty and respect every individual gained experience and skills from the creation of the website and cooperating with other people. 
+
+The team was happy with the results obtained with the website, some gains in the quality of the website could have been obtained by having access to some costly design, implementation and testing tools. However, the team was proud of demonstrating that, even with a very limited budget, effort and determination can make up for not having full access to all the latest tools and platforms.
+
+## Critical Evaluation & Future Development 
+
+The project was highly design focused. Therefore, the team tried hard to make it attractive, simple to use and professional with the latest tools and devices available at this day and age. However, in a few years’ time even all the effort put in by the team will result outdated, obsolete and the website would loose its efficacy \cite{g8} . The role of the next teams working on the IXN website will, therefore, be to build upon the foundations that have been created by updating and continuously rejuvenating the website. A task besides the design features of the website that future teams will have to take into account is to improve Azure server stability, to avoid occasional redirect errors that the website is currently facing. Moreover, the additional and less requested requirements of the “Could” section of the MoSCoW can be taken consideration and implemented. A commented version of the “Could” portion, explaining how the features can be realized, is present below:
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph6.png}
+      \caption{Possible features to be implemented in the future}
+ \end{figure}
+>>>>>>> gioReport
