@@ -30,3 +30,19 @@ For the IXN website there was a group repository where code was shared and updat
       \caption{Post implementation annotated MoSCoW}
  \end{figure}
 
+## Build Cycle
+
+The build cycle for the implementation of the Industry Exchange Program was a process strongly based on iteration. Each team member was assigned single components to design, construct and implement. This decision was made to streamline and facilitate the process making the webpage. 
+The process the team has followed for every single component of the site can be summarized in the following steps: 
+
+1.	From the Prototype done by using Sketch extract the final design of the element to be developed, paying careful attention to the exact size in pixels of each one of its parts.
+2.	CodePen was used to construct the elements of the website, this tool was chosen because of its ability of displaying each change made to the HTML and CSS codes live.  
+3.	The code created on Codepen was then transferred to a text editor and statically tested in the local environment to create the Front-End of the website. If the code did not perform well the team would fix the bugs starting from step 2 again. 
+4.	Once the local environment displayed positive static results, PHP was embedded in the HTML code to enable and simplify the connection to WordPress and the Maria DB database.
+5.	Another element was chosen and the iterative process was followed all over again.
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph21.png}
+      \caption{Itereation process followed to create the footer of the IXN website}
+ \end{figure}
