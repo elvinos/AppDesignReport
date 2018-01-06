@@ -1,11 +1,9 @@
 
-# Implementation 
-
-##Code Organization
+# Implementation
 
 ## Communication
 
-Most group communication was done on Slack, but other social media messaging systems were also used on occasion. Trello was used to organize and track the progress of group tasks. This tool was also used to share ideas during the HCI portion of the project. If a member couldn’t be present, FaceTime meetings were also used. 
+Most group communication was done on Slack, but other social media messaging systems were also used on occasion. Trello was used to organize and track the progress of group tasks. This tool was also used to share ideas during the HCI portion of the project. If a member couldn’t be present, FaceTime meetings were also used.
 
 ## Remote Server
 
@@ -17,13 +15,12 @@ To create a remote server from the remote development environment, a couple of e
 
 ## Development Tools
 
-After prototyping using Sketch was completed, each team member took responsibility for the development of specific sections of the site. CodePen was used to make each component for the website before all of the sections were integrated into the appropriate page layouts. The benefit of using CodePen is that HTML, CSS and JavaScript code can be written in the browser, and compiled in real time, with the result visible in the same window. \cite{p19}  Ultimately, it allows for faster development and easy troubleshooting. 
+After prototyping using Sketch was completed, each team member took responsibility for the development of specific sections of the site. CodePen was used to make each component for the website before all of the sections were integrated into the appropriate page layouts. The benefit of using CodePen is that HTML, CSS and JavaScript code can be written in the browser, and compiled in real time, with the result visible in the same window. \cite{p19}  Ultimately, it allows for faster development and easy troubleshooting.
 
-From CodePen, the front-end code was integrated into the site’s pages using text editors such as Atom and Sublime, each member had their own preferences. This was where PHP was added. In the later stages of development, all of the code was edited and written using text editors. 
+From CodePen, the front-end code was integrated into the site’s pages using text editors such as Atom and Sublime, each member had their own preferences. This was where PHP was added. In the later stages of development, all of the code was edited and written using text editors.
 
-### GitHub
-
-Finally, GitHub was used for collaboration. Git is a version control system, allowing revisions in the code to be stored neatly and chronologically. The changes can then be seen by other developers who can download and modify it. \cite{p20}  GitHub is the community of developers and where they store their work. 
+**GitHub:**
+Finally, GitHub was used for collaboration. Git is a version control system, allowing revisions in the code to be stored neatly and chronologically. The changes can then be seen by other developers who can download and modify it. \cite{p20}  GitHub is the community of developers and where they store their work.
 
 For the IXN website there was a group repository where code was shared and updated. In order to organize to code and ensure the integrity of the site, five branches were made. There was a branch made for each individual member (Alexcode, PhoebeCode and GioCode). This is where code was written the majority of the time. When updates were finalized, code from these branches was then pushed to the Dev branch. After this code was reviewed and if there were no clashes, the code was then pushed to the master branch which housed the cleanest and most current version of the site at any given time. 
 
