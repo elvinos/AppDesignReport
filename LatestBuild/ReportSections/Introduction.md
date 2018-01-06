@@ -4,7 +4,7 @@
 
 The website described in this report was appointed by Dr Yun Fu, Teaching Fellow, App Project Manager and Student Internship Manager at University College London. An important part of Dr Fu’s profession is to connect students to the industry, therefore, having a website to showcase the work done by the Computer Science department to the industry is fundamental. Consequently, the Industry Exchange Network (IXN) website was commissioned with the intent to bridge the gap between students and industry 
 
-##The Project
+## The Project
 
 The Industry Exchange Network website allows students of the UCL Computer Science department to get involved with  term-based client projects \cite{g1} . The projects showcased by the page are varied and range from 1st Year Students to the more advanced MSc Data science endeavours.  The clients are entrepreneurs, charities, healthcare companies, researchers, SMEs, the government and large enterprises.  All in all, the IXN website is a platform for individuals in the real world industries to get in touch with the Computer Science Department at UCL. Consequently, the website was created with the objective of, not only, being suitable for a professional environment, but also, to showcase the abilities of the Computer Science students at UCL. 
 
