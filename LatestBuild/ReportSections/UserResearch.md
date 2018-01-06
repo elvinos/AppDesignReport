@@ -1,7 +1,7 @@
 # User Definition
 
 ## Round One User Feedback
-Evaluation is concerned with gathering the usability of a design or a product by a specified group of users within a specified environment or work context. A first round of user surveys was taken based on sketches in order to assess essential site content. The results were used to inform a MoSCoW, storyboards, and subsequent sketches. The results of the survey are outlined below:
+Evaluation is concerned with gathering data regarding the usability of a design or a product by a specified group of users within a specified environment or work context. The first round of user surveys was taken based on sketches in order to assess essential site content. The results were used to inform a MoSCoW, storyboards, and subsequent sketches. The results of the survey are outlined below:
 
 \begin{figure}[H]
       \centering
@@ -10,7 +10,7 @@ Evaluation is concerned with gathering the usability of a design or a product by
 \label{userfeedback}
  \end{figure}
 
-As can be seen, the features which were given highest importance were project-related features and IXN information-related features. \ref{userfeedback} In addition to these content-related attributes, it also became evident that a design-quality would be of utmost importance, given that industry individuals who are thinking of relying on IXN for their ventures would feel inclined to participate after seeing past projects displayed in a skilled and professional way. 
+As can be seen, the features which were given highest importance were project-related features and IXN information-related features. \ref{userfeedback} In addition to these content-related attributes, it also became evident that the design-quality would be of utmost importance, given that the site is meant to attract prospective industry partners. 
 
 ## Related Research
 
@@ -71,7 +71,7 @@ visibility: especially in relation to how the projects are showcased. ​
 
 Use Cases
 
-Use cases were constructed to represent the standard user navigation and interaction with the platform needed to accomplish a given task \cite{g3}. These were useful to shape the development and design of the website, facilitating the interaction between the website and its users. In the case of the IXN website the role of the administrator was also taken into account. 
+Use cases were constructed to represent the standard user navigation and interaction with the platform needed to accomplish a given task \cite{g3}. These were useful in shaping the development and design of the website, and facilitating the interaction between the website and its users. In the case of the IXN website the role of the administrator was also taken into account. 
 
 \begin{figure}[H]
       \centering
