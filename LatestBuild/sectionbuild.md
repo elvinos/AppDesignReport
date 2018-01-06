@@ -101,7 +101,7 @@ Work packages were allocated according to each team members’ strengths and wea
 
  \newpage
 
-# DesignProcess
+# Design Process
 In order to be able to complete the project to both a high standard an within a timely manner, a design process was following both process and agile design methods to reach the projects objectives. The project was spilt into three phases: *definition, design* and *development*. Figure \ref{designprocess}, shows an overview of the projects workflows and a breakdown of the key steps of each phase.
 
 \begin{figure}[H]
@@ -123,7 +123,7 @@ The design phase applied human computer interaction (HCI) principles in an agile
 
 Development was the final phase of the project. A complete understanding of how the final product will look and function, based on the research conducted in the definition phase and the detailed design template in the design phase meant that all the technology required to required to implement the solution can be selected. A local development environment shared amongst all the developers enabled the use of an agile build cycle, using git to mediate between the different versions. The build cycle consisted of a developer taking a UI component from the template and creating the design in code. This would then be connected to the PHP database using word-press and the tested. Any bugs in either the design or functionality could then be ironed out through iteration through the cycle eventually integrating all the components together into the final site. Once the entire design template was implemented the project could then be deployed onto the web.
 
-
+## Site Map
 \begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph16.png}
@@ -299,9 +299,18 @@ After the second round of user feedback, a MoSCow requirements table was defined
 \label{UIDesign}
 \end{figure}
 
+Various tools were used to turn handmade sketches into a final prototype. The table below explains which methods have been used and the reason they have been chosen:
+
+\begin{table}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph19.png}
+      \caption{Prototyping methods and tools used}
+ \end{table}
+
+
 ## Detailed Design
 
-Sketch was used to make the final prototype, which was then employed directly in front-end development. Each member of the team took responsibility for designing both the web and mobile views for particular components of the IXN site. In Sketch, both Symbols and UI Components sheets were made, housing key design elements of the site in order to avoid redundancy and maintain consistency throughout the site. Sketch's ability to produce exportable CSS code based on prototype design elements made the tool particularly useful during the implementation stage of development. An example would be the IXN website's section headings. A symbol was created in order to maintain a consistent design of this feature for all of the sections on the homepage and throughout the external pages. 
+Sketch was used to make the final prototype, which was then employed directly in front-end development. Each member of the team took responsibility for designing both the web and mobile views for particular components of the IXN site. In Sketch, both Symbols and UI Components sheets were made, housing key design elements of the site in order to avoid redundancy and maintain consistency throughout the site. Sketch's ability to produce exportable CSS code based on prototype design elements made the tool particularly useful during the implementation stage of development. An example would be the IXN website's section headings. A symbol was created in order to maintain a consistent design of this feature for all of the sections on the homepage and throughout the external pages.
 
 After components were individually designed, the team came together to ensure a cohesive flow was maintained throughout the site. Small tweaks were made to individual components in order to ensure a consistent user experience across every part of the IXN website. After this collaborative effort concluded, front-end development commenced.
 
@@ -312,29 +321,22 @@ After components were individually designed, the team came together to ensure a 
 \label{sketchdd}
 \end{figure}
 
-
+\newpage
 # Technical Research
 
-## Prototyping
+## Content Management System
 
-Given the importance for the website to display a very accurate, proficient and effective design a great amount of effort was placed into prototyping. Various tools were used to turn handmade sketches into a final prototype. The table below explains which methods have been used and the reason they have been chosen:
+A content management system (CMS) is defined as a piece of software which provides a level of automation for the tasks required to effectively manage content. It is usually server-based, interacting with content stored in a repository; this may be located on the same server \cite{p1}. In web development, the ultimate purpose of such tools is to allow an administrative user to edit the content on web page without having to append code files directly.
 
-\begin{figure}[H]
-      \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph19.png}
-      \caption{Prototyping methods and tools used}
- \end{figure}
+The CMS used for the IXN project was WordPress.  There are other free, open-source CMS options, such as Drupal or Joomla, but WordPress was selected due to a few critical advantages.These can be boiled down to:
 
-## Content management system
+1) Better support options and availability
+2) Superior access to themes and add-ons
+3) Easy website maintenance.
 
-A content management system (CMS) is defined as a piece of software that is designed to provide some level of automation for the tasks required to effectively manage content. It is usually server-based, interacting with content stored in a repository, which may be located on the same server \cite{p1} . In web development, the ultimate purpose of such tools is to allow an administrative user to edit the content on web page without having to append HTML directly.
+### Support Options and Availability 
 
-The CMS used for the IXN project was WordPress.  There are other free, open-source CMS options, such as Drupal or Joomla, but WordPress was selected due to a few critical advantages.
-These can be boiled down to: 1) Better support options and availability, 2) Superior access to themes and add-ons and 3) Easy website maintenance. 
-
-### Support options and availability 
-
-WordPress support is available on a plethora of developer support channels for web developers and beginners alike on a myriad of platforms. These include docs, handbooks, codex, Slack channels and Stack Exchange to name a few. Being the most popular CMS, there are entire websites dedicated to support in addition to thousands of online tutorials.
+WordPress support is available on a plethora of developer channels for web developers and beginners alike on a myriad of platforms. These include docs, handbooks, codex, Slack channels and Stack Exchange to name a few. Being the most popular CMS, there are entire websites dedicated to support in addition to thousands of online tutorials.
 Unlike WordPress, finding expert support for Joomla or Drupal is not quite so simple. All of the platforms provide extensive primary source documentation, but because of WordPress’s popularity, it outshines its competitors as far as ease of access to efficient troubleshooting. 
 
 ### Access to themes and add-ons 
@@ -360,11 +362,11 @@ Bedrock is a modern WordPress stack that brings more automation to web developme
       \caption{Difference between Bedrock and standard Wordpress Structure}
  \end{figure}
 
- Composer, a tool for dependency management in PHP,  is used to pull in both dotenv and WordPress, along with WordPress plugins \cite{p7} . Suppose a developer has a project that depends on a number of libraries and some of those libraries depend on other libraries. In essence, Composer allows the developer to declare the libraries they depend on and finds out the correct versions of packages needed and installs them into the project \cite{p8} .
+ Composer, a tool for dependency management in PHP,  is used to pull in both .dotenv and WordPress, along with WordPress plugins \cite{p7} . Suppose a developer has a project that depends on a number of libraries and some of those libraries depend on other libraries. In essence, Composer allows the developer to declare the libraries they depend on and finds out the correct versions of packages needed and installs them into the project \cite{p8} .
 
-Bedrock also makes use of Capistrano, a remote server automation tool, for automated deployments \cite{p9}. Vagrant is used to implement easy-to-use development environments. It is a virtual environment manager with a focus on automation \cite{p10} .  Vagrant provides work environments that are easy to configure, reproducible, and transportable controlled by a single reliable workflow. To do so, machines are provisioned on top of a virtualizer, such as VMWare or VirtualBox. Then, industry-standard provisioning tools such as shell scripts, Chef, or Puppet, can automatically install and configure software on the virtual machine \cite{p10} .
+Bedrock also makes use of Capistrano, a remote server automation tool, for automated deployments \cite{p9}. Vagrant is used to implement easy-to-use development environments. It is a virtual environment manager with a focus on automation \cite{p10} .  Vagrant provides work environments that are easy to configure, reproducible, and transportable controlled by a single reliable workflow. To do so, machines are provisioned on top of a virtualiser, such as VMWare or VirtualBox. Then, industry-standard provisioning tools such as shell scripts, Chef, or Puppet, can automatically install and configure software on the virtual machine \cite{p10} .
 
-The combination of Ansible, an IT automation/server configuration tool, and bedrock give us Trellis \cite{p11}.   Ansible is used for automation of cloud provisioning, configuration management, application deployment, and many other IT needs \cite{p12}. The combination of the Bedrock structure and Ansible automation means that Trellis allows WordPress developers to create and manage more professional server environments almost automatically.
+The combination of Ansible, an IT automation/server configuration tool, and bedrock give us Trellis \cite{p11}. Ansible is used for automation of cloud provisioning, configuration management, application deployment, and many other IT needs \cite{p12}. The combination of the Bedrock structure and Ansible automation means that Trellis allows WordPress developers to create and manage more professional server environments almost automatically.
 
 An alternative to using Trellis would be MAMP, which has distinct disadvantages. With MAMP, a developer is tied to the versions of the software that MAMP precludes. Updates may be made, to PHP 5.6 for example, but the local MAMP install would be different from your shared host, or VPS, or dedicated server. The differences between the environments of your host machine with MAMP and that of a remote server can cause issues during deployment. This can also cause problems when something goes wrong on your production server and you can’t replicate it on your local machine or vice versa \cite{p13} .  Trellis creates staging and production environments, meaning that’s the staging/production server matches your development virtual machine.
 
@@ -393,7 +395,7 @@ Back end development refers to the server -side code written to ensure that a si
 
 Since WordPress was used as the content management system, it was also deployed on our server so that content could be updated via the user-friendly dashboard. This would then update the database, and strategically placed PHP embedded in HTML would then be used to display the content on the appropriate part of the site.
 
-Blade, a templating engine was used in conjunction with PHP, which can be detected when the file extension blade.php is used. Blade employs the concepts of template inheritance and sections. The @section notation allows for easy organization of a site and it can be see embedded in the html. The @extends notation can be used in order to inherit other layouts. These tools are extremely convenient for effectively organizing code \cite{p18} .  
+Blade, a templating engine was used in conjunction with PHP, which can be detected when the file extension blade.php is used. Blade employs the concepts of template inheritance and sections. The *@section* notation allows for easy organisation of a site and it can be see embedded in the html. The *@extends* notation can be used in order to inherit other layouts. These tools are extremely convenient for effectively organising code \cite{p18} .  
 
 \begin{figure}[H]
       \centering
@@ -568,76 +570,3 @@ Moreover, the additional and less requested requirements of the “Could” sect
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph6.png}
       \caption{Possible features to be implemented in the future}
  \end{figure}
-# Appendix
-
-## Login Guide
-
-1. Go to WordPress Login Page at ixn.host/wp-admin
-2. Use the Username: YunFu
-3. Use the Password: AppDesign
-
-## Competing Solutions
-\begin{landscape}
-  \begin{figure}[H]
-      \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app5.png}
-      \caption{Possible features to be implemented in the future}
- \end{figure}
- \end{landscape}
-
- \newpage
-
-## Sketches
-
-\begin{landscape}
- \begin{figure}[H]
-      \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app4.png}
-      \caption{Possible features to be implemented in the future}
- \end{figure}
-  \end{landscape}
-
- \newpage
-
-\begin{landscape}
- \begin{figure}[H]
-      \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app3.png}
-      \caption{Possible features to be implemented in the future}
- \end{figure}
-  \end{landscape}
-
-\newpage
-
-## Storyboards
-\begin{landscape}
- \begin{figure}[H]
-      \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app2.png}
-      \caption{Possible features to be implemented in the future}
- \end{figure}
-  \end{landscape}
-
- \newpage
-
-
-## Wire-framing
-\begin{landscape}
-\begin{figure}[H]
-      \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app1.png}
-      \caption{Possible features to be implemented in the future}
- \end{figure}
-
- \end{landscape}
-
- \newpage
-
-
-
-
-
-
-
-
- 

@@ -202,8 +202,8 @@ chart used.
 
 \newpage
 
-\hypertarget{designprocess}{%
-\section{DesignProcess}\label{designprocess}}
+\hypertarget{design-process}{%
+\section{Design Process}\label{design-process}}
 
 In order to be able to complete the project to both a high standard an
 within a timely manner, a design process was following both process and
@@ -270,6 +270,9 @@ or functionality could then be ironed out through iteration through the
 cycle eventually integrating all the components together into the final
 site. Once the entire design template was implemented the project could
 then be deployed onto the web.
+
+\hypertarget{site-map}{%
+\subsection{Site Map}\label{site-map}}
 
 \begin{figure}[H]
       \centering
@@ -588,6 +591,16 @@ portion of the course.
 \label{UIDesign}
 \end{figure}
 
+Various tools were used to turn handmade sketches into a final
+prototype. The table below explains which methods have been used and the
+reason they have been chosen:
+
+\begin{table}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph19.png}
+      \caption{Prototyping methods and tools used}
+ \end{table}
+
 \hypertarget{detailed-design}{%
 \subsection{Detailed Design}\label{detailed-design}}
 
@@ -617,55 +630,50 @@ collaborative effort concluded, front-end development commenced.
 \label{sketchdd}
 \end{figure}
 
+\newpage
+
 \hypertarget{technical-research}{%
 \section{Technical Research}\label{technical-research}}
 
-\hypertarget{prototyping}{%
-\subsection{Prototyping}\label{prototyping}}
-
-Given the importance for the website to display a very accurate,
-proficient and effective design a great amount of effort was placed into
-prototyping. Various tools were used to turn handmade sketches into a
-final prototype. The table below explains which methods have been used
-and the reason they have been chosen:
-
-\begin{figure}[H]
-      \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph19.png}
-      \caption{Prototyping methods and tools used}
- \end{figure}
-
 \hypertarget{content-management-system}{%
-\subsection{Content management system}\label{content-management-system}}
+\subsection{Content Management System}\label{content-management-system}}
 
-A content management system (CMS) is defined as a piece of software that
-is designed to provide some level of automation for the tasks required
-to effectively manage content. It is usually server-based, interacting
-with content stored in a repository, which may be located on the same
-server \cite{p1} . In web development, the ultimate purpose of such
-tools is to allow an administrative user to edit the content on web page
-without having to append HTML directly.
+A content management system (CMS) is defined as a piece of software
+which provides a level of automation for the tasks required to
+effectively manage content. It is usually server-based, interacting with
+content stored in a repository; this may be located on the same server
+\cite{p1}. In web development, the ultimate purpose of such tools is to
+allow an administrative user to edit the content on web page without
+having to append code files directly.
 
 The CMS used for the IXN project was WordPress. There are other free,
 open-source CMS options, such as Drupal or Joomla, but WordPress was
-selected due to a few critical advantages. These can be boiled down to:
-1) Better support options and availability, 2) Superior access to themes
-and add-ons and 3) Easy website maintenance.~
+selected due to a few critical advantages.These can be boiled down to:
+
+\begin{enumerate}
+
+\tightlist
+\item
+  Better support options and availability
+\item
+  Superior access to themes and add-ons
+\item
+  Easy website maintenance.
+\end{enumerate}
 
 \hypertarget{support-options-and-availability}{%
-\subsubsection{Support options and
-availability~}\label{support-options-and-availability}}
+\subsubsection{Support Options and
+Availability~}\label{support-options-and-availability}}
 
-WordPress support is available on a plethora of developer support
-channels for web developers and beginners alike on a myriad of
-platforms. These include docs, handbooks, codex, Slack channels and
-Stack Exchange to name a few. Being the most popular CMS, there are
-entire websites dedicated to support in addition to thousands of online
-tutorials. Unlike WordPress, finding expert support for Joomla or Drupal
-is not quite so simple. All of the platforms provide extensive primary
-source documentation, but~because of WordPress's popularity, it
-outshines its competitors as far as ease of access to efficient
-troubleshooting.~
+WordPress support is available on a plethora of developer channels for
+web developers and beginners alike on a myriad of platforms. These
+include docs, handbooks, codex, Slack channels and Stack Exchange to
+name a few. Being the most popular CMS, there are entire websites
+dedicated to support in addition to thousands of online tutorials.
+Unlike WordPress, finding expert support for Joomla or Drupal is not
+quite so simple. All of the platforms provide extensive primary source
+documentation, but~because of WordPress's popularity, it outshines its
+competitors as far as ease of access to efficient troubleshooting.~
 
 \hypertarget{access-to-themes-and-add-ons}{%
 \subsubsection{Access to themes and
@@ -733,7 +741,7 @@ in reference 6 \cite{p8} .
  \end{figure}
 
 Composer, a tool for dependency management in PHP, is used to pull in
-both dotenv and WordPress, along with WordPress plugins \cite{p7} .
+both .dotenv and WordPress, along with WordPress plugins \cite{p7} .
 Suppose a developer has a project that depends on a number of libraries
 and some of those libraries depend on other libraries. In essence,
 Composer allows the developer to declare the libraries they depend on
@@ -746,7 +754,7 @@ easy-to-use development environments. It is a virtual environment
 manager with a focus on automation \cite{p10} . Vagrant provides work
 environments that are easy to configure, reproducible, and transportable
 controlled by a single reliable workflow. To do so, machines are
-provisioned on top of a virtualizer, such as VMWare or VirtualBox. Then,
+provisioned on top of a virtualiser, such as VMWare or VirtualBox. Then,
 industry-standard provisioning tools such as shell scripts, Chef, or
 Puppet, can automatically install and configure software on the virtual
 machine \cite{p10} .
@@ -832,11 +840,11 @@ the content on the appropriate part of the site.
 
 Blade, a templating engine was used in conjunction with PHP, which can
 be detected when the file extension blade.php is used. Blade employs the
-concepts of template inheritance and sections. The @section notation
-allows for easy organization of a site and it can be see embedded in the
-html. The @extends notation can be used in order to inherit other
-layouts. These tools are extremely convenient for effectively organizing
-code \cite{p18} .
+concepts of template inheritance and sections. The \emph{@section}
+notation allows for easy organisation of a site and it can be see
+embedded in the html. The \emph{@extends} notation can be used in order
+to inherit other layouts. These tools are extremely convenient for
+effectively organising code \cite{p18} .
 
 \begin{figure}[H]
       \centering
@@ -1203,83 +1211,3 @@ how the features can be realised, is present below:
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph6.png}
       \caption{Possible features to be implemented in the future}
  \end{figure}
-
-\hypertarget{appendix}{%
-\section{Appendix}\label{appendix}}
-
-\hypertarget{login-guide}{%
-\subsection{Login Guide}\label{login-guide}}
-
-\begin{enumerate}
-
-\tightlist
-\item
-  Go to WordPress Login Page at ixn.host/wp-admin
-\item
-  Use the Username: YunFu
-\item
-  Use the Password: AppDesign
-\end{enumerate}
-
-\hypertarget{competing-solutions}{%
-\subsection{Competing Solutions}\label{competing-solutions}}
-
-\begin{landscape}
-  \begin{figure}[H]
-      \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app5.png}
-      \caption{Possible features to be implemented in the future}
- \end{figure}
- \end{landscape}
-
-\newpage
-
-\hypertarget{sketches}{%
-\subsection{Sketches}\label{sketches}}
-
-\begin{landscape}
- \begin{figure}[H]
-      \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app4.png}
-      \caption{Possible features to be implemented in the future}
- \end{figure}
-  \end{landscape}
-
-\newpage
-
-\begin{landscape}
- \begin{figure}[H]
-      \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app3.png}
-      \caption{Possible features to be implemented in the future}
- \end{figure}
-  \end{landscape}
-
-\newpage
-
-\hypertarget{storyboards}{%
-\subsection{Storyboards}\label{storyboards}}
-
-\begin{landscape}
- \begin{figure}[H]
-      \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app2.png}
-      \caption{Possible features to be implemented in the future}
- \end{figure}
-  \end{landscape}
-
-\newpage
-
-\hypertarget{wire-framing}{%
-\subsection{Wire-framing}\label{wire-framing}}
-
-\begin{landscape}
-\begin{figure}[H]
-      \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app1.png}
-      \caption{Possible features to be implemented in the future}
- \end{figure}
-
- \end{landscape}
-
-\newpage
