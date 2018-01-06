@@ -22,6 +22,7 @@ The Industry Exchange Network website allows UCL Computer Science students to ge
 Alexander obtained a Bachelor of Engineering in Engineering Design specialising in Aerospace. He has worked firms ranging from Babcock International in Marine and Defence, a centre of manufacturing research excellence named the Manufacturing Technology Centre and has lately transitioned into Strategy consulting working on advising Telecommunications CEO's on the use of blockchain technology while at Redshift Strategy. In his spare time, Alexander has practised web development, building WordPress website for an array of small clients.
 
 **Roles:**
+
 - Project Management
 - Front End-Development and Optimisation
 - Back-end Development and Deployment
@@ -34,6 +35,7 @@ Alexander obtained a Bachelor of Engineering in Engineering Design specialising 
 Giovanni obtained a Bachelor of Science in Economics and Finance at the University of Exeter. His work experience includes a Summer Internship in the Investment Banking division of a Family Office in Milan named CFO and another internship at Generali Italia insurance sales division. His overall knowledge in programming skills is basic. However, he is an expert in statistical analysis and some related programs.
 
 **Roles:**
+
 -   Testing
 -   Sketching and Design
 -   Prototyping
@@ -46,6 +48,7 @@ Giovanni obtained a Bachelor of Science in Economics and Finance at the Universi
 A graduate of the BSc Chemistry Programme at University College Dublin, Phoebe had little to no real programming experience before attending UCL. She had done a couple of online courses in Java and Python and did some novice-level statistics programming in R during her undergraduate degree.
 
 **Roles:**
+
  - Prototyping
  - Front End-Development
  - Report Writing
