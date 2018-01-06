@@ -31,7 +31,7 @@ Development was the final phase of the project. A complete understanding of how 
 
  \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{PageFlowFinal.pdf}
+      \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{PageFlow.png}
       \caption{Page Flow}
       \label{PageFlow}
  \end{figure}
