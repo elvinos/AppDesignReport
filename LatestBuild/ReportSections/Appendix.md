@@ -7,8 +7,9 @@
 2. Use the Username: YunFu
 3. Use the Password: AppDesign
 
-## Competing Solutions
+
 \begin{landscape}
+## Competing Solutions
   \begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app5.png}
@@ -18,9 +19,9 @@
 
  \newpage
 
-## Sketches
 
 \begin{landscape}
+## Sketches
  \begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app4.png}
@@ -40,8 +41,9 @@
 
 \newpage
 
-## Storyboards
+
 \begin{landscape}
+## Storyboards
  \begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app2.png}
@@ -52,8 +54,9 @@
  \newpage
 
 
-## Wire-framing
+
 \begin{landscape}
+## Wire-framing
 \begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app1.png}
