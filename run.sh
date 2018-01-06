@@ -13,7 +13,7 @@ cd "$path2"
 # Add the list of report sections here in the order you want them processed e.g cat section1.md section2.md section3.md > sectionbuild.md
 ###########
 
-cat Introduction.md Requirements.md Design.md UserResearch.md TechnicalResearch.md SystemArchitecture.md Implementation.md Testing.md Conclusion.md > sectionbuild.md
+cat Introduction.md Design.md Requirements.md UserResearch.md TechnicalResearch.md SystemArchitecture.md Implementation.md Testing.md Conclusion.md > sectionbuild.md
 
 # Copy into the build folder
 cp  sectionbuild.md "$path3"/sectionbuild.md

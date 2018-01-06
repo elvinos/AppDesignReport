@@ -13,13 +13,13 @@ The Industry Exchange Network website allows UCL Computer Science students to ge
 
 \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph13.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{ph13.png}
  \end{figure}
 
 # Project Management
 ## The Team
 ### Alexander Charles (Team Leader)
-Alexander obtained a Bachelor of Engineering in Engineering Design specialising in Aerospace. He has worked firms ranging from Babcock International in Marine and Defence, a centre of manufacturing research excellence named the Manufacturing Technology Centre and has lately transitioned into Strategy consulting working on advising Telecommunications CEO's on the use of blockchain technology while at Redshift Strategy. In his spare time, Alexander has practised web development, building WordPress website for an array of small clients.
+Alexander obtained a Bachelor of Engineering in Engineering Design specialising in Aerospace. He has worked with firms including Babcock International in Marine and Defence and The Manufacturing Technology Centre (MTC) in Aerospace. Lately transitioned into Strategy Consulting working on advising Telecommunications CEO's on the use of blockchain technology while at Redshift Strategy. In his spare time, Alexander has practised web development, building WordPress website for an array of small clients.
 
 **Roles:**
 
@@ -39,9 +39,9 @@ Giovanni obtained a Bachelor of Science in Economics and Finance at the Universi
 -   Testing
 -   Sketching and Design
 -   Prototyping
--   Final and Weekly report  writing
--   Video making
--   Minimal Front-End implementation
+-   Final and Weekly Report Writing
+-   Video Making
+-   Minimal Front-End Implementation
 
 ### Phoebe Staab
 
@@ -52,25 +52,30 @@ A graduate of the BSc Chemistry Programme at University College Dublin, Phoebe h
  - Prototyping
  - Front End-Development
  - Report Writing
- - Content creator
+ - Content Creator
  - Research
- - Minimal Back-end development
+ - Minimal Back-end Development
 
 ## Team Coordination
 
-In team projects, good organisation is fundamental to effective collaboration. Productivity tools and workflow management has been key to the team working efficiently.  The key technologies used by the IXN team included:
+In team projects, good organisation is fundamental to effective collaboration. Productivity tools and workflow management has been key to the team working efficiently. The key technologies used by the IXN team included:
+
 - **Slack:** allowing team members to communicate. Chosen due to its ability to share files, track conversations via thread and create alerts
 - **Trello:** used as a dashboard to distinguish between work to be done, in progress or completed
-- **OneDrive:** was used as a cloud sharing tool. Usually, for confidentiality reasons, clients require their repository to be private.  
+- **OneDrive:** used as a cloud sharing tool
 - **GitHub:** used to share code between developers, provide version control, manage conflicts and deploy the site to the live server. A private repository provided by UCL was used to keep any work out of the public domain
 
 ## Scheduling
 
 Work packages were allocated according to each team members’ strengths and weaknesses. Jobs were distributed to optimise team members time while allowing all individuals to learn.  A Gantt chart was used to map out the timeline of the project to keep tasks on track and manage deadlines. Figure \ref{gantt}, shows a slimmed down version of the Gantt chart used.
 
+\begin{landscape}
 \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{Picture1.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=1.3\textwidth]{Picture1.png}
       \caption{Gantt chart where "w" stands for weeks dedicated to the development of each task}
 \label{gantt}
  \end{figure}
+ \end{landscape}
+
+ \newpage

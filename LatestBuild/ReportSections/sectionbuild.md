@@ -13,13 +13,13 @@ The Industry Exchange Network website allows UCL Computer Science students to ge
 
 \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph13.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{ph13.png}
  \end{figure}
 
 # Project Management
 ## The Team
 ### Alexander Charles (Team Leader)
-Alexander obtained a Bachelor of Engineering in Engineering Design specialising in Aerospace. He has worked firms ranging from Babcock International in Marine and Defence, a centre of manufacturing research excellence named the Manufacturing Technology Centre and has lately transitioned into Strategy consulting working on advising Telecommunications CEO's on the use of blockchain technology while at Redshift Strategy. In his spare time, Alexander has practised web development, building WordPress website for an array of small clients.
+Alexander obtained a Bachelor of Engineering in Engineering Design specialising in Aerospace. He has worked with firms including Babcock International in Marine and Defence and The Manufacturing Technology Centre (MTC) in Aerospace. Lately transitioned into Strategy Consulting working on advising Telecommunications CEO's on the use of blockchain technology while at Redshift Strategy. In his spare time, Alexander has practised web development, building WordPress website for an array of small clients.
 
 **Roles:**
 
@@ -39,9 +39,9 @@ Giovanni obtained a Bachelor of Science in Economics and Finance at the Universi
 -   Testing
 -   Sketching and Design
 -   Prototyping
--   Final and Weekly report  writing
--   Video making
--   Minimal Front-End implementation
+-   Final and Weekly Report Writing
+-   Video Making
+-   Minimal Front-End Implementation
 
 ### Phoebe Staab
 
@@ -52,42 +52,35 @@ A graduate of the BSc Chemistry Programme at University College Dublin, Phoebe h
  - Prototyping
  - Front End-Development
  - Report Writing
- - Content creator
+ - Content Creator
  - Research
- - Minimal Back-end development
+ - Minimal Back-end Development
 
 ## Team Coordination
 
-In team projects, good organisation is fundamental to effective collaboration. Productivity tools and workflow management has been key to the team working efficiently.  The key technologies used by the IXN team included:
+In team projects, good organisation is fundamental to effective collaboration. Productivity tools and workflow management has been key to the team working efficiently. The key technologies used by the IXN team included:
+
 - **Slack:** allowing team members to communicate. Chosen due to its ability to share files, track conversations via thread and create alerts
 - **Trello:** used as a dashboard to distinguish between work to be done, in progress or completed
-- **OneDrive:** was used as a cloud sharing tool. Usually, for confidentiality reasons, clients require their repository to be private.  
+- **OneDrive:** used as a cloud sharing tool
 - **GitHub:** used to share code between developers, provide version control, manage conflicts and deploy the site to the live server. A private repository provided by UCL was used to keep any work out of the public domain
 
 ## Scheduling
 
 Work packages were allocated according to each team members’ strengths and weaknesses. Jobs were distributed to optimise team members time while allowing all individuals to learn.  A Gantt chart was used to map out the timeline of the project to keep tasks on track and manage deadlines. Figure \ref{gantt}, shows a slimmed down version of the Gantt chart used.
 
+\begin{landscape}
 \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{Picture1.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=1.3\textwidth]{Picture1.png}
       \caption{Gantt chart where "w" stands for weeks dedicated to the development of each task}
 \label{gantt}
  \end{figure}
-# Requirements
+ \end{landscape}
 
-## Client Requirements
+ \newpage
 
-The requirements of the website were highlighted in the first meeting with Dr Yun Fu. The existing website for the IXN network was shown to the group and presented design, content and responsiveness issues. In fact, the aim of the Industry Exchange Network website is to be guide and convince industry leaders to join by contacting the administrators, such a problematic website was not suitable to represent the Computer Science department at UCL. Therefore, new website had to be a high quality exemplification of what the department is able to do and the following features were required by the client:
-
--    High quality and professional design
--    Fully responsive website
--    Content management system to allow the Administrator to update the website without touching code
--    Separate sections for Events, News and Featured Projects.
--    A navigation bar always present at the top of the website
-
-# Design Process
-
+# DesignProcess
 In order to be able to complete the project to both a high standard an within a timely manner, a design process was following both process and agile design methods to reach the projects objectives. The project was spilt into three phases: *definition, design* and *development*. Figure \ref{designprocess}, shows an overview of the projects workflows and a breakdown of the key steps of each phase.
 
 \begin{figure}[H]
@@ -110,6 +103,49 @@ The design phase applied human computer interaction (HCI) principles in an agile
 Development was the final phase of the project. A complete understanding of how the final product will look and function, based on the research conducted in the definition phase and the detailed design template in the design phase meant that all the technology required to required to implement the solution can be selected. A local development environment shared amongst all the developers enabled the use of an agile build cycle, using git to mediate between the different versions. The build cycle consisted of a developer taking a UI component from the template and creating the design in code. This would then be connected to the PHP database using word-press and the tested. Any bugs in either the design or functionality could then be ironed out through iteration through the cycle eventually integrating all the components together into the final site. Once the entire design template was implemented the project could then be deployed onto the web.
 
 \newpage
+# Requirements Definition
+
+## Client Requirements
+
+The requirements of the website were highlighted in the first meeting with Dr Yun Fu. The existing website for the IXN network was shown to the group and presented design, content and responsiveness issues. In fact, the aim of the Industry Exchange Network website is to be guide and convince industry leaders to join by contacting the administrators, such a problematic website was not suitable to represent the Computer Science department at UCL. Therefore, new website had to be a high quality exemplification of what the department is able to do and the following features were required by the client:
+
+-    High quality and professional design
+-    Fully responsive website
+-    Content management system to allow the Administrator to update the website without touching code
+-    Separate sections for Events, News and Featured Projects.
+-    A navigation bar always present at the top of the website
+
+## Types of Requirements
+There are two types of requirements web development: functional and non-functional. The former, are ones which define specific tasks and activities the project must be able to perform. The latter, are ones which outline the way a system operates and strongly related to the architecture of the system \cite{g5}. Due to the nature of a website used to showcase projects which have already been made, most of the requirements fall under the functional category, nonetheless, the most important ones of both types for IXN website are summarised below:
+
+### Functional Requirements
+
+-	Professional and highly polished design suitable for the business environment
+-	Displaying news related  and events related to the Industrial Exchange network
+-	Showcasing projects made by the CS department through images and videos
+-	A navigation bar which is always present at the top of the webpage
+-	Displaying partners of the IXN
+-	Project Sorting tool
+
+### Non-functional Requirements
+
+-	Content Management System to be able to update the website without having to modify the code directly.
+-	Scalability when inserting new projects, news and events
+
+## MoSCoW
+
+To distinguish between Must Have requirements, Should and Could Haves the team used a MoSCoW analysis framework \cite{g4}. The tool was constructed by combining statistics extracted form a questionnaire posed to UCL students,  Client Requirements, Personas and Use Cases. A well developed MoSCoW facilitates the implementation and design of a project by streamlining the creation and implementation processes. Below in figure “X” the MoSCoW of the IXN project is displayed:
+
+\newpage
+
+\begin{landscape}
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=1.3\textwidth]{ph2.png}
+      \caption{MoSCoW framework applied to IXN website requirements}
+ \end{figure}
+ \end{landscape}
+
 # User Research
 
 ## Round One User Feedback
@@ -342,21 +378,25 @@ The full open source Roots stack \cite{rootsweb} was selected as it provided all
 
 # Implementation 
 
-## Development Tools
-
-After prototyping using Sketch was completed, each team member took responsibility for the development of specific sections of the site. CodePen was used to make each component for the website before all of the sections were integrated into the appropriate page layouts. The benefit of using CodePen is that HTML, CSS and JavaScript code can be written in the browser, and compiled in real time, with the result visible in the same window. \cite{p19}  Ultimately, it allows for faster development and easy troubleshooting. 
-
-From CodePen, the front-end code was integrated into the site’s pages using text editors such as Atom and Sublime, each member had their own preferences. This was where PHP was added. In the later stages of development, all of the code was edited and written using text editors. 
-
-
 ##Code Organization
 
-### Remote Server
+## Communication
+
+Most group communication was done on Slack, but other social media messaging systems were also used on occasion. Trello was used to organize and track the progress of group tasks. This tool was also used to share ideas during the HCI portion of the project. If a member couldn’t be present, FaceTime meetings were also used. 
+
+## Remote Server
+
 Trellis was used to set up a remote server to be used for the IXN website’s development. When Trellis sets up a local development environment, it automatically creates a server, provisions it, and installs WordPress \cite{p21} . This is done by Vagrant in Trellis, by which a Vagrantfile uses the Ansible provisioner to run dev.yml to set up a virtual machine on the WordPress site using VirtualBox \cite{p22} .
 
 This was done through a few simple steps. First the site was configured based on the WordPress Sites docs. Then, group_vars/development/wordpress_sites.yml and group_vars/development/vault.yml were edited. Finally, vagrant up was run from the command line from the Trellis folder in the site directory.  
 
 To create a remote server from the remote development environment, a couple of extra steps were needed: Provision and Deploy. Provisioning was done in order to ensure MariaDB and Nginx were installed, Nginx was configured, and a database was set up for the IXN site. The server was provisioned using server.yml. Deployment was done using deploy.yml which took the codebase from GitHub, ran Composer, created config files and reloaded Nginx. \cite{p23}.
+
+## Development Tools
+
+After prototyping using Sketch was completed, each team member took responsibility for the development of specific sections of the site. CodePen was used to make each component for the website before all of the sections were integrated into the appropriate page layouts. The benefit of using CodePen is that HTML, CSS and JavaScript code can be written in the browser, and compiled in real time, with the result visible in the same window. \cite{p19}  Ultimately, it allows for faster development and easy troubleshooting. 
+
+From CodePen, the front-end code was integrated into the site’s pages using text editors such as Atom and Sublime, each member had their own preferences. This was where PHP was added. In the later stages of development, all of the code was edited and written using text editors. 
 
 ### GitHub
 
@@ -424,11 +464,10 @@ For the IXN website UAT 35 individuals of varied technological knowledge were as
 Error guessing has been put into practice by making the most of the expertise of fellow UCL Computer Science Students. The IXN team asked members of the department of Computer Science to come up with, consider and assess circumstances in which the software behind the website might have had problems in coping with the requests made. The efficiency of this testing technique depends on the tester’s abilities. In the case of the IXN website some minor bugs were spotted in the news section. Consequently, the team went on to fixing them.
 
 
-
 # Conclusion
 
 ## Requirements Accomplishments
-Comparing the initial MoSCoW to the achievements obtained by the team it is visible that all of the “Must” (in green) and “Should” (in yellow)have requirements have been fulfilled. An extra “Could” (in red) feature has been included to give a more comprehensive user experience.  An annotated MoSCoW, explaining how the requirements have been implemented, can be found below:
+When comparing the MoSCoW requirements to the team achievements, it is evident that all of the “Must-have” (in green) and “Should-have” (in yellow) requirements were fulfilled. An extra “Could-have” (in red) feature was also included to give a more comprehensive user experience.  An annotated MoSCoW, explaining how the requirements were implemented, can be found below:
 
 \begin{figure}[H]
       \centering
@@ -438,13 +477,23 @@ Comparing the initial MoSCoW to the achievements obtained by the team it is visi
 
 ## Team achievements
 
-Teamwork always has its advantages and disadvantages. The IXN team had to face some issues related to the background knowledge, the workload division and the different culture of its team members. There have been times of disagreement between team members, however, through open minded discussion, honesty and respect every individual gained experience and skills from the creation of the website and cooperating with other people. 
+Teamwork presented several advantages and disadvantages. The IXN team faced a few challenges concerning background knowledge, workload division and the different culture of its team members. There were times of disagreement between team members, however, through open-minded discussion, honesty, cooperation and respect every individual gained valuable experience and new skills throughout the development of the website. 
 
-The team was happy with the results obtained with the website, some gains in the quality of the website could have been obtained by having access to some costly design, implementation and testing tools. However, the team was proud of demonstrating that, even with a very limited budget, effort and determination can make up for not having full access to all the latest tools and platforms.
+While additional technical features and subtle design improvements may have been possible with additional time, the final overall look and functionality of the site were satisfactory given the module constraints.  Overall, the team was happy with the final result of the IXN website.
 
 ## Critical Evaluation & Future Development 
 
-The project was highly design focused. Therefore, the team tried hard to make it attractive, simple to use and professional with the latest tools and devices available at this day and age. However, in a few years’ time even all the effort put in by the team will result outdated, obsolete and the website would loose its efficacy \cite{g8} . The role of the next teams working on the IXN website will, therefore, be to build upon the foundations that have been created by updating and continuously rejuvenating the website. A task besides the design features of the website that future teams will have to take into account is to improve Azure server stability, to avoid occasional redirect errors that the website is currently facing. Moreover, the additional and less requested requirements of the “Could” section of the MoSCoW can be taken consideration and implemented. A commented version of the “Could” portion, explaining how the features can be realized, is present below:
+The project was highly design-focused. Therefore, the team worked tirelessly to make the site attractive, simple-to-use and polished. However, site maintenance is crucial for the continued efficacy of the site.\cite{g8} The role of future developers working on the IXN website will, therefore, be to build upon the foundations that have already been created. Some points of focus could be:
+
+- Improving/expanding site content: Continuously updating the latest projects, news, and events
+- Improving/expanding upon the WordPress Admin Panel: Optimizing the panel to exact admin specifications 
+- Simplifying the post-adding method: Make adding new project, news and events posts more intuitive
+- Improve site speeds and performance: Optimize Azure server configuration and site file optimization (minifying CSS, JS etc.) to avoid current occasional redirect errors. Use Google site speed checks to find weaknesses in current performance
+- Improved search optimisation: Use of plugins (eg: YOAST) 
+- Improved data analytics: Connect to client's Google analytics account
+- Further improvements based on more thorough user-testing: Evaluate user response to current site through exhaustive user-based testing to make a more data-driven site design and functionality 
+
+Moreover, the additional and less requested requirements of the “Could” section of the MoSCoW can be taken consideration and implemented. A commented version of the “Could” portion, explaining how the features can be realised, is present below:
 
 \begin{figure}[H]
       \centering
