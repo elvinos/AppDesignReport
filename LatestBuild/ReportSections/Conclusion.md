@@ -6,7 +6,7 @@ When comparing the MoSCoW requirements to the team achievements, it is evident t
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph5.png}
-      \caption{Post implementation annotated MoSCoW}
+      \caption{Post implementation annotated MoSCoW showing the progress made throughout the term.}
  \end{table}
 
 ## Team achievements
@@ -32,5 +32,5 @@ Moreover, the additional and less requested requirements of the “Could” sect
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph6.png}
-      \caption{Possible features to be implemented in the future}
+      \caption{Features that were not obtained in this body of work but could be implemented in the future.}
  \end{table}

@@ -38,6 +38,6 @@ To distinguish between Must-Have requirements, Should and Could-Haves the team u
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=1.3\textwidth]{ph2.png}
-      \caption{MoSCoW framework applied to IXN website requirements}
+      \caption{MoSCoW framework applied to IXN website laying out the site requirements.}
  \end{table}
  \end{landscape}

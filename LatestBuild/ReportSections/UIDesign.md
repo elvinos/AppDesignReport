@@ -12,7 +12,7 @@ After the second round of user feedback, a MoSCow requirements table was defined
 \begin{table}[H]
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{UIDesign.png}
-\caption{UI Design Cycle}
+\caption{UI design process starting from iterative hand-drawn sketches and leading through to the final design that was implemented on the IXN site.}
 \label{UIDesign}
 \end{table}
 
@@ -21,7 +21,7 @@ Various tools were used to turn handmade sketches into a final prototype. The ta
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph19.png}
-      \caption{Prototyping methods and tools used}
+      \caption{An outline of the prototyping methods and tools used}
  \end{table}
 
 
@@ -34,7 +34,7 @@ After components were individually designed, the team came together to ensure a 
 \begin{figure}[H]
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{SketchDD.png}
-\caption{Diagram showing an overview of the final detailed design Sketch template}
+\caption{An overview of the final detailed design Sketch template that was used in for the front-end development of the site.}
 \label{sketchdd}
 \end{figure}
 
