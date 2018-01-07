@@ -98,7 +98,9 @@ Work packages were allocated according to each team members’ strengths and wea
  \end{landscape}
 
  \newpage
+
 # Design Process
+
 In order to be able to complete the project to both a high standard an within a timely manner, a design process was following both process and agile design methods to reach the projects objectives. The project was spilt into three phases: *definition, design* and *development*. Figure \ref{designprocess}, shows an overview of the projects workflows and a breakdown of the key steps of each phase.
 
 \begin{figure}[H]
@@ -123,16 +125,17 @@ Development was the final phase of the project. A complete understanding of how 
 ## Site Map
 \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph16.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{ph16.png}
       \caption{Site Map}
-      \label{SiteMap}
+      \label{sitemap}
  \end{figure}
 
+## Page Flow
  \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{PageFlow.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.82\textwidth]{PageFlow.png}
       \caption{Page Flow}
-      \label{PageFlow}
+      \label{pageflow}
  \end{figure}
 
 \newpage
@@ -267,6 +270,12 @@ An outline of the use cases can be found below. This is essentially a list of th
       \caption{Use case list}
  \end{figure}
 
+ \begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{UCA2.png}
+      \caption{Detailed UCA2}
+ \end{figure}
+
 \begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph12.png}
@@ -335,7 +344,7 @@ The CMS used for the IXN project was WordPress.  There are other free, open-sour
 WordPress support is available on a plethora of developer channels for web developers and beginners alike on a myriad of platforms. These include docs, handbooks, codex, Slack channels and Stack Exchange to name a few. Being the most popular CMS, there are entire websites dedicated to supporting in addition to thousands of online tutorials.
 Unlike WordPress, finding expert support for Joomla or Drupal is more difficult. All of the platforms provide extensive primary source documentation, but because of WordPress’s popularity, it outshines its competitors as far as ease of access to efficient troubleshooting. 
 
-### Access to themes and add-ons 
+### Access to Themes and Add-ons 
 
 While Drupal and Joomla also both offer themes and add-ons, the access and variety are not comparable to WordPress, which offers around 40,000 additional plugins.  In Joomla, there is a feature that allows users to install extensions. However, to access a template, a user would still have to manually search templates and then install them by adding their URL, more arduous than WordPress streamlined process using the dashboard. Worse still, Drupal users have to exit their site, search for a specific module or theme, find a zip file URL and submit the URL to the Modules or Themes page to install them. 
 
@@ -368,7 +377,7 @@ Bedrock is a modern WordPress stack that brings more automation to web developme
 
 Composer, a tool for dependency management in PHP,  is used to pull in both *.dotenv and WordPress, along with WordPress plugins \cite{p7}. Suppose a developer has a project that depends on some libraries and some of those libraries depend on other libraries. In essence, Composer allows the developer to declare the libraries they depend on and finds out the correct versions of packages needed and installs them into the project \cite{p8}.
 
-## Trellis
+### Trellis
 Trellis is a Wordpress development and production server tool which creates and manages these machines. Trellis makes use of Ansible, using this software for automation of cloud provisioning, configuration management, application deployment, and many other IT needs \cite{p12}. These are automated across both local and production servers. To create a local environment, a machine must be provisioned on top of a virtualiser, such as VMWare or VirtualBox. Vagrant is then used to implement these development environments. It is a virtual environment manager with a focus on automation \cite{p10}.  Vagrant provides work environments that are easy to configure, reproducible, and transportable controlled by a single reliable workflow. Then, industry-standard provisioning tools such as shell scripts, Chef, or Puppet, can automatically install and configure software on the virtual machine \cite{p10}.
 
 The combination of the Bedrock structure and Ansible automation means that Trellis allows WordPress developers to create and manage more professional server environments almost automatically.
@@ -438,9 +447,9 @@ Due to the complexity of the IXN website's system architecture, multiple design 
 
 **Strategy:** This is where a family of algorithms are defined and are made interchangeable depending on the client use case \cite{gamma1995design}. This design pattern was used in the handling of JavaScript files, splitting the files into common, main and custom. Different JavaScript files would be loaded dependent on which page was being called.
 
-**Singleton:**  This is where a class is ensured not to have any more than one instance \cite{gamma1995design}. When creating PHP functionality for the website such as Reading Time (*reading_time()*), found on news posts or the string chopper tool (*chop_string()*) these classes where defied once in the *extras.php* file and then called using namespaces. This ensured the classes were only created once and the functionality could be accessed elsewhere in the code (see Figure \ref{ddcode}).
+**Singleton:**  This is where a class is ensured not to have any more than one instance \cite{gamma1995design}. When creating PHP functionality for the website such as Reading Time (`reading_time()`), found on news posts or the string chopper tool (`chop_string()`) these classes where defied once in the `extras.php` file and then called using namespaces. This ensured the classes were only created once and the functionality could be accessed elsewhere in the code (see Figure \ref{ddcode}).
 
-**Template Method:** This is where a skeleton is used to define reusable components for subclasses \cite{gamma1995design}. This means that subclasses can redefine certain steps of the over-arching class without changing the code's structure. Through using the Larval templating engine, a skeleton for each view could be defined in the *app.blade.php*, different templates files could then be selected and swapped out depending on the page selected.
+**Template Method:** This is where a skeleton is used to define reusable components for subclasses \cite{gamma1995design}. This means that subclasses can redefine certain steps of the over-arching class without changing the code's structure. Through using the Larval templating engine, a skeleton for each view could be defined in the `app.blade.php`, different templates files could then be selected and swapped out depending on the page selected.
 
 \begin{figure}[H]
 \centering
@@ -522,7 +531,7 @@ In regards to testing on mobile devices, BrowserStack was the chosen platform. H
 
 ## Server Stability Issues
 
-The team has encountered issues in launching the website through Microsoft Azure. The website sporadically shows that the page is not redirecting properly or that the page is in a redirect loop. The problem seems to disappear after the page is reloaded a second time. The team was not able to fix this matter. Future teams working on the IXN project will have to improve configuration between the website and the Azure servers to increase stability and avoid the occasional redirect errors. 
+The team has encountered issues in launching the website through Microsoft Azure. The website sporadically shows that the page is not redirecting properly or that the page is in a redirect loop. The problem seems to disappear after the page is reloaded a second time. The team was not able to fix this matter. Future teams working on the IXN project will have to improve configuration between the website and the Azure servers to increase stability and avoid the occasional redirect errors.
 
 
 ## Acceptance Testing
@@ -538,15 +547,12 @@ For the IXN website UAT, thirty-five individuals of varied technical backgrounds
 \begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph4.png}
-      \caption{User Acceptance Testing summarized results}
+      \caption{User Acceptance Testing summarised results}
  \end{figure}
 
 ## Error Guessing
 
-Error guessing has been put into practice by making the most of the expertise of fellow UCL Computer Science Students. The IXN team asked members of the Department of Computer Science to come up with, consider and assess circumstances in which the software behind the website might have had problems in coping with the requests made. The efficiency of this testing technique depends on the tester’s abilities. In the case of the IXN website, some minor bugs were spotted in the news section. Consequently, the team went on to fixing them.
-
-
-# Conclusion
+Error guessing has been put into practice by making the most of the expertise of fellow UCL Computer Science Students. The IXN team asked members of the Department of Computer Science to come up with, consider and assess circumstances in which the software behind the website might have had problems in coping with the requests made. The efficiency of this testing technique depends on the tester’s abilities. In the case of the IXN website, some minor bugs were spotted in the news section. Consequently, the team went on to fixing them.# Conclusion
 
 ## Requirements Accomplishments
 When comparing the MoSCoW requirements to the team achievements, it is evident that all of the “Must-have” (in green) and “Should-have” (in yellow) requirements were fulfilled. An extra “Could-have” (in red) feature was also included to give a more comprehensive user experience.  An annotated MoSCoW, explaining how the requirements were implemented, can be found below:

@@ -23,9 +23,9 @@ Due to the complexity of the IXN website's system architecture, multiple design 
 
 **Strategy:** This is where a family of algorithms are defined and are made interchangeable depending on the client use case \cite{gamma1995design}. This design pattern was used in the handling of JavaScript files, splitting the files into common, main and custom. Different JavaScript files would be loaded dependent on which page was being called.
 
-**Singleton:**  This is where a class is ensured not to have any more than one instance \cite{gamma1995design}. When creating PHP functionality for the website such as Reading Time (*reading_time()*), found on news posts or the string chopper tool (*chop_string()*) these classes where defied once in the *extras.php* file and then called using namespaces. This ensured the classes were only created once and the functionality could be accessed elsewhere in the code (see Figure \ref{ddcode}).
+**Singleton:**  This is where a class is ensured not to have any more than one instance \cite{gamma1995design}. When creating PHP functionality for the website such as Reading Time (`reading_time()`), found on news posts or the string chopper tool (`chop_string()`) these classes where defied once in the `extras.php` file and then called using namespaces. This ensured the classes were only created once and the functionality could be accessed elsewhere in the code (see Figure \ref{ddcode}).
 
-**Template Method:** This is where a skeleton is used to define reusable components for subclasses \cite{gamma1995design}. This means that subclasses can redefine certain steps of the over-arching class without changing the code's structure. Through using the Larval templating engine, a skeleton for each view could be defined in the *app.blade.php*, different templates files could then be selected and swapped out depending on the page selected.
+**Template Method:** This is where a skeleton is used to define reusable components for subclasses \cite{gamma1995design}. This means that subclasses can redefine certain steps of the over-arching class without changing the code's structure. Through using the Larval templating engine, a skeleton for each view could be defined in the `app.blade.php`, different templates files could then be selected and swapped out depending on the page selected.
 
 \begin{figure}[H]
 \centering
