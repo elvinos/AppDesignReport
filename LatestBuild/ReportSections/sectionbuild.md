@@ -615,7 +615,7 @@ When comparing the MoSCoW requirements to the team achievements, it is evident t
 
 Teamwork presented several advantages and disadvantages. The IXN team faced a few challenges concerning background knowledge, workload division and the different culture of its team members. There were times of disagreement between team members, however, through open-minded discussion, honesty, cooperation and respect every individual gained valuable experience and new skills throughout the development of the website.
 
-While additional technical features and subtle design improvements may have been possible with additional time, the final overall look and functionality of the site were satisfactory given the module constraints.  Overall, the team was happy with the final result of the IXN website.
+While additional technical features and subtle design improvements may have been possible with additional time, the final overall look and functionality of the site were more than satisfactory given the module constraints.  Overall, the team was happy with the final result of the IXN website.
 
 ## Critical Evaluation & Future Development
 
