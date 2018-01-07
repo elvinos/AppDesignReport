@@ -834,16 +834,16 @@ based on sketches in order to assess essential site content. The results
 were used to inform a MoSCoW, storyboards, and subsequent sketches. The
 results of the survey are outlined below:
 
-\begin{table}[H]
+\begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph3.png}
       \caption{IXN network round one User Feedback result summary}
 \label{userfeedback}
- \end{table}
+ \end{figure}
 
 As can be seen, the features which were given highest importance were
 project-related features and IXN information-related features shown in
-Table \ref{userfeedback}. In addition to these content-related
+Figrue \ref{userfeedback}. In addition to these content-related
 attributes, it also became evident that the design-quality would be of
 utmost importance, given that the site is meant to attract prospective
 industry partners.
@@ -1900,11 +1900,32 @@ how the features can be realised, is present below:
 \section{Appendices}
 
 \subsection{Login Guide}
-\begin{itemize}
+\subsubsection{Editor Login}
 
-  \item Go to WordPress Login Page at ixn.host/wp-admin
+\begin{enumerate}
+
+  \item Go to WordPress Login Page at http://ixn.host/wp-admin
   \item Use the Username: YunFu
   \item Use the Password: AppDesign
+  \item View and edit Posts (news), Events, Projects and the Homepage (via Pages) content
+
+\end{enumerate}
+
+\subsubsection{Admin Login}
+\begin{enumerate}
+
+  \item Go to WordPress Login Page at http://ixn.host/wp-admin
+  \item Use the Username: admin
+  \item Use the Password: ixnTeam2017
+  \item Access granted to all elements of the WordPress dashboard
+
+\end{enumerate}
+
+\subsubsection{Other Passwords}
+\begin{itemize}
+
+  \item \textbf{Vault:} password: ixnTeam2017. Make sure a new \textit{.vault\_pass} file is created when cloning the site repository with the password in the top line
+  \item \textbf{Database:} User: admin , password: ixnTeam2017
 
 \end{itemize}
 
@@ -1956,17 +1977,17 @@ how the features can be realised, is present below:
 \subsection{Wire-Framing}
 \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app1.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textheight]{app1.png}
       \caption{Down selection of wire-frames.}
  \end{figure}
- \end{landscape}
+\end{landscape}
+\newpage
 
- \begin{landscape}
 \subsection{IXN Poll}
 \begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{Poll1.png}
-      \caption{IXN poll example page 1. }
+      \caption{IXN poll example page 1.}
  \end{figure}
 
  \begin{figure}[H]
@@ -1981,16 +2002,13 @@ how the features can be realised, is present below:
       \caption{IXN poll example page 3.}
  \end{figure}
 
- \end{landscape}
-
- \begin{landscape}
 \subsection{IXN-Poll-Results}
 \begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{PollResults.png}
       \caption{Down selection of wire-frames.}
  \end{figure}
- \end{landscape}
+
 
 
 \end{document}
