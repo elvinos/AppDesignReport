@@ -15,7 +15,7 @@ The CMS used for the IXN project was WordPress.  There are other free, open-sour
 WordPress support is available on a plethora of developer channels for web developers and beginners alike on a myriad of platforms. These include docs, handbooks, codex, Slack channels and Stack Exchange to name a few. Being the most popular CMS, there are entire websites dedicated to supporting in addition to thousands of online tutorials.
 Unlike WordPress, finding expert support for Joomla or Drupal is more difficult. All of the platforms provide extensive primary source documentation, but because of WordPress’s popularity, it outshines its competitors as far as ease of access to efficient troubleshooting. 
 
-### Access to themes and add-ons 
+### Access to Themes and Add-ons 
 
 While Drupal and Joomla also both offer themes and add-ons, the access and variety are not comparable to WordPress, which offers around 40,000 additional plugins.  In Joomla, there is a feature that allows users to install extensions. However, to access a template, a user would still have to manually search templates and then install them by adding their URL, more arduous than WordPress streamlined process using the dashboard. Worse still, Drupal users have to exit their site, search for a specific module or theme, find a zip file URL and submit the URL to the Modules or Themes page to install them. 
 
@@ -48,7 +48,7 @@ Bedrock is a modern WordPress stack that brings more automation to web developme
 
 Composer, a tool for dependency management in PHP,  is used to pull in both *.dotenv and WordPress, along with WordPress plugins \cite{p7}. Suppose a developer has a project that depends on some libraries and some of those libraries depend on other libraries. In essence, Composer allows the developer to declare the libraries they depend on and finds out the correct versions of packages needed and installs them into the project \cite{p8}.
 
-## Trellis
+### Trellis
 Trellis is a Wordpress development and production server tool which creates and manages these machines. Trellis makes use of Ansible, using this software for automation of cloud provisioning, configuration management, application deployment, and many other IT needs \cite{p12}. These are automated across both local and production servers. To create a local environment, a machine must be provisioned on top of a virtualiser, such as VMWare or VirtualBox. Vagrant is then used to implement these development environments. It is a virtual environment manager with a focus on automation \cite{p10}.  Vagrant provides work environments that are easy to configure, reproducible, and transportable controlled by a single reliable workflow. Then, industry-standard provisioning tools such as shell scripts, Chef, or Puppet, can automatically install and configure software on the virtual machine \cite{p10}.
 
 The combination of the Bedrock structure and Ansible automation means that Trellis allows WordPress developers to create and manage more professional server environments almost automatically.

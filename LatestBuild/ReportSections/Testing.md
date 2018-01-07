@@ -22,7 +22,7 @@ In regards to testing on mobile devices, BrowserStack was the chosen platform. H
 
 ## Server Stability Issues
 
-The team has encountered issues in launching the website through Microsoft Azure. The website sporadically shows that the page is not redirecting properly or that the page is in a redirect loop. The problem seems to disappear after the page is reloaded a second time. The team was not able to fix this matter. Future teams working on the IXN project will have to improve configuration between the website and the Azure servers to increase stability and avoid the occasional redirect errors. 
+The team has encountered issues in launching the website through Microsoft Azure. The website sporadically shows that the page is not redirecting properly or that the page is in a redirect loop. The problem seems to disappear after the page is reloaded a second time. The team was not able to fix this matter. Future teams working on the IXN project will have to improve configuration between the website and the Azure servers to increase stability and avoid the occasional redirect errors.
 
 
 ## Acceptance Testing
@@ -38,11 +38,9 @@ For the IXN website UAT, thirty-five individuals of varied technical backgrounds
 \begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph4.png}
-      \caption{User Acceptance Testing summarized results}
+      \caption{User Acceptance Testing summarised results}
  \end{figure}
 
 ## Error Guessing
 
 Error guessing has been put into practice by making the most of the expertise of fellow UCL Computer Science Students. The IXN team asked members of the Department of Computer Science to come up with, consider and assess circumstances in which the software behind the website might have had problems in coping with the requests made. The efficiency of this testing technique depends on the tester’s abilities. In the case of the IXN website, some minor bugs were spotted in the news section. Consequently, the team went on to fixing them.
-
-

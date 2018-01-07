@@ -1,5 +1,7 @@
 
+
 # Design Process
+
 In order to be able to complete the project to both a high standard an within a timely manner, a design process was following both process and agile design methods to reach the projects objectives. The project was spilt into three phases: *definition, design* and *development*. Figure \ref{designprocess}, shows an overview of the projects workflows and a breakdown of the key steps of each phase.
 
 \begin{figure}[H]
@@ -24,16 +26,17 @@ Development was the final phase of the project. A complete understanding of how 
 ## Site Map
 \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph16.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{ph16.png}
       \caption{Site Map}
-      \label{SiteMap}
+      \label{sitemap}
  \end{figure}
 
+## Page Flow
  \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{PageFlow.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.82\textwidth]{PageFlow.png}
       \caption{Page Flow}
-      \label{PageFlow}
+      \label{pageflow}
  \end{figure}
 
 \newpage
