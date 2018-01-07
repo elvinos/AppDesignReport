@@ -33,7 +33,7 @@ On completing the design phase discussed in Section \ref{user-interface-design},
 GitHub was used as the version control system for creating the IXN website. Github allows revisions in the code to be stored neatly and chronologically. The changes can then be seen by other developers who can download and modify it using tools such as Github Desktop. \cite{p20}  GitHub is the community of developers and where they store their work.
 For the IXN website there was a group repository where code was shared and updated. To organise project code and ensure the integrity of the site, five branches were made; two master branches and a branch for each developer (Alexcode, PhoebeCode and GioCode). When updates were finalised, code from the developer branches was merged into the Dev branch.  This code was reviewed, and if there were no clashes, the code could then be to the master branch. The master housed the cleanest and most current version of the site at any given time and was used. The master branch was used as the code base for deployment ensuring only stable code would be deployed. Figure \ref{githubcollab} highlights the branch structured used in code collaboration.
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph15.png}
       \caption{Overview of Github Collaboration Workflow}
@@ -66,12 +66,12 @@ The build process can be summarised in the following steps:
 7. On completion of all components, the integrated site would be tested across a range of browsers, and any fixes would then be made
 
 Through following the build cycle, a minimum viable product (MVP) could be quickly created allowing progress to be shown to the client and enhancements to be made with ease.  Figure \ref{buildcycleimg} shows an overview of the different steps of the build cycle.
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph21.png}
       \caption{Iteration process followed to create the footer of the IXN website}
 \label{buildcycleimg}
- \end{figure}
+ \end{table}
 
 ## Deployment
 
