@@ -3,11 +3,11 @@
 
 ## Client Requirements
 
-The primary requirements of the IXN website were highlighted in the first meeting with Dr Yun Fu.  The client explained that the aim of the Industry Exchange Network website is to encourage new industry partners to join the programme. Therefore, new website had to be a high quality example of what the department is capable of and the following features were required by the client:
+The primary requirements of the IXN website were highlighted in the first meeting with Dr Yun Fu.  The client explained that the aim of the Industry Exchange Network website is to encourage new industry partners to join the programme. Therefore, new website had to be a high quality example of what the department is capable of. Consequently, the following features were required by the client:
 
 -    High quality and professional design
 -    Fully responsive website
--    Content management system to allow the Administrator to update the website without touching code
+-    Content Management System to allow the Administrator to update the website without touching code
 -    Separate pages for Events, News, Contact and Featured Projects.
 -    A navigation bar always present at the top of the website
 
@@ -25,7 +25,7 @@ There are two types of requirements in web development: functional and non-funct
 
 ### Non-functional Requirements
 
--    Content Management System allows and admin to update the website without having to modify the code directly.
+-    Content Management System which allows an admin to update the website without having to modify the code directly.
 -    Scalability when inserting new projects, news and events
 
 ## MoSCoW
