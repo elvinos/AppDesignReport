@@ -9,7 +9,7 @@ The team researched which browser simulators to use for testing the compatibilit
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph7.1.png}
-      \caption{Laptop/Desktop browser testing results}
+      \caption{Laptop/Desktop browser testing results, where green indicates a pass and red indicates a fail.}
  \end{table}
 
 In regards to testing on mobile devices, BrowserStack was the chosen platform. However, physical device testing also played a very important role. The webpage appears fully responsive on the most current browsers, however, as occurred with the desktop devices older versions of software (around 2012/2013) struggle with the design, SCSS and Bootstrap 4. The mobile testing results are displayed below:
@@ -39,7 +39,7 @@ For the IXN website UAT, thirty-five individuals of varied technical backgrounds
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph4.png}
-      \caption{User Acceptance Testing summarised results}
+      \caption{Summarised results from User Acceptance Testing, indicating a good user response to the IXN website's UI. }
  \end{table}
 
 ## Error Guessing

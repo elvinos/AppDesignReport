@@ -42,7 +42,7 @@ Bedrock is a modern WordPress stack that brings more automation to web developme
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.85\textwidth]{ph20.png}
-      \caption{Difference between Bedrock and standard Wordpress Structure}
+      \caption{Difference between Bedrock and standard Wordpress File Structure}
 \label{bedrockfolder}
  \end{table}
 
@@ -77,7 +77,7 @@ To add dynamic functionality to a website JavaScript (JS) is used.  JS is a fron
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.8\textwidth]{ph18.png}
-      \caption{Front-End and Back-End Interaction}
+      \caption{Front-End to Back-End Interaction}
  \end{table}
 
 ## Back-End
@@ -90,7 +90,7 @@ Blade by Laravel was is a templating engine used in conjunction with PHP, after 
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph17.png}
-      \caption{Front-End and Back-End interaction}
+      \caption{Back-End interaction to Front End interaction}
  \end{table}
 
  \newpage
