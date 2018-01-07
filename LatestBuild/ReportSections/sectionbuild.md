@@ -188,14 +188,14 @@ To distinguish between Must-Have requirements, Should and Could-Haves the team u
 ## Round One User Feedback
 Evaluation is concerned with gathering data regarding the usability of a design or a product by a specified group of users within a specified environment or work context. The first round of user surveys was taken based on sketches in order to assess essential site content. The results were used to inform a MoSCoW, storyboards, and subsequent sketches. The results of the survey are outlined below:
 
-\begin{table}[H]
+\begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph3.png}
       \caption{IXN network round one User Feedback result summary}
 \label{userfeedback}
- \end{table}
+ \end{figure}
 
-As can be seen, the features which were given highest importance were project-related features and IXN information-related features shown in Table \ref{userfeedback}. In addition to these content-related attributes, it also became evident that the design-quality would be of utmost importance, given that the site is meant to attract prospective industry partners.
+As can be seen, the features which were given highest importance were project-related features and IXN information-related features shown in Figrue \ref{userfeedback}. In addition to these content-related attributes, it also became evident that the design-quality would be of utmost importance, given that the site is meant to attract prospective industry partners.
 
 ## Related Research
 
