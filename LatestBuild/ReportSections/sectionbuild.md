@@ -1,30 +1,29 @@
 
 # Introduction
-This report describes the creation of the new Industry Exchange Network website showcasing UCL Computer Science student's projects and marketing the organisation to attract new industry partners.
+This report describes the creation of the new Industry Exchange Network (IXN) website showcasing UCL Computer Science students' projects and marketing the organisation to attract new industry partners.
 
 ## The Client
-The IXN project was appointed by Dr Yun Fu, a Teaching Fellow, App Project Manager and Student Internship Manager at University College London (UCL). An important part of Dr Fu’s profession is to connect students to the industry, therefore, having a website to showcase the work done by the Computer Science department to the industry is significant. Consequently, the Industry Exchange Network (IXN) website was commissioned with the intent to bridge the gap between students and industry
+The IXN project was appointed by Dr Yun Fu, a Teaching Fellow, App Project Manager and Student Internship Manager at University College London (UCL). An essential part of Dr Fu’s profession is to connect students to the industry. Therefore, having a place to showcase the work done by UCL CS students to industry partners is of utmost importance. Consequently, the Industry Exchange Network website was commissioned as an educational methodology enabling students to engage in real-world problem based learning through term-based client projects.
 
 ## The Project
 
-The Industry Exchange Network website allows UCL Computer Science students to get involved with term-based client projects \cite{g1}. The website showcases a variety of student projects, ranging from 1st Year Students to the more advanced MSc Data Science endeavours.  The clients are entrepreneurs, charities, healthcare companies, researchers, SMEs, the government and large enterprises.  The IXN website is a platform to allow individuals in the industry to get in touch with the members of the IXN team. The main objective of the website, therefore, is to market IXN to professionals; showcasing the abilities of UCL Computer Science students.
+The Industry Exchange Network website allows UCL Computer Science students to get involved with term-based client projects \cite{g1}. The website showcases a variety of student projects, ranging from 1st Year Students to the more advanced MSc Data Science endeavours.  The clients are entrepreneurs, charities, healthcare companies, researchers, SMEs, government organisations and large enterprises.  The IXN website is a platform to allow individuals in the industry to get in touch with the members of the IXN team. The main objective of the website, therefore, is to market IXN to professionals; showcasing the abilities of UCL Computer Science students.
 
 ## Project Goals
 
--	Attract new partners to get UCL students involved in their ventures
+-    Attract new partners to get UCL students involved in their ventures
 
--	Facilitate interaction between the industry and UCL scholars
+-    Facilitate interaction between the industry and UCL scholars
 
--	Showcase the excellence of Projects made by the Department of Computer Science
+-    Showcase the excellence of Projects made by the Department of Computer Science
 
--	Enable communication between industrial exponents and UCL professors
+-    Enable communication between industrial partners and UCL professors
 
+-    Inform students and partners regarding events held by the Industry Exchange Network
 
--	Inform students and partners regarding events held by the Industry Exchange Network
+-    Display the News regarding the achievements of IXN
 
--	Display the News regarding the achievements of the IXN
-
--	Allow the Professors to speedily and effortlessly update the webpage
+-    Allow site admins to speedily and effortlessly update the webpage
 
 ## Website Overview
 
@@ -39,7 +38,7 @@ The Industry Exchange Network website allows UCL Computer Science students to ge
 
 ### Alexander Charles (Team Leader)
 
-Alexander obtained a Bachelor of Engineering in Engineering Design specialising in Aerospace. He has worked with firms including Babcock International in Marine and Defence and The Manufacturing Technology Centre (MTC) in Aerospace. Lately he transitioned into Strategy Consulting working on advising Telecommunications CEO's on the use of blockchain technology while at Redshift Strategy. In his spare time, Alexander has practised web development, building WordPress website for an array of small clients.
+Alexander obtained a Bachelor of Engineering in Engineering Design specialising in Aerospace. He has worked with firms including Babcock International in Marine and Defence and The Manufacturing Technology Centre (MTC) in Aerospace. Lately, he transitioned into Strategy Consulting working on advising Telecommunications CEO's on the use of blockchain technology while at Redshift Strategy. In his spare time, Alexander has practised web development, building WordPress website for an array of small clients.
 
 **Roles:**
 
@@ -52,7 +51,7 @@ Alexander obtained a Bachelor of Engineering in Engineering Design specialising 
 
 ### Giovanni Tenderini
 
-Giovanni obtained a Bachelor of Science in Economics and Finance at the University of Exeter. His work experience includes a Summer Internship in the Investment Banking division of a Family Office in Milan named CFO and another internship at Generali Italia insurance sales division. His overall knowledge in programming skills is basic. However, he is an expert in statistical analysis and some related programs.
+Giovanni obtained a Bachelor of Science in Economics and Finance at the University of Exeter. His work experience includes a Summer Internship in the Investment Banking division of a Family Office in Milan named CFO and another internship at Generali Italia insurance sales division. His overall knowledge of programming is basic. However, he is an expert in statistical analysis and some related programs.
 
 **Roles:**
 
@@ -65,8 +64,7 @@ Giovanni obtained a Bachelor of Science in Economics and Finance at the Universi
 
 ### Phoebe Staab
 
-A graduate from the BSc Chemistry Programme at University College Dublin, Phoebe had little to no real programming experience before attending UCL. She had done a couple of online courses in Java and Python and did some novice-level statistics programming in R during her undergraduate degree. Outside of technology-related work, Phoebe has completed several lab-based research internships at University of Queensland and University College Dublin.
-
+A graduate of the BSc Chemistry Programme at University College Dublin, Phoebe had little to no real programming experience before attending UCL. She had done a couple of online courses in Java and Python and did some novice-level statistics programming in R during her undergraduate degree. Outside of technology-related work, Phoebe has completed several lab-based research internships at University of Queensland and University College Dublin. 
 
 **Roles:**
 
@@ -100,7 +98,6 @@ Work packages were allocated according to each team members’ strengths and wea
  \end{landscape}
 
  \newpage
-
 # Design Process
 In order to be able to complete the project to both a high standard an within a timely manner, a design process was following both process and agile design methods to reach the projects objectives. The project was spilt into three phases: *definition, design* and *development*. Figure \ref{designprocess}, shows an overview of the projects workflows and a breakdown of the key steps of each phase.
 
@@ -143,34 +140,34 @@ Development was the final phase of the project. A complete understanding of how 
 
 ## Client Requirements
 
-The requirements of the website were highlighted in the first meeting with Dr Yun Fu. The existing website for the IXN network was shown to the group and presented design, content and responsiveness issues. In fact, the aim of the Industry Exchange Network website is to be guide and convince industry leaders to join by contacting the administrators, such a problematic website was not suitable to represent the Computer Science department at UCL. Therefore, new website had to be a high quality exemplification of what the department is able to do and the following features were required by the client:
+The primary requirements of the IXN website were highlighted in the first meeting with Dr Yun Fu.  The client explained that the aim of the Industry Exchange Network website is to encourage new industry partners to join the programme. Therefore, new website had to be a high quality example of what the department is capable of and the following features were required by the client:
 
 -    High quality and professional design
 -    Fully responsive website
 -    Content management system to allow the Administrator to update the website without touching code
--    Separate sections for Events, News and Featured Projects.
+-    Separate pages for Events, News, Contact and Featured Projects.
 -    A navigation bar always present at the top of the website
 
 ## Types of Requirements
-There are two types of requirements web development: functional and non-functional. The former, are ones which define specific tasks and activities the project must be able to perform. The latter, are ones which outline the way a system operates and strongly related to the architecture of the system \cite{g5}. Due to the nature of a website used to showcase projects which have already been made, most of the requirements fall under the functional category, nonetheless, the most important ones of both types for IXN website are summarised below:
+There are two types of requirements in web development: functional and non-functional. The former define specific tasks and activities that the project must be able to perform. The latter outline the way that a system operates and strongly related to the architecture of the system \cite{g5}. Due to the nature of a website used to showcase projects, most of the requirements fall under the functional category, nonetheless, all of the most important requirements are listed below: 
 
 ### Functional Requirements
 
--	Professional and highly polished design suitable for the business environment
--	Displaying news related  and events related to the Industrial Exchange network
--	Showcasing projects made by the CS department through images and videos
--	A navigation bar which is always present at the top of the webpage
--	Displaying partners of the IXN
--	Project Sorting tool
+-    Professional and highly polished design 
+-    Displaying news and events related to the Industry Exchange Network
+-    Showcasing projects made by the CS department through images and videos
+-    A navigation bar which is always present at the top of the webpage
+-    Displaying partners of the IXN
+-    Project Sorting tool
 
 ### Non-functional Requirements
 
--	Content Management System to be able to update the website without having to modify the code directly.
--	Scalability when inserting new projects, news and events
+-    Content Management System allows and admin to update the website without having to modify the code directly.
+-    Scalability when inserting new projects, news and events
 
 ## MoSCoW
 
-To distinguish between Must Have requirements, Should and Could Haves the team used a MoSCoW analysis framework \cite{g4}. The tool was constructed by combining statistics extracted form a questionnaire posed to UCL students,  Client Requirements, Personas and Use Cases. A well developed MoSCoW facilitates the implementation and design of a project by streamlining the creation and implementation processes. Below in figure “X” the MoSCoW of the IXN project is displayed:
+To distinguish between Must-Have requirements, Should and Could-Haves the team used a MoSCoW analysis framework \cite{g4}. The tool was constructed by combining statistics extracted from surveys, Client Requirements, Personas and Use Cases. A well developed MoSCoW facilitates the implementation and design of a project by streamlining the creation and implementation processes. The MoSCoW of the IXN project is displayed below:
 
 \newpage
 
@@ -184,7 +181,7 @@ To distinguish between Must Have requirements, Should and Could Haves the team u
 # User Definition
 
 ## Round One User Feedback
-Evaluation is concerned with gathering the usability of a design or a product by a specified group of users within a specified environment or work context. A first round of user surveys was taken based on sketches in order to assess essential site content. The results were used to inform a MoSCoW, storyboards, and subsequent sketches. The results of the survey are outlined below:
+Evaluation is concerned with gathering data regarding the usability of a design or a product by a specified group of users within a specified environment or work context. The first round of user surveys was taken based on sketches in order to assess essential site content. The results were used to inform a MoSCoW, storyboards, and subsequent sketches. The results of the survey are outlined below:
 
 \begin{figure}[H]
       \centering
@@ -193,7 +190,7 @@ Evaluation is concerned with gathering the usability of a design or a product by
 \label{userfeedback}
  \end{figure}
 
-As can be seen, the features which were given highest importance were project-related features and IXN information-related features. \ref{userfeedback} In addition to these content-related attributes, it also became evident that a design-quality would be of utmost importance, given that industry individuals who are thinking of relying on IXN for their ventures would feel inclined to participate after seeing past projects displayed in a skilled and professional way. 
+As can be seen, the features which were given highest importance were project-related features and IXN information-related features. \ref{userfeedback} In addition to these content-related attributes, it also became evident that the design-quality would be of utmost importance, given that the site is meant to attract prospective industry partners. 
 
 ## Related Research
 
@@ -254,7 +251,7 @@ visibility: especially in relation to how the projects are showcased. ​
 
 Use Cases
 
-Use cases were constructed to represent the standard user navigation and interaction with the platform needed to accomplish a given task \cite{g3}. These were useful to shape the development and design of the website, facilitating the interaction between the website and its users. In the case of the IXN website the role of the administrator was also taken into account. 
+Use cases were constructed to represent the standard user navigation and interaction with the platform needed to accomplish a given task \cite{g3}. These were useful in shaping the development and design of the website, and facilitating the interaction between the website and its users. In the case of the IXN website the role of the administrator was also taken into account. 
 
 \begin{figure}[H]
       \centering
@@ -420,7 +417,7 @@ Blade by Laravel was the templating engine was used in conjunction with PHP, aft
 
 # System Architecture
 
-In order to be able to create a high performance website, using the latest technologies to optimises run time and speed up the design process; a stack of Wordpress technologies were used in three tier system architecture. The stack was run across both local and production servers enabling a testing environment which was fully representative of the production server while all code could be kept offline.
+In order to be able to create a high performance website, using the latest technologies to optimises run-time and speed up the design process; a stack of Wordpress technologies were used in three-tier system architecture. The stack was run across both local and production servers enabling a testing environment which was fully representative of the production server while all code could be kept offline.
 
 The full open source Roots stack \cite{rootsweb} was selected as it provided all the tools and structure required to develop the project to a professional standard. Figure \ref{systemarchitecture} shows the relationship between the three roots technologies; Sage, Bedrock and Trellis, and their relationship to the system architecture.
 
@@ -433,17 +430,17 @@ The full open source Roots stack \cite{rootsweb} was selected as it provided all
 
 ## Design Patterns
 
-Due to the complexity of IXN's websites system architecture, multiple design patterns were used; simplifying development workflow and improve code readability. The Roots Sage starter theme was selected due the being setup as was designed to offer many design pattern benefits off the shelf. Some of the typical benefits of using design patterns include:
+Due to the complexity of the IXN website's system architecture, multiple design patterns were used; simplifying development workflow and improving code readability. The Roots Sage starter theme was selected because it offers many design pattern benefits off the shelf. Some of the typical benefits of using design patterns include:
 
 - The ability to reuse large amounts of code \cite{deanDesignPatterns}
-- Capture expert knowledge from other developers where design trade offs have already been evaluated
+- Capture expert knowledge from other developers where design trade-offs have already been evaluated
 - Improve communication between the IXN development team
 
 **Strategy:** This is where a family of algorithms are defined and are made interchangeable depending on the client use case \cite{gamma1995design}. This design pattern was used in the handling of JavaScript files, splitting the files into common, main and custom. Different JavaScript files would be loaded dependent on which page was being called.
 
-**Singleton:**  This is where a class is ensured not to have anymore than one instance \cite{gamma1995design}. When creating php functionality for the website such as Reading Time (*reading_time()*), found on news posts or the string chopper tool (*chop_string()*) these classes where defied once in the *extras.php* file and then called using namespaces. This ensured the classes was only created once and the functionality could be accessed elsewhere in the code (see Figure \ref{ddcode}).
+**Singleton:**  This is where a class is ensured not to have any more than one instance \cite{gamma1995design}. When creating PHP functionality for the website such as Reading Time (*reading_time()*), found on news posts or the string chopper tool (*chop_string()*) these classes where defied once in the *extras.php* file and then called using namespaces. This ensured the classes were only created once and the functionality could be accessed elsewhere in the code (see Figure \ref{ddcode}).
 
-**Template Method:** This is where a skeleton is used to define reusable components for subclasses \cite{gamma1995design}. This means that subclasses can redefine certain steps of the over-aching class without changing the codes structure. Through using the Larval templating engine, a skeleton for each view could be defined in the *app.blade.php*, different templates files could then be selected and swapped out depending on the page selected.
+**Template Method:** This is where a skeleton is used to define reusable components for subclasses \cite{gamma1995design}. This means that subclasses can redefine certain steps of the over-arching class without changing the code's structure. Through using the Larval templating engine, a skeleton for each view could be defined in the *app.blade.php*, different templates files could then be selected and swapped out depending on the page selected.
 
 \begin{figure}[H]
 \centering
@@ -459,9 +456,9 @@ After down researching and down-selecting the most appropriate technologies to u
 
 ## Local Development
 
-Trellis was used to set up a local server to be used for the IXN website’s development. When Trellis sets up a local development environment, it automatically creates a server, provisions it, and installs WordPress \cite{p21}. This is done by Vagrant in Trellis, by which a Vagrantfile uses the Ansible provisioner to run dev.yml to set up a virtual machine on the WordPress site using VirtualBox \cite{p22} .
+Trellis was used to set up a local server to be used for the IXN website’s development. When Trellis sets up a local development environment, it automatically creates a server, provisions it, and installs WordPress \cite{p21}. This is done by Vagrant in Trellis, by which a Vagrantfile uses the Ansible provisioner to run `dev.yml` to set up a virtual machine on the WordPress site using VirtualBox \cite{p22} .
 
-This was done through a few simple steps. First the site was configured based on the WordPress Sites docs. Then, `group_vars/development/wordpress_sites.yml` and `group_vars/development/vault.yml` were edited. Finally, vagrant up was run from the command line from the Trellis folder in the site directory.  
+This was done through a few simple steps. First the site was configured based on the WordPress Sites docs. Then, `group_vars/development/wordpress_sites.yml` and `group_vars/development/vault.yml` were edited. Finally, `vagrant up` was run from the command line from the Trellis folder in the site directory.  
 
 ## Development Tools
 
@@ -506,7 +503,7 @@ To create a remote server from the remote development environment, a couple of e
 
 ## Compatibility & Responsiveness
 
-The team underwent research on which browser simulators to use while for testing compatibility and responsiveness of the IXN website. BrowserStack because of its free trial plan and the span of emulators was the tool chosen to perform the tests \cite{g6}. BrowserStack, in fact, offered the possibility of testing the IXN website on a multitude of Operating System, Devices and Browsers. Moreover, to integrate and broaden the results of the tests the team tested the IXN project on physical devices as well. The results obtained for desktops and laptops are displayed below:
+The team researched which browser simulators to use for testing the compatibility and responsiveness of the IXN website. BrowserStack was an attractive option because of the range of emulators that the tool offers \cite{g6}. BrowserStack offered the possibility of testing the IXN website on a multitude of Operating Systems, Devices and Browsers. The team tested the IXN project on physical devices as well. The results obtained for desktops and laptops are displayed below:
 
 \begin{figure}[H]
       \centering
@@ -514,7 +511,7 @@ The team underwent research on which browser simulators to use while for testing
       \caption{Laptop/Desktop browser testing results}
  \end{figure}
 
- As regards testing on mobile devices BrowserStack was the platform chosen. Moreover, as not all of the emulators were available on free trial, physical device testing also played a very important part. The webpage appears fully responsive on modern software versions, however, as occurred with the desktop devices older versions of software (around 2012/2013) struggle with the desing, SCSS and Bootstrap 4. The mobile testing results are displayed below:
+In regards to testing on mobile devices, BrowserStack was the chosen platform. However, physical device testing also played a very important role. The webpage appears fully responsive on the most current browsers, however, as occurred with the desktop devices older versions of software (around 2012/2013) struggle with the design, SCSS and Bootstrap 4. The mobile testing results are displayed below:
 
 \begin{figure}[H]
       \centering
@@ -525,18 +522,18 @@ The team underwent research on which browser simulators to use while for testing
 
 ## Server Stability Issues
 
-The team has encountered issues in launching the website trough Microsoft Azure. The website sporadically shows that the page is not redirecting properly or that the page is in a redirect loop. The problem seems to disappear after the page is reloaded a second time. The team was not able to fix this matter. Future teams working in the IXN project will have to improve the relationship between the website and the Azure servers to increase stability and avoid the occasional redirect errors. 
+The team has encountered issues in launching the website through Microsoft Azure. The website sporadically shows that the page is not redirecting properly or that the page is in a redirect loop. The problem seems to disappear after the page is reloaded a second time. The team was not able to fix this matter. Future teams working on the IXN project will have to improve configuration between the website and the Azure servers to increase stability and avoid the occasional redirect errors. 
 
 
 ## Acceptance Testing
 
-The IXN User Acceptance Testing (UAT) has been generated around the requirements of the website \cite{g7} . In fact, Use Cases have been used to pick and prepare tasks for users to perform while testing. The procedure the IXN team has followed for User Acceptance Testing is the following:
-1.	Design tests for users to cover functional scenarios of the website
-2.	Select a varied background testing team, in accordance to the main users of the website
-3.	Perform the tests and record the results
-4.	Bug fix with the faults encountered, or improve the defective features features
+The IXN User Acceptance Testing (UAT) has been generated around the requirements of the website \cite{g7} . Use Cases have been used to pick and prepare tasks for users to perform during testing. The procedure that the IXN team followed for User Acceptance Testing is the following:
+1.    Design tests for users to cover functional scenarios of the website
+2.    Select a testing team of individuals from a variety of backgrounds
+3.    Perform the tests and record the results
+4.    Fix the bugs encountered or improve the inadequate features.
 
-For the IXN website UAT 35 individuals of varied technological knowledge were asked to complete the tasks given and the time of completion was recorded. The table below summarizes the results obtained:
+For the IXN website UAT, thirty-five individuals of varied technical backgrounds were asked to complete the tasks given and the time of completion was recorded. The table below summarises the results obtained:
 
 \begin{figure}[H]
       \centering
@@ -546,7 +543,7 @@ For the IXN website UAT 35 individuals of varied technological knowledge were as
 
 ## Error Guessing
 
-Error guessing has been put into practice by making the most of the expertise of fellow UCL Computer Science Students. The IXN team asked members of the department of Computer Science to come up with, consider and assess circumstances in which the software behind the website might have had problems in coping with the requests made. The efficiency of this testing technique depends on the tester’s abilities. In the case of the IXN website some minor bugs were spotted in the news section. Consequently, the team went on to fixing them.
+Error guessing has been put into practice by making the most of the expertise of fellow UCL Computer Science Students. The IXN team asked members of the Department of Computer Science to come up with, consider and assess circumstances in which the software behind the website might have had problems in coping with the requests made. The efficiency of this testing technique depends on the tester’s abilities. In the case of the IXN website, some minor bugs were spotted in the news section. Consequently, the team went on to fixing them.
 
 
 # Conclusion
