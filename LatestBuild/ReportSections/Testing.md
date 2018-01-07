@@ -29,10 +29,11 @@ The team has encountered issues in launching the website through Microsoft Azure
 ## Acceptance Testing
 
 The IXN User Acceptance Testing (UAT) has been generated around the requirements of the website \cite{g7} . Use Cases have been used to pick and prepare tasks for users to perform during testing. The procedure that the IXN team followed for User Acceptance Testing is the following:
-1.    Design tests for users to cover functional scenarios of the website
-2.    Select a testing team of individuals from a variety of backgrounds
-3.    Perform the tests and record the results
-4.    Fix the bugs encountered or improve the inadequate features.
+
+1. Design tests for users to cover functional scenarios of the website
+2. Select a testing team of individuals from a variety of backgrounds
+3. Perform the tests and record the results
+4. Fix the bugs encountered or improve the inadequate features.
 
 For the IXN website UAT, thirty-five individuals of varied technical backgrounds were asked to complete the tasks given and the time of completion was recorded. The table below summarises the results obtained:
 
@@ -45,3 +46,5 @@ For the IXN website UAT, thirty-five individuals of varied technical backgrounds
 ## Error Guessing
 
 Error guessing has been put into practice by making the most of the expertise of fellow UCL Computer Science Students. The IXN team asked members of the Department of Computer Science to come up with, consider and assess circumstances in which the software behind the website might have had problems in coping with the requests made. The efficiency of this testing technique depends on the tester’s abilities. In the case of the IXN website, some minor bugs were spotted in the news section. Consequently, the team went on to fixing them.
+
+\newpage

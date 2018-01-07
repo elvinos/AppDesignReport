@@ -26,15 +26,15 @@ Development was the final phase of the project. A complete understanding of how 
 ## Site Map
 \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{ph16.png}
-      \caption{Site Map indicating the features availabe within each section.}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.85\textwidth]{ph16.png}
+      \caption{Site Map indicating the features available within each section.}
       \label{sitemap}
  \end{figure}
 
 ## Page Flow
  \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.82\textwidth]{PageFlow.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.84\textwidth]{PageFlow.png}
       \caption{Page Flow showing how the sections/pages of the site are interconnected. }
       \label{pageflow}
  \end{figure}

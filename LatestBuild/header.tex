@@ -17,7 +17,7 @@
 % ----------NEW BIBLATEX BIBLIOGRAPHY-----------------------------------------------
 \usepackage[eprint=false,backend=bibtex,style = ieee]{biblatex} % Upgrades Bibliography Block Ragged helps break lines in url fixes error
 
-\addbibresource{BibFile.bib} %%% For biblatex
+\addbibresource{../BibFile.bib} %%% For biblatex
 %e.g to add page number \footfullcite[chapter, p.~215]{AAIB}
 % of \footnote{Footnote text goes here}
 % This allows can use footfullcite commands
@@ -33,6 +33,7 @@
 
 \usepackage{amssymb,amsmath}
 \numberwithin{figure}{section} %%%%% <<<<<< Puts Figure Numbering into Sections
+\numberwithin{table}{section}%%%%% <<<<<< Puts Tables Numbering into Sections
 \usepackage{ifxetex,ifluatex}  %<<<<<<<<< Edit FONT HERE
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
@@ -59,7 +60,7 @@
 \usepackage{lipsum}
 \usepackage{float}
 \usepackage{graphicx}
-\graphicspath{{TempImg/}{Img/}}%<<<<<<<<< Location of Template Images and Other Images, Add folders here
+\graphicspath{{../TempImg/}{../Img/}}%<<<<<<<<< Location of Template Images and Other Images, Add folders here
 \usepackage{subfig}
 \usepackage{wrapfig}
 \usepackage[font ={small,it}]{caption}
@@ -360,17 +361,17 @@
     (\StudentNumberB) \\
     (\StudentNumberC)
     \end{flushright}
-\end{minipage}\\[1cm]
+\end{minipage}\\[0.6cm]
 
 %----------------------------------------------------------------------------------------
 %	DATE SECTION
 %----------------------------------------------------------------------------------------
-\textit{{\large \today}}\\[0.5cm]% Date, change the \today to a set date if you want to be precise
+\textit{{\large \today}}\\% Date, change the \today to a set date if you want to be precise
 
 %----------------------------------------------------------------------------------------
 %	Disclaimer
 %----------------------------------------------------------------------------------------
-{\small This report is submitted as part requirement for the MSc Computer Science degree at UCL. It is substantially the result of my own work except where explicitly indicated in the text. The report may be freely copied and distributed provided the source is explicitly acknowledged.}
+{\footnotesize This report is submitted as part requirement for the MSc Computer Science degree at UCL. It is substantially the result of my own work except where explicitly indicated in the text. The report may be freely copied and distributed provided the source is explicitly acknowledged.}
 
 % ---------------------------------
 \vfill % Fill the rest of the page with whitespace
@@ -387,13 +388,11 @@
 
 \addcontentsline{toc}{section}{Abstract}
 \begin{abstract}
-The Department of Computer Science at Univerisity College London (UCL) is strongly linked with industry partners all over the world, collaborating with and connecting such businesses to driven, capable student engineers. The Industry Exchange Network (IXN) is an educational methodology enabling UCL computer science students to enhance their degree training in a wide variety of real-world problem-solving projects as part of their courses. They work with a wide variety of clients ranging from small charities to large corporate partners. This work will discuss the full cycle development of a website for IXN intended display student work as well as useful information pertaining to the organisation. 
+  The Industry Exchange Network (IXN) is an educational methodology enabling UCL computer science students to enhance their degree training in a wide variety of real-world problem-solving projects as part of their courses. The IXN provides a variety of opportunities for students to work with a wide variety of clients ranging from small charities to large corporate partners. In order to attract new industry partners, the IXN team required a new modern designed website. This report will discuss the full cycle of development for the new IXN website, marketing the IXN describing what the organisation is about and promoting past student work.
 
-Effective and responsive UI design was essential to the site's development and as such, the team worked through an iterative design process, utilizing modern design tools. Subsequently, front-end and back-end development were done based on industry standards using a Roots development and production environment. 
-
-The result was a WordPress website meeting all the necessary client requirements and more.  Responsive design, elegant and modern features and as well as practical functionality were achieved through a collaborative effort over a few short months. 
-
+  Creating an efficient and responsive User Interface design was essential to meeting the website's requirements.  As such, front-end and back-end development were done based on the latest industry standards using a Roots.io open source software.  The result was a WordPress website meeting all the necessary client requirements and more.  Responsive design, elegant and modern features and as well as practical functionality were achieved through a collaborative effort over a few short months.
 \end{abstract}
+\newpage
 % -----------------------------------------------------------------------------------
 %                              TABLE OF CONTENTS
 % -----------------------------------------------------------------------------------
@@ -407,14 +406,20 @@ The result was a WordPress website meeting all the necessary client requirements
 \listoftables
 \addcontentsline{toc}{section}{List of Figures}
 \listoffigures
+
+\newpage
+
 \addcontentsline{toc}{section}{List of Acronyms}
 \section*{List of Acronyms}\label{acronyms}
+\textbf{CS}: Computer Science \\
+\textbf{CMS}: Content Management System \\
 \textbf{UCL}: Univeristy College London \\
 \textbf{IXN}: Industry Exchange Network \\
 \textbf{HCI}: Human Computer Interation \\
 \textbf{UI}: User Interface \\
+\textbf{UAT}: User Acceptance Testing \\
+\textbf{WP}: WordPress \\
 \textbf{MVP}: Minimum Viable Product \\
-
 
 \newpage
 
