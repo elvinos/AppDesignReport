@@ -36,7 +36,7 @@ The main limitations were imposed by the HCI department which did not allow surv
 
 ## Users and personas
 
-Based on client specification and demographics research, 5 personas were created to gain understanding of the end user of the product. Please refer to Figure “X” in the Appendix for detailed personas. The two main user categories that were focused on were: ​
+Based on client specification and demographics research, 5 personas were created to gain understanding of the end user of the product. The two main user categories that were focused on were: ​
 
 • Technology industry employees: ​
 -    Digital Native Users who have got strong tech background​
@@ -69,7 +69,7 @@ visibility: especially in relation to how the projects are showcased. ​
       \caption{UCL Computer Science Student Persona}
 \end{table}
 
-Use Cases
+##Use Cases
 
 Use cases were constructed to represent the standard user navigation and interaction with the platform needed to accomplish a given task \cite{g3}. These were useful in shaping the development and design of the website, and facilitating the interaction between the website and its users. In the case of the IXN website the role of the administrator was also taken into account. 
 
@@ -89,18 +89,18 @@ An outline of the use cases can be found below. This is essentially a list of th
 
  \begin{table}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{UCA2.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{UCA2.png}
       \caption{Detailed UCA2 use case describing how an admin would post a new project on the IXN site using WordPress.}
  \end{table}
 
 \begin{table}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph12.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{ph12.png}
       \caption{Detailed UCU3 use case describing how a user could sort through displayed projects to see only mobile app projects. }
  \end{table}
 
 \begin{table}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph11.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{ph11.png}
       \caption{Detailed UCU4 use case describing how a user would contact Yun Fu, an IXN coordinator. }
  \end{table}
