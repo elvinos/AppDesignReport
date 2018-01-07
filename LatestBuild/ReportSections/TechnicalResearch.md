@@ -39,12 +39,12 @@ To illustrate; after creating a new theme or plugin for a Wordpress site on a lo
 ### Bedrock
 Bedrock is a modern WordPress stack that brings more automation to web development and site maintenance and does so using a better folder structure, see Figure \ref{bedrockfolder}. It uses PHP *.dotenv* for environment variables, which are part of the twelve-factor app \cite{p6}, a methodology created by Heroku for building web apps\cite{p5}. The main goal of this methodology is to improve work on a growing codebase \footnote{The details of underlying principles of this methodology are beyond the scope of this work but can be found in \cite{p8}.}.
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.85\textwidth]{ph20.png}
       \caption{Difference between Bedrock and standard Wordpress Structure}
 \label{bedrockfolder}
- \end{figure}
+ \end{table}
 
 Composer, a tool for dependency management in PHP,  is used to pull in both *.dotenv and WordPress, along with WordPress plugins \cite{p7}. Suppose a developer has a project that depends on some libraries and some of those libraries depend on other libraries. In essence, Composer allows the developer to declare the libraries they depend on and finds out the correct versions of packages needed and installs them into the project \cite{p8}.
 
@@ -74,11 +74,11 @@ a consistent, responsive interface, Bootstrap 4, a front-end web framework based
 
 To add dynamic functionality to a website JavaScript (JS) is used.  JS is a front-end development language employed by many websites and supported by all modern web browsers. JQuery is a JavaScript library that simplifies animation, event handling and much more. It is also used to add functionality to a website \cite{p16}.
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.8\textwidth]{ph18.png}
       \caption{Front-End and Back-End Interaction}
- \end{figure}
+ \end{table}
 
 ## Back-End
 Backend development refers to the server-side code written to ensure that a site is robust and usable. This is the code that is run on the server and is responsible for things such as database interactions, logic, and calculations. PHP is a server-side scripting language used to query a database such as MariaDB or MySQL \cite{p17}. MariaDB is a fork of MySQL and as such has the same database structure and indexes. \cite{p24}
@@ -87,10 +87,10 @@ If WordPress is used as the content management system, it is also deployed on th
 
 Blade by Laravel was is a templating engine used in conjunction with PHP, after appending the file extension *blade.php*. Blade employs the concepts of template inheritance and sections. The *@section* notation allows for easy organisation of a site and can be embedded inside HTML code. The *@extends* notation can be used to inherit other layouts. These tools are extremely convenient for effectively organising code \cite{p18} meeting some of the design patterns further discussed in Section \ref{design-patterns}.  
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph17.png}
       \caption{Front-End and Back-End interaction}
- \end{figure}
+ \end{table}
 
  \newpage

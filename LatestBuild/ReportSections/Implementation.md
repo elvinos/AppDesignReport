@@ -20,11 +20,11 @@ Finally, GitHub was used for collaboration. Git is a version control system, all
 
 For the IXN website there was a group repository where code was shared and updated. In order to organise to code and ensure the integrity of the site, five branches were made. There was a branch made for each individual member (Alexcode, PhoebeCode and GioCode). This is where code was written the majority of the time. When updates were finalised, code from these branches was then pushed to the Dev branch. After this code was reviewed and if there were no clashes, the code was then pushed to the master branch which housed the cleanest and most current version of the site at any given time.
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph15.png}
       \caption{Post implementation annotated MoSCoW}
- \end{figure}
+ \end{table}
 
 ## Build Cycle
 
@@ -38,11 +38,11 @@ The process the team has followed for every single component of the site can be 
 4.    Once the local environment displayed positive static results, PHP was embedded in the HTML code to enable and simplify the connection to WordPress and the Maria DB database.
 5.    Another element was chosen and the iterative process was followed all over again.
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph21.png}
       \caption{Itereation process followed to create the footer of the IXN website}
- \end{figure}
+ \end{table}
 
 ## Deployment
 

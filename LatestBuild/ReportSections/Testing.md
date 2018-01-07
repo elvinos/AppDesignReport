@@ -5,19 +5,19 @@
 
 The team researched which browser simulators to use for testing the compatibility and responsiveness of the IXN website. BrowserStack was an attractive option because of the range of emulators that the tool offers \cite{g6}. BrowserStack offered the possibility of testing the IXN website on a multitude of Operating Systems, Devices and Browsers. The team tested the IXN project on physical devices as well. The results obtained for desktops and laptops are displayed below:
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph7.1.png}
       \caption{Laptop/Desktop browser testing results}
- \end{figure}
+ \end{table}
 
 In regards to testing on mobile devices, BrowserStack was the chosen platform. However, physical device testing also played a very important role. The webpage appears fully responsive on the most current browsers, however, as occurred with the desktop devices older versions of software (around 2012/2013) struggle with the design, SCSS and Bootstrap 4. The mobile testing results are displayed below:
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph8.png}
-      \caption{Laptop/Desktop browser testing results}
- \end{figure}
+      \caption{Mobile browser testing results}
+ \end{table}
 
 
 ## Server Stability Issues
@@ -35,11 +35,11 @@ The IXN User Acceptance Testing (UAT) has been generated around the requirements
 
 For the IXN website UAT, thirty-five individuals of varied technical backgrounds were asked to complete the tasks given and the time of completion was recorded. The table below summarises the results obtained:
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph4.png}
       \caption{User Acceptance Testing summarised results}
- \end{figure}
+ \end{table}
 
 ## Error Guessing
 
