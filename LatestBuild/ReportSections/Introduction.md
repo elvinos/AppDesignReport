@@ -1,30 +1,29 @@
 
 # Introduction
-This report describes the creation of the new Industry Exchange Network website showcasing UCL Computer Science student's projects and marketing the organisation to attract new industry partners.
+This report describes the creation of the new Industry Exchange Network (IXN) website showcasing UCL Computer Science students' projects and marketing the organisation to attract new industry partners.
 
 ## The Client
-The IXN project was appointed by Dr Yun Fu, a Teaching Fellow, App Project Manager and Student Internship Manager at University College London (UCL). An important part of Dr Fu’s profession is to connect students to the industry, therefore, having a website to showcase the work done by the Computer Science department to the industry is significant. Consequently, the Industry Exchange Network (IXN) website was commissioned with the intent to bridge the gap between students and industry
+The IXN project was appointed by Dr Yun Fu, a Teaching Fellow, App Project Manager and Student Internship Manager at University College London (UCL). An essential part of Dr Fu’s profession is to connect students to the industry. Therefore, having a place to showcase the work done by UCL CS students to industry partners is of utmost importance. Consequently, the Industry Exchange Network website was commissioned as an educational methodology enabling students to engage in real-world problem based learning through term-based client projects.
 
 ## The Project
 
-The Industry Exchange Network website allows UCL Computer Science students to get involved with term-based client projects \cite{g1}. The website showcases a variety of student projects, ranging from 1st Year Students to the more advanced MSc Data Science endeavours.  The clients are entrepreneurs, charities, healthcare companies, researchers, SMEs, the government and large enterprises.  The IXN website is a platform to allow individuals in the industry to get in touch with the members of the IXN team. The main objective of the website, therefore, is to market IXN to professionals; showcasing the abilities of UCL Computer Science students.
+The Industry Exchange Network website allows UCL Computer Science students to get involved with term-based client projects \cite{g1}. The website showcases a variety of student projects, ranging from 1st Year Students to the more advanced MSc Data Science endeavours.  The clients are entrepreneurs, charities, healthcare companies, researchers, SMEs, government organisations and large enterprises.  The IXN website is a platform to allow individuals in the industry to get in touch with the members of the IXN team. The main objective of the website, therefore, is to market IXN to professionals; showcasing the abilities of UCL Computer Science students.
 
 ## Project Goals
 
--	Attract new partners to get UCL students involved in their ventures
+-    Attract new partners to get UCL students involved in their ventures
 
--	Facilitate interaction between the industry and UCL scholars
+-    Facilitate interaction between the industry and UCL scholars
 
--	Showcase the excellence of Projects made by the Department of Computer Science 
+-    Showcase the excellence of Projects made by the Department of Computer Science
 
--	Enable communication between industrial exponents and UCL professors
+-    Enable communication between industrial partners and UCL professors
 
+-    Inform students and partners regarding events held by the Industry Exchange Network
 
--	Inform students and partners regarding events held by the Industry Exchange Network
+-    Display the News regarding the achievements of IXN
 
--	Display the News regarding the achievements of the IXN
-
--	Allow the Professors to speedily and effortlessly update the webpage
+-    Allow site admins to speedily and effortlessly update the webpage
 
 ## Website Overview
 
@@ -39,7 +38,7 @@ The Industry Exchange Network website allows UCL Computer Science students to ge
 
 ### Alexander Charles (Team Leader)
 
-Alexander obtained a Bachelor of Engineering in Engineering Design specialising in Aerospace. He has worked with firms including Babcock International in Marine and Defence and The Manufacturing Technology Centre (MTC) in Aerospace. Lately he transitioned into Strategy Consulting working on advising Telecommunications CEO's on the use of blockchain technology while at Redshift Strategy. In his spare time, Alexander has practised web development, building WordPress website for an array of small clients.
+Alexander obtained a Bachelor of Engineering in Engineering Design specialising in Aerospace. He has worked with firms including Babcock International in Marine and Defence and The Manufacturing Technology Centre (MTC) in Aerospace. Lately, he transitioned into Strategy Consulting working on advising Telecommunications CEO's on the use of blockchain technology while at Redshift Strategy. In his spare time, Alexander has practised web development, building WordPress website for an array of small clients.
 
 **Roles:**
 
@@ -52,7 +51,7 @@ Alexander obtained a Bachelor of Engineering in Engineering Design specialising 
 
 ### Giovanni Tenderini
 
-Giovanni obtained a Bachelor of Science in Economics and Finance at the University of Exeter. His work experience includes a Summer Internship in the Investment Banking division of a Family Office in Milan named CFO and another internship at Generali Italia insurance sales division. His overall knowledge in programming skills is basic. However, he is an expert in statistical analysis and some related programs.
+Giovanni obtained a Bachelor of Science in Economics and Finance at the University of Exeter. His work experience includes a Summer Internship in the Investment Banking division of a Family Office in Milan named CFO and another internship at Generali Italia insurance sales division. His overall knowledge of programming is basic. However, he is an expert in statistical analysis and some related programs.
 
 **Roles:**
 
@@ -65,7 +64,7 @@ Giovanni obtained a Bachelor of Science in Economics and Finance at the Universi
 
 ### Phoebe Staab
 
-A graduate of the BSc Chemistry Programme at University College Dublin, Phoebe had little to no real programming experience before attending UCL. She had done a couple of online courses in Java and Python and did some novice-level statistics programming in R during her undergraduate degree.
+A graduate of the BSc Chemistry Programme at University College Dublin, Phoebe had little to no real programming experience before attending UCL. She had done a couple of online courses in Java and Python and did some novice-level statistics programming in R during her undergraduate degree. Outside of technology-related work, Phoebe has completed several lab-based research internships at University of Queensland and University College Dublin. 
 
 **Roles:**
 
