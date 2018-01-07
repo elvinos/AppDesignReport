@@ -5,9 +5,9 @@ After down researching and down-selecting the most appropriate technologies to u
 
 ## Local Development
 
-Trellis was used to set up a local server to be used for the IXN website’s development. When Trellis sets up a local development environment, it automatically creates a server, provisions it, and installs WordPress \cite{p21}. This is done by Vagrant in Trellis, by which a Vagrantfile uses the Ansible provisioner to run dev.yml to set up a virtual machine on the WordPress site using VirtualBox \cite{p22} .
+Trellis was used to set up a local server to be used for the IXN website’s development. When Trellis sets up a local development environment, it automatically creates a server, provisions it, and installs WordPress \cite{p21}. This is done by Vagrant in Trellis, by which a Vagrantfile uses the Ansible provisioner to run `dev.yml` to set up a virtual machine on the WordPress site using VirtualBox \cite{p22} .
 
-This was done through a few simple steps. First the site was configured based on the WordPress Sites docs. Then, `group_vars/development/wordpress_sites.yml` and `group_vars/development/vault.yml` were edited. Finally, vagrant up was run from the command line from the Trellis folder in the site directory.  
+This was done through a few simple steps. First the site was configured based on the WordPress Sites docs. Then, `group_vars/development/wordpress_sites.yml` and `group_vars/development/vault.yml` were edited. Finally, `vagrant up` was run from the command line from the Trellis folder in the site directory.  
 
 ## Development Tools
 
