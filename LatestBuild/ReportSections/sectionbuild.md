@@ -626,7 +626,6 @@ The project was highly design-focused. Therefore, the team worked tirelessly to 
 - Simplifying the post-adding method: Make adding new project, news and events posts more intuitive
 - Improve site speeds and performance: Optimize Azure server configuration and site file optimization (minifying CSS, JS etc.) to avoid current occasional redirect errors. Use Google site speed checks to find weaknesses in current performance
 - Improved search optimisation: Use of plugins (eg: YOAST)
-- Improved data analytics: Connect to client's Google analytics account
 - Further improvements based on more thorough user-testing: Evaluate user response to current site through exhaustive user-based testing to make a more data-driven site design and functionality
 
 Moreover, the additional and less requested requirements of the “Could” section of the MoSCoW can be taken consideration and implemented. A commented version of the “Could” portion, explaining how the features can be realised, is present below:
