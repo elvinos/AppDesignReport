@@ -8,7 +8,7 @@ The team researched which browser simulators to use for testing the compatibilit
 
 \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph7.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph7.1.png}
       \caption{Laptop/Desktop browser testing results}
  \end{figure}
 
@@ -23,7 +23,7 @@ In regards to testing on mobile devices, BrowserStack was the chosen platform. H
 
 ## Server Stability Issues
 
-The team has encountered issues in launching the website through Microsoft Azure. The website sporadically shows that the page is not redirecting properly or that the page is in a redirect loop. The problem seems to disappear after the page is reloaded a second time. The team was not able to fix this matter. Future teams working on the IXN project will have to improve configuration between the website and the Azure servers to increase stability and avoid the occasional redirect errors.
+The team has encountered issues in launching the website through Microsoft Azure due to the complexity in the process of setting up a scable server. The website sporadically showed that the page is was redirecting properly or that the page wan in a redirect loop. The problem seemed to disappear after the page is reloaded a second time. The team was managed to nearly totally solve this issue, however, this was done in the last days before the deadline. Future teams working on the IXN project will have to perform more robust testing on the website to prove that the issue has been permanently dealt with.
 
 
 ## Acceptance Testing
