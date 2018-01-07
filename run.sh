@@ -43,11 +43,11 @@ cd "$path3"/Aux
 /Library/TeX/texbin/xelatex -output-driver="/Library/TeX/texbin/xdvipdfmx" -interaction=nonstopmode -synctex=1 Report.tex
 
 # Render the bibliography based on the prior file
-/Library/TeX/texbin/bibtex Report.tex
+/Library/TeX/texbin/bibtex Report
 
 # Render the file twice more, to ensure that the bibliographical references are included and that the TOC reflects everything accurately
 /Library/TeX/texbin/xelatex -output-driver="/Library/TeX/texbin/xdvipdfmx" -synctex=1 Report.tex
-# /Library/TeX/texbin/xelatex -output-driver="/Library/TeX/texbin/xdvipdfmx" -synctex=1  Report.tex
+# /Library/TeX/texbin/xelatex -output-driver="/Library/TeX/texbin/xdvipdfmx" -synctex=1 Report.tex
 
 # Copy the PDF and final TeX out of the build folder for accessibility
 cp Report.tex "$parent_path"/LatestReport.tex
