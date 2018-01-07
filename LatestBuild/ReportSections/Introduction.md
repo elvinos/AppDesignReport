@@ -82,7 +82,7 @@ In team projects, good organisation is fundamental to effective collaboration. P
 
 - **Slack:** allowing team members to communicate. Chosen due to its ability to share files, track conversations via thread and create alerts
 - **Trello:** used as a dashboard to distinguish between work to be done, in progress or completed
-- **OneDrive:** used as a cloud sharing tool
+- **OneDrive:** used as a cloud sharing tool 
 - **GitHub:** used to share code between developers, provide version control, manage conflicts and deploy the site to the live server. A private repository provided by UCL was used to keep any work out of the public domain
 
 ## Scheduling
