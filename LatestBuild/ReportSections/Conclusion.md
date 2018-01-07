@@ -3,11 +3,11 @@
 ## Requirements Accomplishments
 When comparing the MoSCoW requirements to the team achievements, it is evident that all of the “Must-have” (in green) and “Should-have” (in yellow) requirements were fulfilled. An extra “Could-have” (in red) feature was also included to give a more comprehensive user experience.  An annotated MoSCoW, explaining how the requirements were implemented, can be found below:
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph5.png}
       \caption{Post implementation annotated MoSCoW}
- \end{figure}
+ \end{table}
 
 ## Team achievements
 
@@ -29,8 +29,8 @@ The project was highly design-focused. Therefore, the team worked tirelessly to 
 
 Moreover, the additional and less requested requirements of the “Could” section of the MoSCoW can be taken consideration and implemented. A commented version of the “Could” portion, explaining how the features can be realised, is present below:
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph6.png}
       \caption{Possible features to be implemented in the future}
- \end{figure}
+ \end{table}
