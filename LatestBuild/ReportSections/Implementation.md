@@ -34,11 +34,11 @@ GitHub was used as the version control system for creating the IXN website. Gith
 For the IXN website there was a group repository where code was shared and updated. To organise project code and ensure the integrity of the site, five branches were made; two master branches and a branch for each developer (Alexcode, PhoebeCode and GioCode). When updates were finalised, code from the developer branches was merged into the Dev branch.  This code was reviewed, and if there were no clashes, the code could then be to the master branch. The master housed the cleanest and most current version of the site at any given time and was used. The master branch was used as the code base for deployment ensuring only stable code would be deployed. Figure \ref{githubcollab} highlights the branch structured used in code collaboration.
 
 \begin{table}[H]
-      \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph15.png}
-      \caption{Overview of Github Collaboration Workflow}
-\label{githubcollab}
- \end{figure}
+    \centering
+    \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph15.png}
+    \caption{Overview of Github Collaboration Workflow}
+  \label{githubcollab}
+\end{table}
 
 ### Web Technologies
 The following technologies were used to create the front end interface of the IXN website. After using the Trellis development environment, the team could fully focus on creating a Wordpress theme. A theme acts like a skin which sits on top of the Wordpress CMS, providing the look and feel users interact with. Through using the Sage starter template, the following list of web technologies could be used out of the box.

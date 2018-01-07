@@ -175,23 +175,23 @@ To distinguish between Must-Have requirements, Should and Could-Haves the team u
 \newpage
 
 \begin{landscape}
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=1.3\textwidth]{ph2.png}
       \caption{MoSCoW framework applied to IXN website requirements}
- \end{figure}
+ \end{table}
  \end{landscape}
 # User Definition
 
 ## Round One User Feedback
 Evaluation is concerned with gathering data regarding the usability of a design or a product by a specified group of users within a specified environment or work context. The first round of user surveys was taken based on sketches in order to assess essential site content. The results were used to inform a MoSCoW, storyboards, and subsequent sketches. The results of the survey are outlined below:
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph3.png}
       \caption{IXN network round one User Feedback result summary}
 \label{userfeedback}
- \end{figure}
+ \end{table}
 
 As can be seen, the features which were given highest importance were project-related features and IXN information-related features. \ref{userfeedback} In addition to these content-related attributes, it also became evident that the design-quality would be of utmost importance, given that the site is meant to attract prospective industry partners. 
 
@@ -199,11 +199,11 @@ As can be seen, the features which were given highest importance were project-re
 
 Related research was highly important due to the red tape imposed by regulations at UCL. External sources were used to understand the type of audience that the website would appeal to and what level of digital ability the users typical would have. The image below outlines the outcomes of such research:
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{p21.png}
       \caption{Summarized statistics extracted from the readings explaied below}
- \end{figure}
+ \end{table}
 
 Data providing a fuller picture of the demographics of IXN Students was found primarily using UCL student statistics \cite{ps1}. This information was provided on the UCL website. It was determined that the IXN student audience is typically British and male. This evidence helped us develop a data-driven persona. The client indicated that this is not a target-user, but never the less, user research determined that UCL IXN students would be an audience regardless of the website’s intent since they would like to see their work, the work of other students, and possible industry partners.
 
@@ -231,11 +231,11 @@ The main design principles were considered for this specific persona were: ​
 consistency: essential for a professional looking website​
 affordance: for an intuitive interaction with the platform. ​
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph1.png}
       \caption{SME Tech Enterprise Owner}
-\end{figure}
+\end{table}
 
 • UCL Computer Science Students: ​
 -    Highly trained digital users​
@@ -246,47 +246,47 @@ affordance: for an intuitive interaction with the platform. ​
 The main design principle was considered for this specific persona was: ​
 visibility: especially in relation to how the projects are showcased. ​
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{persona1.png}
       \caption{UCL Computer Science Student}
-\end{figure}
+\end{table}
 
 Use Cases
 
 Use cases were constructed to represent the standard user navigation and interaction with the platform needed to accomplish a given task \cite{g3}. These were useful in shaping the development and design of the website, and facilitating the interaction between the website and its users. In the case of the IXN website the role of the administrator was also taken into account. 
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph9.png}
       \caption{Use case graph}
-\end{figure}
+\end{table}
 
 An outline of the use cases can be found below. This is essentially a list of the actions realated to the Must and Should sections of the MoSCoW.  To avoid repetition, the main routes (in bold) have been outlined in detail.
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph10.png}
       \caption{Use case list}
- \end{figure}
+ \end{table}
 
- \begin{figure}[H]
+ \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{UCA2.png}
       \caption{Detailed UCA2}
- \end{figure}
+ \end{table}
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph12.png}
       \caption{Detailed UCU3}
- \end{figure}
+ \end{table}
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph11.png}
       \caption{Detailed UCU4}
- \end{figure}
+ \end{table}
 
 # User Interface Design
 
@@ -298,12 +298,12 @@ Based on initial research including competing solutions, initial user surveys an
 
 After the second round of user feedback, a MoSCow requirements table was defined in order to inform several generations of wireframes. Down-selection of such wireframes gave way to an initial prototype which was then scrutinised via Heuristic and Think-Aloud user evaluation.  The final prototype that inspired the IXN website design was developed over several iterations based on all of the data obtained during the HCI portion of the course.
 
-\begin{figure}[H]
+\begin{table}[H]
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{UIDesign.png}
 \caption{UI Design Cycle}
 \label{UIDesign}
-\end{figure}
+\end{table}
 
 Various tools were used to turn handmade sketches into a final prototype. The table below explains which methods have been used and the reason they have been chosen:
 
@@ -368,12 +368,12 @@ To illustrate; after creating a new theme or plugin for a Wordpress site on a lo
 ### Bedrock
 Bedrock is a modern WordPress stack that brings more automation to web development and site maintenance and does so using a better folder structure, see Figure \ref{bedrockfolder}. It uses PHP *.dotenv* for environment variables, which are part of the twelve-factor app \cite{p6}, a methodology created by Heroku for building web apps\cite{p5}. The main goal of this methodology is to improve work on a growing codebase \footnote{The details of underlying principles of this methodology are beyond the scope of this work but can be found in \cite{p8}.}.
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.85\textwidth]{ph20.png}
       \caption{Difference between Bedrock and standard Wordpress Structure}
 \label{bedrockfolder}
- \end{figure}
+ \end{table}
 
 Composer, a tool for dependency management in PHP,  is used to pull in both *.dotenv and WordPress, along with WordPress plugins \cite{p7}. Suppose a developer has a project that depends on some libraries and some of those libraries depend on other libraries. In essence, Composer allows the developer to declare the libraries they depend on and finds out the correct versions of packages needed and installs them into the project \cite{p8}.
 
@@ -394,33 +394,33 @@ Sage (sitting on top of the Trellis, Bedrock stack), provides modern front-end d
 ## Front-End
 As the name would suggest, front-end development encompasses the creation of the parts of a website with which the user interacts, through the use of technologies such as HTML, CSS, and JavaScript.  In other words, this is where the site’s content, styling and dynamic interface is coded.
 
-HyperText Markup Language (HTML), is the backbone of the IXN website. This is where the site’s content is kept. It is in the HTML documents where a developer uses PHP to connect the site to the content management system.
+HyperText Markup Language (HTML), is the backbone of every website. This is where a site’s content is kept. It is in the HTML documents where a developer uses embedded PHP to connect the site to the content management system.
 
-The site’s styling was done using SCSS, a version of cascading style sheet (CSS) written for SASS, a program written in Ruby that assembles CSS style sheets for a browser. The advantage of using SASS is that is has added functionality, allowing the use of variables, nested rules, mixins and more within CSS-compatible syntax \cite{p14}.  
+Cascading style sheets (CSS) are where a sites unique style is developed. SCSS is a version of CSS written for SASS, a program written in Ruby that assembles CSS style sheets for a browser. The advantage of using SASS is that is has added functionality, allowing the use of variables, nested rules, mixins and more within CSS-compatible syntax \cite{p14}.  
 
-Because the IXN website will be accessed from many different devices with different screen sizes, responsive design principles were used during front-end development. To achieve
-a consistent, responsive interface, Bootstrap 4, a front-end web framework based on CSS styling, was used. It has set of fixed classes that allow developers to quickly create applications that scale to a variety of device sizes. Additionally, Bootstrap aids developers in adding conventional components such as navigation bars and panels to a site. It has become the industry standard for responsive web development \cite{p15}.  
+Resposive design is critical for modern websites since they are accessed from a variety of browsers and screen sizes. To achieve
+a consistent, responsive interface, Bootstrap 4, a front-end web framework based on CSS styling, can be used. It has set of fixed classes that allow developers to quickly create applications that scale to a variety of device sizes. Additionally, Bootstrap aids developers in adding conventional components such as navigation bars and panels to a site. It has become the industry standard for responsive web development \cite{p15}.  
 
-To add dynamic functionality to the IXN website JavaScript (JS) was used.  JS is a front-end development language employed by many websites and supported by all modern web browsers. JQuery is a JavaScript library that simplifies animation, event handling and much more. It was also used to add functionality to the IXN website \cite{p16}.
+To add dynamic functionality to a website JavaScript (JS) is used.  JS is a front-end development language employed by many websites and supported by all modern web browsers. JQuery is a JavaScript library that simplifies animation, event handling and much more. It is also used to add functionality to a website \cite{p16}.
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.8\textwidth]{ph18.png}
       \caption{Front-End and Back-End Interaction}
- \end{figure}
+ \end{table}
 
 ## Back-End
-Backend development refers to the server-side code written to ensure that a site is robust and usable. This is the code that is run on the server and is responsible for things such as database interactions, logic, and calculations. For the IXN website, PHP was used for server-side scripting to query a MariaDB database \cite{p17}.  
+Backend development refers to the server-side code written to ensure that a site is robust and usable. This is the code that is run on the server and is responsible for things such as database interactions, logic, and calculations. PHP is a server-side scripting language used to query a database such as MariaDB or MySQL \cite{p17}. MariaDB is a fork of MySQL and as such has the same database structure and indexes. \cite{p24}
 
-Since WordPress was used as the content management system, it was also deployed on our server so that content could be updated via the user-friendly dashboard. This would then update the database, and strategically placed PHP embedded in HTML would then be used to display the content in the appropriate part of the site.
+If WordPress is used as the content management system, it is also deployed on the server so that content can be updated via the user-friendly dashboard. This then updates the database, and strategically placed PHP embedded in HTML can be used to display the content in the appropriate part of the site.
 
-Blade by Laravel was the templating engine was used in conjunction with PHP, after appending the file extension *blade.php*. Blade employs the concepts of template inheritance and sections. The *@section* notation allows for easy organisation of a site and can be embedded inside HTML code. The *@extends* notation can be used to inherit other layouts. These tools are extremely convenient for effectively organising code \cite{p18} meeting some of the design patterns further discussed in Section \ref{design-patterns}.  
+Blade by Laravel was is a templating engine used in conjunction with PHP, after appending the file extension *blade.php*. Blade employs the concepts of template inheritance and sections. The *@section* notation allows for easy organisation of a site and can be embedded inside HTML code. The *@extends* notation can be used to inherit other layouts. These tools are extremely convenient for effectively organising code \cite{p18} meeting some of the design patterns further discussed in Section \ref{design-patterns}.  
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph17.png}
       \caption{Front-End and Back-End interaction}
- \end{figure}
+ \end{table}
 
  \newpage
 
@@ -430,12 +430,12 @@ In order to be able to create a high performance website, using the latest techn
 
 The full open source Roots stack \cite{rootsweb} was selected as it provided all the tools and structure required to develop the project to a professional standard. Figure \ref{systemarchitecture} shows the relationship between the three roots technologies; Sage, Bedrock and Trellis, and their relationship to the system architecture.
 
-\begin{figure}[H]
+\begin{table}[H]
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.85\textwidth]{SystemArchitecture.eps}
 \caption{Diagram showing the websites systems architecture, highlighting the relationship between different technologies}
 \label{systemarchitecture}
-\end{figure}
+\end{table}
 
 ## Design Patterns
 
@@ -451,12 +451,12 @@ Due to the complexity of the IXN website's system architecture, multiple design 
 
 **Template Method:** This is where a skeleton is used to define reusable components for subclasses \cite{gamma1995design}. This means that subclasses can redefine certain steps of the over-arching class without changing the code's structure. Through using the Larval templating engine, a skeleton for each view could be defined in the `app.blade.php`, different templates files could then be selected and swapped out depending on the page selected.
 
-\begin{figure}[H]
+\begin{table}[H]
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.75\textwidth]{ddcode.png}
 \caption{Overview of project code structure, including singleton design pattern in extras.php}
 \label{ddcode}
-\end{figure}
+\end{table}
 
 \newpage
 # Implementation
@@ -493,12 +493,12 @@ On completing the design phase discussed in Section \ref{user-interface-design},
 GitHub was used as the version control system for creating the IXN website. Github allows revisions in the code to be stored neatly and chronologically. The changes can then be seen by other developers who can download and modify it using tools such as Github Desktop. \cite{p20}  GitHub is the community of developers and where they store their work.
 For the IXN website there was a group repository where code was shared and updated. To organise project code and ensure the integrity of the site, five branches were made; two master branches and a branch for each developer (Alexcode, PhoebeCode and GioCode). When updates were finalised, code from the developer branches was merged into the Dev branch.  This code was reviewed, and if there were no clashes, the code could then be to the master branch. The master housed the cleanest and most current version of the site at any given time and was used. The master branch was used as the code base for deployment ensuring only stable code would be deployed. Figure \ref{githubcollab} highlights the branch structured used in code collaboration.
 
-\begin{figure}[H]
-      \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph15.png}
-      \caption{Overview of Github Collaboration Workflow}
-\label{githubcollab}
- \end{figure}
+\begin{table}[H]
+    \centering
+    \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph15.png}
+    \caption{Overview of Github Collaboration Workflow}
+  \label{githubcollab}
+\end{table}
 
 ### Web Technologies
 The following technologies were used to create the front end interface of the IXN website. After using the Trellis development environment, the team could fully focus on creating a Wordpress theme. A theme acts like a skin which sits on top of the Wordpress CMS, providing the look and feel users interact with. Through using the Sage starter template, the following list of web technologies could be used out of the box.
@@ -526,12 +526,12 @@ The build process can be summarised in the following steps:
 7. On completion of all components, the integrated site would be tested across a range of browsers, and any fixes would then be made
 
 Through following the build cycle, a minimum viable product (MVP) could be quickly created allowing progress to be shown to the client and enhancements to be made with ease.  Figure \ref{buildcycleimg} shows an overview of the different steps of the build cycle.
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph21.png}
       \caption{Iteration process followed to create the footer of the IXN website}
 \label{buildcycleimg}
- \end{figure}
+ \end{table}
 
 ## Deployment
 
@@ -556,24 +556,24 @@ Code can be deployed after writing the following lines on the command line in th
 
 The team researched which browser simulators to use for testing the compatibility and responsiveness of the IXN website. BrowserStack was an attractive option because of the range of emulators that the tool offers \cite{g6}. BrowserStack offered the possibility of testing the IXN website on a multitude of Operating Systems, Devices and Browsers. The team tested the IXN project on physical devices as well. The results obtained for desktops and laptops are displayed below:
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph7.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph7.1.png}
       \caption{Laptop/Desktop browser testing results}
- \end{figure}
+ \end{table}
 
 In regards to testing on mobile devices, BrowserStack was the chosen platform. However, physical device testing also played a very important role. The webpage appears fully responsive on the most current browsers, however, as occurred with the desktop devices older versions of software (around 2012/2013) struggle with the design, SCSS and Bootstrap 4. The mobile testing results are displayed below:
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph8.png}
-      \caption{Laptop/Desktop browser testing results}
- \end{figure}
+      \caption{Mobile browser testing results}
+ \end{table}
 
 
 ## Server Stability Issues
 
-The team has encountered issues in launching the website through Microsoft Azure. The website sporadically shows that the page is not redirecting properly or that the page is in a redirect loop. The problem seems to disappear after the page is reloaded a second time. The team was not able to fix this matter. Future teams working on the IXN project will have to improve configuration between the website and the Azure servers to increase stability and avoid the occasional redirect errors.
+The team has encountered issues in launching the website through Microsoft Azure due to the complexity involved in the process of setting up a stable server. The browsers sporadically showed that the page was not redirecting properly or that the page was in a redirect loop. The problem seemed to disappear after the website had been reloaded a second time. The team, in the last days before the deadline, was able nearly totally fix this problem resulting in a very improved server stability. Future teams working on the IXN project will have to run more robust tests to see to what extent the issue is still present.
 
 
 ## Acceptance Testing
@@ -586,11 +586,11 @@ The IXN User Acceptance Testing (UAT) has been generated around the requirements
 
 For the IXN website UAT, thirty-five individuals of varied technical backgrounds were asked to complete the tasks given and the time of completion was recorded. The table below summarises the results obtained:
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph4.png}
       \caption{User Acceptance Testing summarised results}
- \end{figure}
+ \end{table}
 
 ## Error Guessing
 
@@ -599,11 +599,11 @@ Error guessing has been put into practice by making the most of the expertise of
 ## Requirements Accomplishments
 When comparing the MoSCoW requirements to the team achievements, it is evident that all of the “Must-have” (in green) and “Should-have” (in yellow) requirements were fulfilled. An extra “Could-have” (in red) feature was also included to give a more comprehensive user experience.  An annotated MoSCoW, explaining how the requirements were implemented, can be found below:
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph5.png}
       \caption{Post implementation annotated MoSCoW}
- \end{figure}
+ \end{table}
 
 ## Team achievements
 
@@ -625,8 +625,8 @@ The project was highly design-focused. Therefore, the team worked tirelessly to 
 
 Moreover, the additional and less requested requirements of the “Could” section of the MoSCoW can be taken consideration and implemented. A commented version of the “Could” portion, explaining how the features can be realised, is present below:
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph6.png}
       \caption{Possible features to be implemented in the future}
- \end{figure}
+ \end{table}

@@ -45,3 +45,5 @@ For the IXN website UAT, thirty-five individuals of varied technical backgrounds
 ## Error Guessing
 
 Error guessing has been put into practice by making the most of the expertise of fellow UCL Computer Science Students. The IXN team asked members of the Department of Computer Science to come up with, consider and assess circumstances in which the software behind the website might have had problems in coping with the requests made. The efficiency of this testing technique depends on the tester’s abilities. In the case of the IXN website, some minor bugs were spotted in the news section. Consequently, the team went on to fixing them.
+
+\newpage
