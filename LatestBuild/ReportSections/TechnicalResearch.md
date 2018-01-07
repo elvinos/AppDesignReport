@@ -65,14 +65,14 @@ Sage (sitting on top of the Trellis, Bedrock stack), provides modern front-end d
 ## Front-End
 As the name would suggest, front-end development encompasses the creation of the parts of a website with which the user interacts, through the use of technologies such as HTML, CSS, and JavaScript.  In other words, this is where the site’s content, styling and dynamic interface is coded.
 
-HyperText Markup Language (HTML), is the backbone of the IXN website. This is where the site’s content is kept. It is in the HTML documents where a developer uses PHP to connect the site to the content management system.
+HyperText Markup Language (HTML), is the backbone of every website. This is where a site’s content is kept. It is in the HTML documents where a developer uses embedded PHP to connect the site to the content management system.
 
-The site’s styling was done using SCSS, a version of cascading style sheet (CSS) written for SASS, a program written in Ruby that assembles CSS style sheets for a browser. The advantage of using SASS is that is has added functionality, allowing the use of variables, nested rules, mixins and more within CSS-compatible syntax \cite{p14}.  
+Cascading style sheets (CSS) are where a sites unique style is developed. SCSS is a version of CSS written for SASS, a program written in Ruby that assembles CSS style sheets for a browser. The advantage of using SASS is that is has added functionality, allowing the use of variables, nested rules, mixins and more within CSS-compatible syntax \cite{p14}.  
 
-Because the IXN website will be accessed from many different devices with different screen sizes, responsive design principles were used during front-end development. To achieve
-a consistent, responsive interface, Bootstrap 4, a front-end web framework based on CSS styling, was used. It has set of fixed classes that allow developers to quickly create applications that scale to a variety of device sizes. Additionally, Bootstrap aids developers in adding conventional components such as navigation bars and panels to a site. It has become the industry standard for responsive web development \cite{p15}.  
+Resposive design is critical for modern websites since they are accessed from a variety of browsers and screen sizes. To achieve
+a consistent, responsive interface, Bootstrap 4, a front-end web framework based on CSS styling, can be used. It has set of fixed classes that allow developers to quickly create applications that scale to a variety of device sizes. Additionally, Bootstrap aids developers in adding conventional components such as navigation bars and panels to a site. It has become the industry standard for responsive web development \cite{p15}.  
 
-To add dynamic functionality to the IXN website JavaScript (JS) was used.  JS is a front-end development language employed by many websites and supported by all modern web browsers. JQuery is a JavaScript library that simplifies animation, event handling and much more. It was also used to add functionality to the IXN website \cite{p16}.
+To add dynamic functionality to a website JavaScript (JS) is used.  JS is a front-end development language employed by many websites and supported by all modern web browsers. JQuery is a JavaScript library that simplifies animation, event handling and much more. It is also used to add functionality to a website \cite{p16}.
 
 \begin{figure}[H]
       \centering
@@ -81,11 +81,11 @@ To add dynamic functionality to the IXN website JavaScript (JS) was used.  JS is
  \end{figure}
 
 ## Back-End
-Backend development refers to the server-side code written to ensure that a site is robust and usable. This is the code that is run on the server and is responsible for things such as database interactions, logic, and calculations. For the IXN website, PHP was used for server-side scripting to query a MariaDB database \cite{p17}.  
+Backend development refers to the server-side code written to ensure that a site is robust and usable. This is the code that is run on the server and is responsible for things such as database interactions, logic, and calculations. PHP is a server-side scripting language used to query a database such as MariaDB or MySQL \cite{p17}. MariaDB is a fork of MySQL and as such has the same database structure and indexes. \cite{p24}
 
-Since WordPress was used as the content management system, it was also deployed on our server so that content could be updated via the user-friendly dashboard. This would then update the database, and strategically placed PHP embedded in HTML would then be used to display the content in the appropriate part of the site.
+If WordPress is used as the content management system, it is also deployed on the server so that content can be updated via the user-friendly dashboard. This then updates the database, and strategically placed PHP embedded in HTML can be used to display the content in the appropriate part of the site.
 
-Blade by Laravel was the templating engine was used in conjunction with PHP, after appending the file extension *blade.php*. Blade employs the concepts of template inheritance and sections. The *@section* notation allows for easy organisation of a site and can be embedded inside HTML code. The *@extends* notation can be used to inherit other layouts. These tools are extremely convenient for effectively organising code \cite{p18} meeting some of the design patterns further discussed in Section \ref{design-patterns}.  
+Blade by Laravel was is a templating engine used in conjunction with PHP, after appending the file extension *blade.php*. Blade employs the concepts of template inheritance and sections. The *@section* notation allows for easy organisation of a site and can be embedded inside HTML code. The *@extends* notation can be used to inherit other layouts. These tools are extremely convenient for effectively organising code \cite{p18} meeting some of the design patterns further discussed in Section \ref{design-patterns}.  
 
 \begin{figure}[H]
       \centering
