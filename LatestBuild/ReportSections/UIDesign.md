@@ -7,20 +7,20 @@ After the initial debrief with the client, describing what the Industry exchange
 
 Based on initial research including competing solutions, initial user surveys and client meetings, a shortlist of potential user types was obtained and was used to inform several personas and use-case scenarios. Throughout the entire research process, iterations of hand-drawn sketches were made in an attempt to hone in on an ideal data-driven design. Additionally, storyboards were made to outline specific user experiences.
 
-After the second round of user feedback, a MoSCow requirements table was defined in order to inform several generations of wireframes. Down-selection of such wireframes gave way to an initial prototype which was then scrutinised via Heuristic and Think-Aloud user evaluation.  The final prototype that inspired the IXN website design was developed over several iterations based on all of the data obtained during the HCI portion of the course.
-
-\begin{table}[H]
+\begin{figure}[H]
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{UIDesign.png}
 \caption{UI design process starting from iterative hand-drawn sketches and leading through to the final design that was implemented on the IXN site.}
 \label{UIDesign}
-\end{table}
+\end{figure}
+
+After the second round of user feedback, a MoSCow requirements table was defined in order to inform several generations of wireframes. Down-selection of such wireframes gave way to an initial prototype which was then scrutinised via Heuristic and Think-Aloud user evaluation.  The final prototype that inspired the IXN website design was developed over several iterations based on all of the data obtained during the HCI portion of the course.
 
 Various tools were used to turn handmade sketches into a final prototype. The table below explains which methods have been used and the reason they have been chosen:
 
 \begin{table}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph19.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.85\textwidth]{ph19.png}
       \caption{An outline of the prototyping methods and tools used}
  \end{table}
 

@@ -126,15 +126,15 @@ Development was the final phase of the project. A complete understanding of how 
 ## Site Map
 \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{ph16.png}
-      \caption{Site Map indicating the features availabe within each section.}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.85\textwidth]{ph16.png}
+      \caption{Site Map indicating the features available within each section.}
       \label{sitemap}
  \end{figure}
 
 ## Page Flow
  \begin{figure}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.82\textwidth]{PageFlow.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.84\textwidth]{PageFlow.png}
       \caption{Page Flow showing how the sections/pages of the site are interconnected. }
       \label{pageflow}
  \end{figure}
@@ -230,9 +230,7 @@ Based on client specification and demographics research, 5 personas were created
 - High expectations from design and quality of website​
 - The platform has to appear professional for them to be incentivised to join IXN​.
 
-The main design principles were considered for this specific persona were: ​
-consistency: essential for a professional looking website​
-affordance: for an intuitive interaction with the platform. ​
+Consistency and affordance were the main design principles considered for this persona. These were essential for a professional looking website ​with intuitive an interaction with the platform. ​
 
 \begin{table}[H]
       \centering
@@ -247,9 +245,7 @@ affordance: for an intuitive interaction with the platform. ​
 - Expect to be well represented by the design of the website​
 - They desire the platform to be as entertaining as possible. ​
 
-The main design principle was considered for this specific persona was: ​
-visibility: especially in relation to how the projects are showcased. ​
-
+Visibility was the main design principle considered for this persona. This was in relation to how the projects were showcased. ​
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{persona1.png}
@@ -266,7 +262,7 @@ Use cases were constructed to represent the standard user navigation and interac
       \caption{Use case graph indicating the different ways in which an admin or user may use the IXN website.}
 \end{table}
 
-An outline of the use cases can be found below. This is essentially a list of the actions related to the Must and Should sections of the MoSCoW.  To avoid repetition, the main routes (in bold) have been outlined in detail.
+An outline of the use cases can be found below. This is essentially a list of the actions related to the Must and Should sections of the MoSCoW. To avoid repetition, the main routes (in bold) have been outlined in detail.
 
 \begin{table}[H]
       \centering
@@ -301,20 +297,20 @@ After the initial debrief with the client, describing what the Industry exchange
 
 Based on initial research including competing solutions, initial user surveys and client meetings, a shortlist of potential user types was obtained and was used to inform several personas and use-case scenarios. Throughout the entire research process, iterations of hand-drawn sketches were made in an attempt to hone in on an ideal data-driven design. Additionally, storyboards were made to outline specific user experiences.
 
-After the second round of user feedback, a MoSCow requirements table was defined in order to inform several generations of wireframes. Down-selection of such wireframes gave way to an initial prototype which was then scrutinised via Heuristic and Think-Aloud user evaluation.  The final prototype that inspired the IXN website design was developed over several iterations based on all of the data obtained during the HCI portion of the course.
-
-\begin{table}[H]
+\begin{figure}[H]
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{UIDesign.png}
 \caption{UI design process starting from iterative hand-drawn sketches and leading through to the final design that was implemented on the IXN site.}
 \label{UIDesign}
-\end{table}
+\end{figure}
+
+After the second round of user feedback, a MoSCow requirements table was defined in order to inform several generations of wireframes. Down-selection of such wireframes gave way to an initial prototype which was then scrutinised via Heuristic and Think-Aloud user evaluation.  The final prototype that inspired the IXN website design was developed over several iterations based on all of the data obtained during the HCI portion of the course.
 
 Various tools were used to turn handmade sketches into a final prototype. The table below explains which methods have been used and the reason they have been chosen:
 
 \begin{table}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph19.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.85\textwidth]{ph19.png}
       \caption{An outline of the prototyping methods and tools used}
  \end{table}
 
@@ -498,12 +494,12 @@ On completing the design phase discussed in Section \ref{user-interface-design},
 GitHub was used as the version control system for creating the IXN website. Git allows revisions the code to be stored neatly and chronologically. The changes can then be seen by other developers who can download and modify it using tools such as Github Desktop. \cite{p20}  GitHub is the community of developers and where they store their work.
 For the IXN website there was a group repository where code was shared and updated. To organise project code and ensure the integrity of the site, five branches were made; two master branches and a branch for each developer (Alexcode, PhoebeCode and GioCode). When updates were finalised, code from the developer branches was merged into the Dev branch.  This code was reviewed, and if there were no clashes, the code could then be pushed to the master branch. The master branch housed the cleanest and most current version of the site at any given time. The master branch was used as the code base for deployment ensuring only stable code would be deployed. Figure \ref{githubcollab} highlights the branch structured used in code collaboration.
 
-\begin{table}[H]
+\begin{figure}[H]
     \centering
     \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph15.png}
     \caption{Overview of Github Collaboration Workflow}
   \label{githubcollab}
-\end{table}
+\end{figure}
 
 ### Web Technologies
 The following technologies were used to create the front end interface of the IXN website. After using the Trellis development environment, the team could fully focus on creating a Wordpress theme. A theme acts like a skin which sits on top of the Wordpress CMS, providing the interface that users interact with. Using the Sage starter template, the following list of web technologies could be used out of the box.
@@ -531,12 +527,12 @@ The build process can be summarised in the following steps:
 7. On completion of all components, the integrated site was tested across a range of browsers, and any issues were resolved.
 
 Through following the build cycle, a minimum viable product (MVP) could be quickly created allowing progress to be shown to the client and enhancements to be made with ease.  Figure \ref{buildcycleimg} shows an overview of the different steps of the build cycle.
-\begin{table}[H]
+\begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph21.png}
       \caption{An example of the iterative process used to develop all site components, in this case, the footer.}
 \label{buildcycleimg}
- \end{table}
+ \end{figure}
 
 ## Deployment
 
@@ -584,10 +580,11 @@ The team has encountered issues in launching the website through Microsoft Azure
 ## Acceptance Testing
 
 The IXN User Acceptance Testing (UAT) has been generated around the requirements of the website \cite{g7} . Use Cases have been used to pick and prepare tasks for users to perform during testing. The procedure that the IXN team followed for User Acceptance Testing is the following:
-1.    Design tests for users to cover functional scenarios of the website
-2.    Select a testing team of individuals from a variety of backgrounds
-3.    Perform the tests and record the results
-4.    Fix the bugs encountered or improve the inadequate features.
+
+1. Design tests for users to cover functional scenarios of the website
+2. Select a testing team of individuals from a variety of backgrounds
+3. Perform the tests and record the results
+4. Fix the bugs encountered or improve the inadequate features.
 
 For the IXN website UAT, thirty-five individuals of varied technical backgrounds were asked to complete the tasks given and the time of completion was recorded. The table below summarises the results obtained:
 
@@ -610,7 +607,7 @@ When comparing the MoSCoW requirements to the team achievements, it is evident t
 
 \begin{table}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph5.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{ph5.png}
       \caption{Post implementation annotated MoSCoW showing the progress made throughout the term.}
  \end{table}
 
