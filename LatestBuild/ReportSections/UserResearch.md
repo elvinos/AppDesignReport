@@ -19,7 +19,7 @@ Related research was highly important due to the red tape imposed by regulations
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{p21.png}
-      \caption{Summarized statistics extracted from the readings explaied below}
+      \caption{Summarisation of the the information obtained during user research.}
  \end{table}
 
 Data providing a fuller picture of the demographics of IXN Students was found primarily using UCL student statistics \cite{ps1}. This information was provided on the UCL website. It was determined that the IXN student audience is typically British and male. This evidence helped us develop a data-driven persona. The client indicated that this is not a target-user, but never the less, user research determined that UCL IXN students would be an audience regardless of the website’s intent since they would like to see their work, the work of other students, and possible industry partners.
@@ -51,7 +51,7 @@ affordance: for an intuitive interaction with the platform. ​
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph1.png}
-      \caption{SME Tech Enterprise Owner}
+      \caption{SME Tech Enterprise Employee Persona}
 \end{table}
 
 • UCL Computer Science Students: ​
@@ -66,7 +66,7 @@ visibility: especially in relation to how the projects are showcased. ​
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{persona1.png}
-      \caption{UCL Computer Science Student}
+      \caption{UCL Computer Science Student Persona}
 \end{table}
 
 Use Cases
@@ -76,7 +76,7 @@ Use cases were constructed to represent the standard user navigation and interac
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph9.png}
-      \caption{Use case graph}
+      \caption{Use case graph indicating the different ways in which an admin or user may use the IXN website.}
 \end{table}
 
 An outline of the use cases can be found below. This is essentially a list of the actions realated to the Must and Should sections of the MoSCoW.  To avoid repetition, the main routes (in bold) have been outlined in detail.
@@ -84,23 +84,23 @@ An outline of the use cases can be found below. This is essentially a list of th
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph10.png}
-      \caption{Use case list}
+      \caption{List outlining some prospective use cases. The cases in bold are discussed further below.}
  \end{table}
 
  \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{UCA2.png}
-      \caption{Detailed UCA2}
+      \caption{Detailed UCA2 use case describing how an admin would post a new project on the IXN site using WordPress.}
  \end{table}
 
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph12.png}
-      \caption{Detailed UCU3}
+      \caption{Detailed UCU3 use case describing how a user could sort through displayed projects to see only mobile app projects. }
  \end{table}
 
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph11.png}
-      \caption{Detailed UCU4}
+      \caption{Detailed UCU4 use case describing how a user would contact Yun Fu, an IXN coordinator. }
  \end{table}

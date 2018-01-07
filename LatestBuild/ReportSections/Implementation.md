@@ -69,7 +69,7 @@ Through following the build cycle, a minimum viable product (MVP) could be quick
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph21.png}
-      \caption{Iteration process followed to create the footer of the IXN website}
+      \caption{An example of the iterative process used to develop all site components, in this case, the footer.}
 \label{buildcycleimg}
  \end{table}
 
