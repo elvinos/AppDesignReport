@@ -87,6 +87,12 @@ An outline of the use cases can be found below. This is essentially a list of th
       \caption{Use case list}
  \end{figure}
 
+ \begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{UCA2.png}
+      \caption{Detailed UCA2}
+ \end{figure}
+
 \begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph12.png}
