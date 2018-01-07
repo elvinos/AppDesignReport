@@ -31,11 +31,11 @@ Sketch was used to make the final prototype, which was then employed directly in
 
 After components were individually designed, the team came together to ensure a cohesive flow was maintained throughout the site. Small tweaks were made to individual components in order to ensure a consistent user experience across every part of the IXN website. After this collaborative effort concluded, front-end development commenced.
 
-\begin{figure}[H]
+\begin{table}[H]
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{SketchDD.png}
 \caption{Diagram showing an overview of the final detailed design Sketch template}
 \label{sketchdd}
-\end{figure}
+\end{table}
 
 \newpage
