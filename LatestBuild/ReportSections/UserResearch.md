@@ -3,12 +3,12 @@
 ## Round One User Feedback
 Evaluation is concerned with gathering data regarding the usability of a design or a product by a specified group of users within a specified environment or work context. The first round of user surveys was taken based on sketches in order to assess essential site content. The results were used to inform a MoSCoW, storyboards, and subsequent sketches. The results of the survey are outlined below:
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph3.png}
       \caption{IXN network round one User Feedback result summary}
 \label{userfeedback}
- \end{figure}
+ \end{table}
 
 As can be seen, the features which were given highest importance were project-related features and IXN information-related features. \ref{userfeedback} In addition to these content-related attributes, it also became evident that the design-quality would be of utmost importance, given that the site is meant to attract prospective industry partners. 
 
@@ -16,11 +16,11 @@ As can be seen, the features which were given highest importance were project-re
 
 Related research was highly important due to the red tape imposed by regulations at UCL. External sources were used to understand the type of audience that the website would appeal to and what level of digital ability the users typical would have. The image below outlines the outcomes of such research:
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{p21.png}
       \caption{Summarized statistics extracted from the readings explaied below}
- \end{figure}
+ \end{table}
 
 Data providing a fuller picture of the demographics of IXN Students was found primarily using UCL student statistics \cite{ps1}. This information was provided on the UCL website. It was determined that the IXN student audience is typically British and male. This evidence helped us develop a data-driven persona. The client indicated that this is not a target-user, but never the less, user research determined that UCL IXN students would be an audience regardless of the website’s intent since they would like to see their work, the work of other students, and possible industry partners.
 
@@ -48,11 +48,11 @@ The main design principles were considered for this specific persona were: ​
 consistency: essential for a professional looking website​
 affordance: for an intuitive interaction with the platform. ​
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph1.png}
       \caption{SME Tech Enterprise Owner}
-\end{figure}
+\end{table}
 
 • UCL Computer Science Students: ​
 -    Highly trained digital users​
@@ -63,44 +63,44 @@ affordance: for an intuitive interaction with the platform. ​
 The main design principle was considered for this specific persona was: ​
 visibility: especially in relation to how the projects are showcased. ​
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{persona1.png}
       \caption{UCL Computer Science Student}
-\end{figure}
+\end{table}
 
 Use Cases
 
 Use cases were constructed to represent the standard user navigation and interaction with the platform needed to accomplish a given task \cite{g3}. These were useful in shaping the development and design of the website, and facilitating the interaction between the website and its users. In the case of the IXN website the role of the administrator was also taken into account. 
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph9.png}
       \caption{Use case graph}
-\end{figure}
+\end{table}
 
 An outline of the use cases can be found below. This is essentially a list of the actions realated to the Must and Should sections of the MoSCoW.  To avoid repetition, the main routes (in bold) have been outlined in detail.
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph10.png}
       \caption{Use case list}
- \end{figure}
+ \end{table}
 
- \begin{figure}[H]
+ \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{UCA2.png}
       \caption{Detailed UCA2}
- \end{figure}
+ \end{table}
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph12.png}
       \caption{Detailed UCU3}
- \end{figure}
+ \end{table}
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph11.png}
       \caption{Detailed UCU4}
- \end{figure}
+ \end{table}

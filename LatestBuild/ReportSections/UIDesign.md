@@ -9,12 +9,12 @@ Based on initial research including competing solutions, initial user surveys an
 
 After the second round of user feedback, a MoSCow requirements table was defined in order to inform several generations of wireframes. Down-selection of such wireframes gave way to an initial prototype which was then scrutinised via Heuristic and Think-Aloud user evaluation.  The final prototype that inspired the IXN website design was developed over several iterations based on all of the data obtained during the HCI portion of the course.
 
-\begin{figure}[H]
+\begin{table}[H]
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{UIDesign.png}
 \caption{UI Design Cycle}
 \label{UIDesign}
-\end{figure}
+\end{table}
 
 Various tools were used to turn handmade sketches into a final prototype. The table below explains which methods have been used and the reason they have been chosen:
 

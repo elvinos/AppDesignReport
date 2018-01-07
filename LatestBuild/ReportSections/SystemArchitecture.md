@@ -6,12 +6,12 @@ In order to be able to create a high performance website, using the latest techn
 
 The full open source Roots stack \cite{rootsweb} was selected as it provided all the tools and structure required to develop the project to a professional standard. Figure \ref{systemarchitecture} shows the relationship between the three roots technologies; Sage, Bedrock and Trellis, and their relationship to the system architecture.
 
-\begin{figure}[H]
+\begin{table}[H]
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.85\textwidth]{SystemArchitecture.eps}
 \caption{Diagram showing the websites systems architecture, highlighting the relationship between different technologies}
 \label{systemarchitecture}
-\end{figure}
+\end{table}
 
 ## Design Patterns
 
@@ -27,11 +27,11 @@ Due to the complexity of the IXN website's system architecture, multiple design 
 
 **Template Method:** This is where a skeleton is used to define reusable components for subclasses \cite{gamma1995design}. This means that subclasses can redefine certain steps of the over-arching class without changing the code's structure. Through using the Larval templating engine, a skeleton for each view could be defined in the `app.blade.php`, different templates files could then be selected and swapped out depending on the page selected.
 
-\begin{figure}[H]
+\begin{table}[H]
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.75\textwidth]{ddcode.png}
 \caption{Overview of project code structure, including singleton design pattern in extras.php}
 \label{ddcode}
-\end{figure}
+\end{table}
 
 \newpage
