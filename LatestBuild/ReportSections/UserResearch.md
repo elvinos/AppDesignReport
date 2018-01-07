@@ -14,7 +14,7 @@ As can be seen, the features which were given highest importance were project-re
 
 ## Related Research
 
-Related research was highly important due to the red tape imposed by regulations at UCL. External sources were used to understand the type of audience that the website would appeal to and what level of digital ability the users typical would have. The image below outlines the outcomes of such research:
+Related research was highly important due to the red tape imposed by regulations at UCL. External sources were used to understand the type of audience that the website would appeal to and what level of digital ability the typical users would have. The image below outlines the outcomes of such research:
 
 \begin{table}[H]
       \centering
