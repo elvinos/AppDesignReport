@@ -10,7 +10,7 @@ Evaluation is concerned with gathering data regarding the usability of a design 
 \label{userfeedback}
  \end{table}
 
-As can be seen, the features which were given highest importance were project-related features and IXN information-related features. \ref{userfeedback} In addition to these content-related attributes, it also became evident that the design-quality would be of utmost importance, given that the site is meant to attract prospective industry partners. 
+As can be seen, the features which were given highest importance were project-related features and IXN information-related features shown in Table \ref{userfeedback}. In addition to these content-related attributes, it also became evident that the design-quality would be of utmost importance, given that the site is meant to attract prospective industry partners.
 
 ## Related Research
 
@@ -34,15 +34,16 @@ In order to obtain a profile for a technology employee, sources such as the Atla
 
 The main limitations were imposed by the HCI department which did not allow surveys to be taken from those other than immediate family members or UCL CS students. Fortunately, in the case of the Industrial Exchange Network, UCL Computer Science students account for a high percentage of users.  Had more time and leniency been given for user research, a broader audience could have been surveyed resulting in a more in-depth study of user requirements. Having a budget to dedicate to research could have also helped to obtain more statistically significant results. For example, questionnaires could have been sponsored to attract a larger public to complete them.
 
-## Users and personas
+## Personas for Users
 
 Based on client specification and demographics research, 5 personas were created to gain understanding of the end user of the product. The two main user categories that were focused on were: ​
 
-• Technology industry employees: ​
--    Digital Native Users who have got strong tech background​
--    Look for a business opportunity​
--    High expectations from design and quality of website​
--    The platform has to appear professional for them to be incentivised to join IXN​.
+*Technology industry employees:*​
+
+- Digital Native Users who have got strong tech background​
+- Look for a business opportunity​
+- High expectations from design and quality of website​
+- The platform has to appear professional for them to be incentivised to join IXN​.
 
 The main design principles were considered for this specific persona were: ​
 consistency: essential for a professional looking website​
@@ -54,11 +55,12 @@ affordance: for an intuitive interaction with the platform. ​
       \caption{SME Tech Enterprise Employee Persona}
 \end{table}
 
-• UCL Computer Science Students: ​
--    Highly trained digital users​
--    They require the projects they have worked on to be very visible​
--    Expect to be well represented by the design of the website​
--    They desire the platform to be as entertaining as possible. ​
+*UCL Computer Science Students: ​*
+
+- Highly trained digital users​
+- They require the projects they have worked on to be very visible​
+- Expect to be well represented by the design of the website​
+- They desire the platform to be as entertaining as possible. ​
 
 The main design principle was considered for this specific persona was: ​
 visibility: especially in relation to how the projects are showcased. ​
@@ -69,9 +71,9 @@ visibility: especially in relation to how the projects are showcased. ​
       \caption{UCL Computer Science Student Persona}
 \end{table}
 
-##Use Cases
+## Use Cases
 
-Use cases were constructed to represent the standard user navigation and interaction with the platform needed to accomplish a given task \cite{g3}. These were useful in shaping the development and design of the website, and facilitating the interaction between the website and its users. In the case of the IXN website the role of the administrator was also taken into account. 
+Use cases were constructed to represent the standard user navigation and interaction with the platform needed to accomplish a given task \cite{g3}. These were useful in shaping the development and design of the website, and facilitating the interaction between the website and its users. In the case of the IXN website the role of the administrator was also taken into account.
 
 \begin{table}[H]
       \centering
@@ -79,7 +81,7 @@ Use cases were constructed to represent the standard user navigation and interac
       \caption{Use case graph indicating the different ways in which an admin or user may use the IXN website.}
 \end{table}
 
-An outline of the use cases can be found below. This is essentially a list of the actions realated to the Must and Should sections of the MoSCoW.  To avoid repetition, the main routes (in bold) have been outlined in detail.
+An outline of the use cases can be found below. This is essentially a list of the actions related to the Must and Should sections of the MoSCoW.  To avoid repetition, the main routes (in bold) have been outlined in detail.
 
 \begin{table}[H]
       \centering
@@ -96,7 +98,7 @@ An outline of the use cases can be found below. This is essentially a list of th
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{ph12.png}
-      \caption{Detailed UCU3 use case describing how a user could sort through displayed projects to see only mobile app projects. }
+      \caption{Detailed UCU3 use case describing how a user could sort through displayed projects to see only mobile app projects.}
  \end{table}
 
 \begin{table}[H]
@@ -104,3 +106,5 @@ An outline of the use cases can be found below. This is essentially a list of th
       \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{ph11.png}
       \caption{Detailed UCU4 use case describing how a user would contact Yun Fu, an IXN coordinator. }
  \end{table}
+
+\newpage
