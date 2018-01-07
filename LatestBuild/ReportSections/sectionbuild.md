@@ -221,7 +221,7 @@ The main limitations were imposed by the HCI department which did not allow surv
 
 ## Personas for Users
 
-Based on client specification and demographics research, 5 personas were created to gain understanding of the end user of the product. The two main user categories that were focused on were: ​
+Based on client specification and demographics research, five personas were created to gain understanding of the end user of the product. The two main user categories that were focused on were: ​
 
 *Technology industry employees:*​
 
