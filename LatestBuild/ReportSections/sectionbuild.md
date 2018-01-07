@@ -624,7 +624,7 @@ The project was highly design-focused. Therefore, the team worked tirelessly to 
 - Improving/expanding site content: Continuously updating the latest projects, news, and events
 - Improving/expanding upon the WordPress Admin Panel: Optimizing the panel to exact admin specifications
 - Simplifying the post-adding method: Make adding new project, news and events posts more intuitive
-- Improve site speeds and performance: Optimize Azure server configuration and site file optimization (minifying CSS, JS etc.) to avoid current occasional redirect errors. Use Google site speed checks to find weaknesses in current performance
+- Improve site speeds and performance: Optimize Azure server configuration and site file optimization (minifying CSS, JS etc.) Use Google site speed checks to find weaknesses in current performance
 - Improved search optimisation: Use of plugins (eg: YOAST)
 - Further improvements based on more thorough user-testing: Evaluate user response to current site through exhaustive user-based testing to make a more data-driven site design and functionality
 
