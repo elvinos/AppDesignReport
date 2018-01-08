@@ -388,7 +388,9 @@
 
 \addcontentsline{toc}{section}{Abstract}
 \begin{abstract}
-  The Industry Exchange Network (IXN) is an educational methodology enabling UCL computer science students to enhance their degree training in a wide variety of real-world problem-solving projects as part of their courses. The IXN provides a variety of opportunities for students to work with a wide variety of clients ranging from small charities to large corporate partners. In order to attract new industry partners, the IXN team required a new modern designed website. This report will discuss the full cycle of development for the new IXN website, marketing the IXN describing what the organisation is about and promoting past student work.
+
+  A fundamental understanding of modern web development techniques is an essentail part of any computer science degree programme. In GC02, MSc Computer Science candidates take on a development project with an industry client in the tech, health, or education sector. This body of work describes the design and technical implementation carried out for the Industry Exchange Network (IXN) as a part of the GC02 module coursework during the first term of the 2017-18 academic year. IXN is an educational methodology enabling UCL computer science students to enhance their degree training in a wide variety of real-world problem-solving projects as part of their courses. The IXN provides a variety of opportunities for students to work with a wide variety of clients ranging from small charities to large corporate partners. In order to attract new industry partners, the IXN team required a new modern designed website. This report will discuss the full cycle of development for the new IXN website, marketing the IXN describing what the organisation is about and promoting past student work.
+
 
   Creating an efficient and responsive User Interface design was essential to meeting the website's requirements.  As such, front-end and back-end development were done based on the latest industry standards using a Roots.io open source software.  The result was a WordPress website meeting all the necessary client requirements and more.  Responsive design, elegant and modern features and as well as practical functionality were achieved through a collaborative effort over a few short months.
 \end{abstract}
@@ -420,6 +422,10 @@
 \textbf{UAT}: User Acceptance Testing \\
 \textbf{WP}: WordPress \\
 \textbf{MVP}: Minimum Viable Product \\
+\textbf{IDE}: Integrated Development Environment \\
+\textbf{IT}: Information Technology \\
+\textbf{MoSCoW}: Must have, Should have, Could have, Won't have \\
+
 
 \newpage
 
@@ -735,9 +741,9 @@ then be deployed onto the web.
 The primary requirements of the IXN website were highlighted in the
 first meeting with Dr Yun Fu. The client explained that the aim of the
 Industry Exchange Network website is to encourage new industry partners
-to join the programme. Therefore, new website had to be a high quality
-example of what the department is capable of and the following features
-were required by the client:
+to join the programme. Therefore, the new website had to be a
+high-quality example of what the department is capable of while
+employing the following requirements:
 
 \begin{itemize}
 \tightlist
@@ -759,10 +765,10 @@ were required by the client:
 
 There are two types of requirements in web development: functional and
 non-functional. The former define specific tasks and activities that the
-project must be able to perform. The latter outline the way that a
-system operates and strongly related to the architecture of the system
-\cite{g5}. Due to the nature of a website used to showcase projects,
-most of the requirements fall under the functional category,
+project must be able to perform. The latter outlines the way that a
+system operates and is strongly related to the architecture of the
+system \cite{g5}. Due to the nature of a website used to showcase
+projects, most of the requirements fall under the functional category,
 nonetheless, all of the most important requirements are listed below:
 
 \hypertarget{functional-requirements}{%
@@ -805,9 +811,9 @@ To distinguish between Must-Have requirements, Should and Could-Haves
 the team used a MoSCoW analysis framework \cite{g4}. The tool was
 constructed by combining statistics extracted from surveys, Client
 Requirements, Personas and Use Cases. A well developed MoSCoW
-facilitates the implementation and design of a project by streamlining
-the creation and implementation processes. The MoSCoW of the IXN project
-is displayed below:
+facilitated the implementation and design of the project by streamlining
+the creation and implementation processes. The MoSCoW for the IXN
+project is displayed below:
 
 \newpage
 
@@ -843,7 +849,7 @@ results of the survey are outlined below:
 
 As can be seen, the features which were given highest importance were
 project-related features and IXN information-related features shown in
-Figrue \ref{userfeedback}. In addition to these content-related
+Figure \ref{userfeedback}. In addition to these content-related
 attributes, it also became evident that the design-quality would be of
 utmost importance, given that the site is meant to attract prospective
 industry partners.
@@ -854,7 +860,7 @@ industry partners.
 Related research was highly important due to the red tape imposed by
 regulations at UCL. External sources were used to understand the type of
 audience that the website would appeal to and what level of digital
-ability the users typical would have. The image below outlines the
+ability the users would typically have. The image below outlines the
 outcomes of such research:
 
 \begin{table}[H]
@@ -879,16 +885,17 @@ term, the partners tend to be from technology companies and charity
 institutions.
 
 Research was done on the demographics of a typical charity volunteer/
-employee in the United Kingdom using sources such as The Charity
-Commission \cite{ps2} and National Council for Voluntary Organisations
-\cite{ps3}. Based on worked published from these organisations, it was
-determined that the typical charity employee is aged 45 or older and
-usually holds a degree. A persona and use-case was developed regarding
-this data. This data also indicated that the site should be streamlined
-and simple without confusion on how to navigate through different pages.
+employee in the UK using sources such as The Charity Commission
+\cite{ps2} and National Council for Voluntary Organisations \cite{ps3}.
+Based on worked published from these organisations, it was determined
+that the typical charity employee is aged 45 or older and usually holds
+a degree. A persona and use-case was developed based on this
+information. This data also indicated that the site should be
+streamlined and simple without confusion on how to navigate through
+different pages.
 
 In order to obtain a profile for a technology employee, sources such as
-the Atlantic \cite{ps4} and The Harvard business review \cite{ps5} were
+the Atlantic \cite{ps4} and The Harvard Business Review \cite{ps5} were
 utilised. The research indicated that employees at such businesses are
 typically males in their early to mid-thirties. This data was, again,
 used to inform a persona/use-case scenario. It was determined that this
@@ -912,9 +919,9 @@ larger public to complete them.
 \hypertarget{personas-for-users}{%
 \subsection{Personas for Users}\label{personas-for-users}}
 
-Based on client specification and demographics research, 5 personas were
-created to gain understanding of the end user of the product. The two
-main user categories that were focused on were: ​
+Based on client specification and demographics research, five personas
+were created to gain understanding of the end user of the product. The
+two main user categories that were focused on were: ​
 
 \emph{Technology industry employees:}​
 
@@ -1333,7 +1340,6 @@ server and is responsible for things such as database interactions,
 logic, and calculations. PHP is a server-side scripting language used to
 query a database such as MariaDB or MySQL \cite{p17}. MariaDB is a fork
 of MySQL and as such has the same database structure and indexes.
-\cite{p24}
 
 If WordPress is used as the content management system, it is also
 deployed on the server so that content can be updated via the
@@ -1708,13 +1714,13 @@ line in the Trellis directory:
 \subsection{Compatibility \&
 Responsiveness}\label{compatibility-responsiveness}}
 
-The team researched which browser simulators to use for testing the
-compatibility and responsiveness of the IXN website. BrowserStack was an
-attractive option because of the range of emulators that the tool offers
-\cite{g6}. BrowserStack offered the possibility of testing the IXN
-website on a multitude of Operating Systems, Devices and Browsers. The
-team tested the IXN project on physical devices as well. The results
-obtained for desktops and laptops are displayed below:
+The team researched which browser simulator would be most suitable for
+testing the compatibility and responsiveness of the IXN website.
+BrowserStack was an attractive option because of the range of emulators
+that the tool offers \cite{g6}. BrowserStack offered the possibility of
+testing the IXN website on a multitude of Operating Systems, Devices and
+Browsers. The team tested the IXN project on physical devices as well.
+The results obtained for desktops and laptops are displayed below:
 
 \begin{table}[H]
       \centering
@@ -1738,23 +1744,25 @@ mobile testing results are displayed below:
 \hypertarget{server-stability-issues}{%
 \subsection{Server Stability Issues}\label{server-stability-issues}}
 
-The team has encountered issues in launching the website through
-Microsoft Azure due to the complexity involved in the process of setting
-up a stable server. The browsers sporadically showed that the page was
-not redirecting properly or that the page was in a redirect loop. The
-problem seemed to disappear after the website had been reloaded a second
-time. The team, in the last days before the deadline, was able nearly
-totally fix this problem resulting in a very improved server stability.
-Future teams working on the IXN project will have to run more robust
-tests to see to what extent the issue is still present.
+The team encountered issues in launching the website through Microsoft
+Azure due to the complexity involved in the process of setting up a
+stable server. Initially following deployment, browsers sporadically
+showed that the page was not redirecting properly or that the page was
+in a redirect loop. The problem seemed to disappear after the website
+had been reloaded a second time. However, the team was able to come up
+with a solution to this problem resulting in reliable server stability.
+Since this solution was implemented during the final days of the
+project, future teams working on the IXN website will have to run more
+robust tests to determine the extent to which the issue is still
+present.
 
 \hypertarget{acceptance-testing}{%
 \subsection{Acceptance Testing}\label{acceptance-testing}}
 
-The IXN User Acceptance Testing (UAT) has been generated around the
-requirements of the website \cite{g7} . Use Cases have been used to pick
-and prepare tasks for users to perform during testing. The procedure
-that the IXN team followed for User Acceptance Testing is the following:
+The IXN User Acceptance Testing (UAT) was carried out based on the IXN
+website requirements\cite{g7} . Use Cases were used to pick and prepare
+tasks for users to perform during testing. The procedure that the IXN
+team followed for User Acceptance Testing is the following:
 
 \begin{enumerate}
 
@@ -1790,7 +1798,7 @@ and assess circumstances in which the software behind the website might
 have had problems in coping with the requests made. The efficiency of
 this testing technique depends on the tester's abilities. In the case of
 the IXN website, some minor bugs were spotted in the news section.
-Consequently, the team went on to fixing them.
+Consequently, the team went on to fix them.
 
 \newpage
 

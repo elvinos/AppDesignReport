@@ -3,11 +3,11 @@
 This report describes the creation of the new Industry Exchange Network (IXN) website showcasing UCL Computer Science students' projects and marketing the organisation to attract new industry partners.
 
 ## The Client
-The IXN project was appointed by Dr Yun Fu, a Teaching Fellow, App Project Manager and Student Internship Manager at University College London (UCL). An essential part of Dr Fu’s profession is to connect students to the industry. Therefore, having a place to showcase the work done by UCL CS students to industry partners is of utmost importance. Consequently, the Industry Exchange Network website was commissioned as an educational methodology enabling students to engage in real-world problem based learning through term-based client projects.
+The IXN project was appointed by Dr Yun Fu, a Teaching Fellow, App Project Manager and Student Internship Manager at University College London (UCL). An essential part of Dr Fu’s profession is to connect students to the industry; where, having an online environment to showcase the work done by UCL CS students and market the IXN is key to attracting new industry partners. Consequently, the IXN website was commissioned as an educational methodology enabling students to engage in real-world problem based learning through term-based client projects.
 
 ## The Project
 
-The Industry Exchange Network website allows UCL Computer Science students to get involved with term-based client projects \cite{g1}. The website showcases a variety of student projects, ranging from 1st Year Students to the more advanced MSc Data Science endeavours.  The clients are entrepreneurs, charities, healthcare companies, researchers, SMEs, government organisations and large enterprises.  The IXN website is a platform to allow individuals in the industry to get in touch with the members of the IXN team. The main objective of the website, therefore, is to market IXN to professionals; showcasing the abilities of UCL Computer Science students.
+The Industry Exchange Network website allows UCL Computer Science students to get involved with term-based client projects \cite{g1}. The website showcases a variety of student projects, ranging from 1st Year Students to the more advanced MSc Data Science endeavours.  Typical industry partners include entrepreneurs, charities, healthcare companies, researchers, SMEs, government organisations and large enterprises.  The IXN constantly requires new industry projects for its students. Therefore, the main objective of the website was to market IXN to professionals; showcasing the abilities of UCL Computer Science students.
 
 ## Project Goals
 
@@ -65,7 +65,7 @@ Giovanni obtained a Bachelor of Science in Economics and Finance at the Universi
 
 ### Phoebe Staab
 
-A graduate of the BSc Chemistry Programme at University College Dublin, Phoebe had little to no real programming experience before attending UCL. She had done a couple of online courses in Java and Python and did some novice-level statistics programming in R during her undergraduate degree. Outside of technology-related work, Phoebe has completed several lab-based research internships at University of Queensland and University College Dublin. 
+A graduate of the BSc Chemistry Programme at University College Dublin, Phoebe had little to no real programming experience before attending UCL. She had done a couple of online courses in Java and Python and did some novice-level statistics programming in R during her undergraduate degree. Outside of technology-related work, Phoebe has completed several lab-based research internships at University of Queensland and University College Dublin.
 
 **Roles:**
 
@@ -78,7 +78,7 @@ A graduate of the BSc Chemistry Programme at University College Dublin, Phoebe h
 
 ## Team Coordination
 
-In team projects, good organisation is fundamental to effective collaboration. Productivity tools and workflow management has been key to the team working efficiently. The key technologies used by the IXN team included:
+For the project to be successful, good co-ordination was fundamental for the team to collaborate effectively. Productivity tools and workflow management has been key to the team working efficiently. The key technologies used by the IXN team included:
 
 - **Slack:** allowing team members to communicate. Chosen due to its ability to share files, track conversations via thread and create alerts
 - **Trello:** used as a dashboard to distinguish between work to be done, in progress or completed
@@ -144,7 +144,7 @@ Development was the final phase of the project. A complete understanding of how 
 
 ## Client Requirements
 
-The primary requirements of the IXN website were highlighted in the first meeting with Dr Yun Fu.  The client explained that the aim of the Industry Exchange Network website is to encourage new industry partners to join the programme. Therefore, new website had to be a high quality example of what the department is capable of and the following features were required by the client:
+The primary requirements of the IXN website were highlighted in the first meeting with Dr Yun Fu.  The client explained that the aim of the Industry Exchange Network website is to encourage new industry partners to join the programme. Therefore, the new website had to be a high-quality example of what the department is capable of while employing the following requirements:
 
 -    High quality and professional design
 -    Fully responsive website
@@ -153,7 +153,7 @@ The primary requirements of the IXN website were highlighted in the first meetin
 -    A navigation bar always present at the top of the website
 
 ## Types of Requirements
-There are two types of requirements in web development: functional and non-functional. The former define specific tasks and activities that the project must be able to perform. The latter outline the way that a system operates and strongly related to the architecture of the system \cite{g5}. Due to the nature of a website used to showcase projects, most of the requirements fall under the functional category, nonetheless, all of the most important requirements are listed below:
+There are two types of requirements in web development: functional and non-functional. The former define specific tasks and activities that the project must be able to perform. The latter outlines the way that a system operates and is strongly related to the architecture of the system \cite{g5}. Due to the nature of a website used to showcase projects, most of the requirements fall under the functional category, nonetheless, all of the most important requirements are listed below:
 
 ### Functional Requirements
 
@@ -171,7 +171,7 @@ There are two types of requirements in web development: functional and non-funct
 
 ## MoSCoW
 
-To distinguish between Must-Have requirements, Should and Could-Haves the team used a MoSCoW analysis framework \cite{g4}. The tool was constructed by combining statistics extracted from surveys, Client Requirements, Personas and Use Cases. A well developed MoSCoW facilitates the implementation and design of a project by streamlining the creation and implementation processes. The MoSCoW of the IXN project is displayed below:
+To distinguish between Must-Have requirements, Should and Could-Haves the team used a MoSCoW analysis framework \cite{g4}. The tool was constructed by combining statistics extracted from surveys, Client Requirements, Personas and Use Cases. A well developed MoSCoW facilitated the implementation and design of the project by streamlining the creation and implementation processes. The MoSCoW for the IXN project is displayed below:
 
 \newpage
 
@@ -195,11 +195,11 @@ Evaluation is concerned with gathering data regarding the usability of a design 
 \label{userfeedback}
  \end{figure}
 
-As can be seen, the features which were given highest importance were project-related features and IXN information-related features shown in Figrue \ref{userfeedback}. In addition to these content-related attributes, it also became evident that the design-quality would be of utmost importance, given that the site is meant to attract prospective industry partners.
+As can be seen, the features which were given highest importance were project-related features and IXN information-related features shown in Figure \ref{userfeedback}. In addition to these content-related attributes, it also became evident that the design-quality would be of utmost importance, given that the site is meant to attract prospective industry partners.
 
 ## Related Research
 
-Related research was highly important due to the red tape imposed by regulations at UCL. External sources were used to understand the type of audience that the website would appeal to and what level of digital ability the users typical would have. The image below outlines the outcomes of such research:
+Related research was highly important due to the red tape imposed by regulations at UCL. External sources were used to understand the type of audience that the website would appeal to and what level of digital ability the users would typically have. The image below outlines the outcomes of such research:
 
 \begin{table}[H]
       \centering
@@ -211,9 +211,9 @@ Data providing a fuller picture of the demographics of IXN Students was found pr
 
 The client’s target audience for the IXN site was potential and current partners. Based on the assigned projects for GC02 during the current term, the partners tend to be from technology companies and charity institutions.
 
-Research was done on the demographics of a typical charity volunteer/ employee in the United Kingdom using sources such as The Charity Commission \cite{ps2} and National Council for Voluntary Organisations \cite{ps3}. Based on worked published from these organisations, it was determined that the typical charity employee is aged 45 or older and usually holds a degree. A persona and use-case was developed regarding this data. This data also indicated that the site should be streamlined and simple without confusion on how to navigate through different pages.
+Research was done on the demographics of a typical charity volunteer/ employee in the UK using sources such as The Charity Commission \cite{ps2} and National Council for Voluntary Organisations \cite{ps3}. Based on worked published from these organisations, it was determined that the typical charity employee is aged 45 or older and usually holds a degree. A persona and use-case was developed based on this information. This data also indicated that the site should be streamlined and simple without confusion on how to navigate through different pages.
 
-In order to obtain a profile for a technology employee, sources such as the Atlantic \cite{ps4} and The Harvard business review \cite{ps5} were utilised. The research indicated that employees at such businesses are typically males in their early to mid-thirties. This data was, again, used to inform a persona/use-case scenario. It was determined that this type of user is typically technology-proficient and that the site should reflect the high calibre of technical capability of IXN students.
+In order to obtain a profile for a technology employee, sources such as the Atlantic \cite{ps4} and The Harvard Business Review \cite{ps5} were utilised. The research indicated that employees at such businesses are typically males in their early to mid-thirties. This data was, again, used to inform a persona/use-case scenario. It was determined that this type of user is typically technology-proficient and that the site should reflect the high calibre of technical capability of IXN students.
 
 ## Limitations
 
@@ -411,7 +411,7 @@ To add dynamic functionality to a website JavaScript (JS) is used.  JS is a fron
  \end{table}
 
 ## Back-End
-Backend development refers to the server-side code written to ensure that a site is robust and usable. This is the code that is run on the server and is responsible for things such as database interactions, logic, and calculations. PHP is a server-side scripting language used to query a database such as MariaDB or MySQL \cite{p17}. MariaDB is a fork of MySQL and as such has the same database structure and indexes. \cite{p24}
+Backend development refers to the server-side code written to ensure that a site is robust and usable. This is the code that is run on the server and is responsible for things such as database interactions, logic, and calculations. PHP is a server-side scripting language used to query a database such as MariaDB or MySQL \cite{p17}. MariaDB is a fork of MySQL and as such has the same database structure and indexes. 
 
 If WordPress is used as the content management system, it is also deployed on the server so that content can be updated via the user-friendly dashboard. This then updates the database, and strategically placed PHP embedded in HTML can be used to display the content in the appropriate part of the site.
 
@@ -555,7 +555,7 @@ Code can be deployed after writing the following lines on the command line in th
 
 ## Compatibility & Responsiveness
 
-The team researched which browser simulators to use for testing the compatibility and responsiveness of the IXN website. BrowserStack was an attractive option because of the range of emulators that the tool offers \cite{g6}. BrowserStack offered the possibility of testing the IXN website on a multitude of Operating Systems, Devices and Browsers. The team tested the IXN project on physical devices as well. The results obtained for desktops and laptops are displayed below:
+The team researched which browser simulator would be most suitable for testing the compatibility and responsiveness of the IXN website. BrowserStack was an attractive option because of the range of emulators that the tool offers \cite{g6}. BrowserStack offered the possibility of testing the IXN website on a multitude of Operating Systems, Devices and Browsers. The team tested the IXN project on physical devices as well. The results obtained for desktops and laptops are displayed below:
 
 \begin{table}[H]
       \centering
@@ -574,12 +574,12 @@ In regards to testing on mobile devices, BrowserStack was the chosen platform. H
 
 ## Server Stability Issues
 
-The team has encountered issues in launching the website through Microsoft Azure due to the complexity involved in the process of setting up a stable server. The browsers sporadically showed that the page was not redirecting properly or that the page was in a redirect loop. The problem seemed to disappear after the website had been reloaded a second time. The team, in the last days before the deadline, was able nearly totally fix this problem resulting in a very improved server stability. Future teams working on the IXN project will have to run more robust tests to see to what extent the issue is still present.
+The team encountered issues in launching the website through Microsoft Azure due to the complexity involved in the process of setting up a stable server. Initially following deployment, browsers sporadically showed that the page was not redirecting properly or that the page was in a redirect loop. The problem seemed to disappear after the website had been reloaded a second time. However, the team was able to come up with a solution to this problem resulting in reliable server stability. Since this solution was implemented during the final days of the project, future teams working on the IXN website will have to run more robust tests to determine the extent to which the issue is still present.
 
 
 ## Acceptance Testing
 
-The IXN User Acceptance Testing (UAT) has been generated around the requirements of the website \cite{g7} . Use Cases have been used to pick and prepare tasks for users to perform during testing. The procedure that the IXN team followed for User Acceptance Testing is the following:
+The IXN User Acceptance Testing (UAT) was carried out based on the IXN website requirements\cite{g7} . Use Cases were used to pick and prepare tasks for users to perform during testing. The procedure that the IXN team followed for User Acceptance Testing is the following:
 
 1. Design tests for users to cover functional scenarios of the website
 2. Select a testing team of individuals from a variety of backgrounds
@@ -596,7 +596,7 @@ For the IXN website UAT, thirty-five individuals of varied technical backgrounds
 
 ## Error Guessing
 
-Error guessing has been put into practice by making the most of the expertise of fellow UCL Computer Science Students. The IXN team asked members of the Department of Computer Science to come up with, consider and assess circumstances in which the software behind the website might have had problems in coping with the requests made. The efficiency of this testing technique depends on the tester’s abilities. In the case of the IXN website, some minor bugs were spotted in the news section. Consequently, the team went on to fixing them.
+Error guessing has been put into practice by making the most of the expertise of fellow UCL Computer Science Students. The IXN team asked members of the Department of Computer Science to come up with, consider and assess circumstances in which the software behind the website might have had problems in coping with the requests made. The efficiency of this testing technique depends on the tester’s abilities. In the case of the IXN website, some minor bugs were spotted in the news section. Consequently, the team went on to fix them.
 
 \newpage
 
@@ -615,7 +615,7 @@ When comparing the MoSCoW requirements to the team achievements, it is evident t
 
 Teamwork presented several advantages and disadvantages. The IXN team faced a few challenges concerning background knowledge, workload division and the different culture of its team members. There were times of disagreement between team members, however, through open-minded discussion, honesty, cooperation and respect every individual gained valuable experience and new skills throughout the development of the website.
 
-While additional technical features and subtle design improvements may have been possible with additional time, the final overall look and functionality of the site were more than satisfactory given the module constraints.  Overall, the team was happy with the final result of the IXN website.
+While additional technical features and subtle design improvements may have been possible with additional time, the final overall look and functionality of the site were satisfactory given the module constraints.  Overall, the team was happy with the final result of the IXN website.
 
 ## Critical Evaluation & Future Development
 
@@ -624,8 +624,9 @@ The project was highly design-focused. Therefore, the team worked tirelessly to 
 - Improving/expanding site content: Continuously updating the latest projects, news, and events
 - Improving/expanding upon the WordPress Admin Panel: Optimizing the panel to exact admin specifications
 - Simplifying the post-adding method: Make adding new project, news and events posts more intuitive
-- Improve site speeds and performance: Optimize Azure server configuration and site file optimization (minifying CSS, JS etc.) Use Google site speed checks to find weaknesses in current performance
+- Improve site speeds and performance: Optimize Azure server configuration and site file optimization (minifying CSS, JS etc.) to avoid current occasional redirect errors. Use Google site speed checks to find weaknesses in current performance
 - Improved search optimisation: Use of plugins (eg: YOAST)
+- Improved data analytics: Connect to client's Google analytics account
 - Further improvements based on more thorough user-testing: Evaluate user response to current site through exhaustive user-based testing to make a more data-driven site design and functionality
 
 Moreover, the additional and less requested requirements of the “Could” section of the MoSCoW can be taken consideration and implemented. A commented version of the “Could” portion, explaining how the features can be realised, is present below:
