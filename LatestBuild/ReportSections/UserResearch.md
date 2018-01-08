@@ -1,7 +1,7 @@
 # User Definition
 
 ## Round One User Feedback
-Evaluation is concerned with gathering data regarding the usability of a design or a product by a specified group of users within a specified environment or work context. The first round of user surveys was taken based on sketches in order to assess essential site content. The results were used to inform a MoSCoW, storyboards, and subsequent sketches. The results of the survey are outlined below:
+Evaluation is concerned with gathering data regarding the usability of a design or a product by a specified group of users within a specified environment or work context. The first round of user surveys was taken based on sketches in order to assess essential site content. The results were used to inform a MoSCoW, storyboards and subsequent sketches. The results of the survey are outlined below:
 
 \begin{table}[H]
       \centering
@@ -14,7 +14,7 @@ As can be seen, the features which were given highest importance were project-re
 
 ## Related Research
 
-Related research was highly important due to the red tape imposed by regulations at UCL. External sources were used to understand the type of audience that the website would appeal to and what level of digital ability the users typical would have. The image below outlines the outcomes of such research:
+Related research was highly important due to the red tape imposed by regulations at UCL. External sources were used to understand the type of audience that the website would appeal to and what level of digital ability the typical users would have. The image below outlines the outcomes of such research:
 
 \begin{table}[H]
       \centering

@@ -3,7 +3,7 @@
 
 ## UI Design Cycle
 
-After the initial debrief with the client, describing what the Industry exchange Network does and the primary website requirements, the HCI design process began. Initial research into competing solutions revealed that there was no exact equivalent to IXN. However, there were specific features of similar sites that would later inspire IXN content, such as "How to use" sections, "Events" sections and prominent placement of industry links.
+After the initial debrief with the client, describing what the Industry Exchange Network does and the primary website requirements, the HCI design process began. Initial research into competing solutions revealed that there was no exact equivalent to IXN. However, there were specific features of similar sites that would later inspire IXN content, such as "How to use" sections, "Events" sections and prominent placement of industry links.
 
 Based on initial research including competing solutions, initial user surveys and client meetings, a shortlist of potential user types was obtained and was used to inform several personas and use-case scenarios. Throughout the entire research process, iterations of hand-drawn sketches were made in an attempt to hone in on an ideal data-driven design. Additionally, storyboards were made to outline specific user experiences.
 
@@ -31,11 +31,11 @@ Sketch was used to make the final prototype, which was then employed directly in
 
 After components were individually designed, the team came together to ensure a cohesive flow was maintained throughout the site. Small tweaks were made to individual components in order to ensure a consistent user experience across every part of the IXN website. After this collaborative effort concluded, front-end development commenced.
 
-\begin{figure}[H]
+\begin{table}[H]
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{SketchDD.png}
 \caption{An overview of the final detailed design Sketch template that was used in for the front-end development of the site.}
 \label{sketchdd}
-\end{figure}
+\end{table}
 
 \newpage
