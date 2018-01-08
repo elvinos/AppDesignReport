@@ -81,7 +81,7 @@ To add dynamic functionality to a website JavaScript (JS) is used.  JS is a fron
  \end{table}
 
 ## Back-End
-Backend development refers to the server-side code written to ensure that a site is robust and usable. This is the code that is run on the server and is responsible for things such as database interactions, logic, and calculations. PHP is a server-side scripting language used to query a database such as MariaDB or MySQL \cite{p17}. MariaDB is a fork of MySQL and as such has the same database structure and indexes. \cite{p24}
+Backend development refers to the server-side code written to ensure that a site is robust and usable. This is the code that is run on the server and is responsible for things such as database interactions, logic, and calculations. PHP is a server-side scripting language used to query a database such as MariaDB or MySQL \cite{p17}. MariaDB is a fork of MySQL and as such has the same database structure and indexes. 
 
 If WordPress is used as the content management system, it is also deployed on the server so that content can be updated via the user-friendly dashboard. This then updates the database, and strategically placed PHP embedded in HTML can be used to display the content in the appropriate part of the site.
 

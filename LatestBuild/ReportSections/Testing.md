@@ -4,7 +4,7 @@
 
 ## Compatibility & Responsiveness
 
-The team researched which browser simulators to use for testing the compatibility and responsiveness of the IXN website. BrowserStack was an attractive option because of the range of emulators that the tool offers \cite{g6}. BrowserStack offered the possibility of testing the IXN website on a multitude of Operating Systems, Devices and Browsers. The team tested the IXN project on physical devices as well. The results obtained for desktops and laptops are displayed below:
+The team researched which browser simulator would be most suitable for testing the compatibility and responsiveness of the IXN website. BrowserStack was an attractive option because of the range of emulators that the tool offers \cite{g6}. BrowserStack offered the possibility of testing the IXN website on a multitude of Operating Systems, Devices and Browsers. The team tested the IXN project on physical devices as well. The results obtained for desktops and laptops are displayed below:
 
 \begin{table}[H]
       \centering
@@ -23,12 +23,12 @@ In regards to testing on mobile devices, BrowserStack was the chosen platform. H
 
 ## Server Stability Issues
 
-The team has encountered issues in launching the website through Microsoft Azure due to the complexity involved in the process of setting up a stable server. The browsers sporadically showed that the page was not redirecting properly or that the page was in a redirect loop. The problem seemed to disappear after the website had been reloaded a second time. The team, in the last days before the deadline, was able nearly totally fix this problem resulting in a very improved server stability. Future teams working on the IXN project will have to run more robust tests to see to what extent the issue is still present.
+The team encountered issues in launching the website through Microsoft Azure due to the complexity involved in the process of setting up a stable server. Initially following deployment, browsers sporadically showed that the page was not redirecting properly or that the page was in a redirect loop. The problem seemed to disappear after the website had been reloaded a second time. However, the team was able to come up with a solution to this problem resulting in reliable server stability. Since this solution was implemented during the final days of the project, future teams working on the IXN website will have to run more robust tests to determine the extent to which the issue is still present.
 
 
 ## Acceptance Testing
 
-The IXN User Acceptance Testing (UAT) has been generated around the requirements of the website \cite{g7} . Use Cases have been used to pick and prepare tasks for users to perform during testing. The procedure that the IXN team followed for User Acceptance Testing is the following:
+The IXN User Acceptance Testing (UAT) was carried out based on the IXN website requirements\cite{g7} . Use Cases were used to pick and prepare tasks for users to perform during testing. The procedure that the IXN team followed for User Acceptance Testing is the following:
 
 1. Design tests for users to cover functional scenarios of the website
 2. Select a testing team of individuals from a variety of backgrounds
@@ -45,6 +45,6 @@ For the IXN website UAT, thirty-five individuals of varied technical backgrounds
 
 ## Error Guessing
 
-Error guessing has been put into practice by making the most of the expertise of fellow UCL Computer Science Students. The IXN team asked members of the Department of Computer Science to come up with, consider and assess circumstances in which the software behind the website might have had problems in coping with the requests made. The efficiency of this testing technique depends on the tester’s abilities. In the case of the IXN website, some minor bugs were spotted in the news section. Consequently, the team went on to fixing them.
+Error guessing has been put into practice by making the most of the expertise of fellow UCL Computer Science Students. The IXN team asked members of the Department of Computer Science to come up with, consider and assess circumstances in which the software behind the website might have had problems in coping with the requests made. The efficiency of this testing technique depends on the tester’s abilities. In the case of the IXN website, some minor bugs were spotted in the news section. Consequently, the team went on to fix them.
 
 \newpage

@@ -10,11 +10,11 @@ Evaluation is concerned with gathering data regarding the usability of a design 
 \label{userfeedback}
  \end{figure}
 
-As can be seen, the features which were given highest importance were project-related features and IXN information-related features shown in Figrue \ref{userfeedback}. In addition to these content-related attributes, it also became evident that the design-quality would be of utmost importance, given that the site is meant to attract prospective industry partners.
+As can be seen, the features which were given highest importance were project-related features and IXN information-related features shown in Figure \ref{userfeedback}. In addition to these content-related attributes, it also became evident that the design-quality would be of utmost importance, given that the site is meant to attract prospective industry partners.
 
 ## Related Research
 
-Related research was highly important due to the red tape imposed by regulations at UCL. External sources were used to understand the type of audience that the website would appeal to and what level of digital ability the users typical would have. The image below outlines the outcomes of such research:
+Related research was highly important due to the red tape imposed by regulations at UCL. External sources were used to understand the type of audience that the website would appeal to and what level of digital ability the users would typically have. The image below outlines the outcomes of such research:
 
 \begin{table}[H]
       \centering
@@ -26,9 +26,9 @@ Data providing a fuller picture of the demographics of IXN Students was found pr
 
 The client’s target audience for the IXN site was potential and current partners. Based on the assigned projects for GC02 during the current term, the partners tend to be from technology companies and charity institutions.
 
-Research was done on the demographics of a typical charity volunteer/ employee in the United Kingdom using sources such as The Charity Commission \cite{ps2} and National Council for Voluntary Organisations \cite{ps3}. Based on worked published from these organisations, it was determined that the typical charity employee is aged 45 or older and usually holds a degree. A persona and use-case was developed regarding this data. This data also indicated that the site should be streamlined and simple without confusion on how to navigate through different pages.
+Research was done on the demographics of a typical charity volunteer/ employee in the UK using sources such as The Charity Commission \cite{ps2} and National Council for Voluntary Organisations \cite{ps3}. Based on worked published from these organisations, it was determined that the typical charity employee is aged 45 or older and usually holds a degree. A persona and use-case was developed based on this information. This data also indicated that the site should be streamlined and simple without confusion on how to navigate through different pages.
 
-In order to obtain a profile for a technology employee, sources such as the Atlantic \cite{ps4} and The Harvard business review \cite{ps5} were utilised. The research indicated that employees at such businesses are typically males in their early to mid-thirties. This data was, again, used to inform a persona/use-case scenario. It was determined that this type of user is typically technology-proficient and that the site should reflect the high calibre of technical capability of IXN students.
+In order to obtain a profile for a technology employee, sources such as the Atlantic \cite{ps4} and The Harvard Business Review \cite{ps5} were utilised. The research indicated that employees at such businesses are typically males in their early to mid-thirties. This data was, again, used to inform a persona/use-case scenario. It was determined that this type of user is typically technology-proficient and that the site should reflect the high calibre of technical capability of IXN students.
 
 ## Limitations
 
@@ -36,7 +36,7 @@ The main limitations were imposed by the HCI department which did not allow surv
 
 ## Personas for Users
 
-Based on client specification and demographics research, 5 personas were created to gain understanding of the end user of the product. The two main user categories that were focused on were: ​
+Based on client specification and demographics research, five personas were created to gain understanding of the end user of the product. The two main user categories that were focused on were: ​
 
 *Technology industry employees:*​
 
