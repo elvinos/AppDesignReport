@@ -30,6 +30,7 @@ The Industry Exchange Network website allows UCL Computer Science students to ge
 \begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{ph13.png}
+      \caption{An example of some of the key sections and pages on the IXN website.}
  \end{figure}
 
 # Project Management
@@ -92,7 +93,7 @@ Work packages were allocated according to each team members’ strengths and wea
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=1.3\textwidth]{Picture1.png}
-      \caption{Gantt chart where "w" stands for weeks dedicated to the development of each task}
+      \caption{Gantt chart describing project progress throughout the semester, where "w" stands for weeks dedicated to the development of each task}
 \label{gantt}
  \end{table}
  \end{landscape}
