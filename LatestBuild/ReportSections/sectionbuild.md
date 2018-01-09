@@ -27,10 +27,11 @@ The Industry Exchange Network website allows UCL Computer Science students to ge
 
 ## Website Overview
 
-\begin{table}[H]
+\begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{ph13.png}
- \end{table}
+      \caption{An example of some of the key sections and pages on the IXN website.}
+ \end{figure}
 
 # Project Management
 
@@ -51,7 +52,7 @@ Alexander obtained a Bachelor of Engineering in Engineering Design specialising 
 
 ### Giovanni Tenderini
 
-Giovanni obtained a Bachelor of Science in Economics and Finance at the University of Exeter. His work experience includes a Summer Internship in the Investment Banking division of a Family Office in Milan named CFO and another internship at Generali Italia insurance sales division. His overall knowledge of programming is basic. However, he is an expert in statistical analysis and some related programs.
+Giovanni obtained a Bachelor of Science in Economics and Finance at the University of Exeter. His work experience includes a Summer Internship in the Investment Banking division of a Family Office in Milan named CFO and another internship at Generali Italia insurance sales division. His overall knowledge of programming is basic. However, he is an expert in statistical analysis and related programs.
 
 **Roles:**
 
@@ -86,13 +87,13 @@ In team projects, good organisation is fundamental to effective collaboration. P
 
 ## Scheduling
 
-Work packages were allocated according to each team members’ strengths and weaknesses. Jobs were distributed to optimise team members time while allowing all individuals to learn.  A Gantt chart was used to map out the timeline of the project to keep tasks on track and manage deadlines. Figure \ref{gantt}, shows a slimmed down version of the Gantt chart used.
+Work packages were allocated according to each team members’ strengths and weaknesses. Jobs were distributed to optimise team members' time while allowing all individuals to learn.  A Gantt chart was used to map out the timeline of the project to keep tasks on track and manage deadlines. Figure \ref{gantt}, shows a slimmed down version of the Gantt chart used.
 
 \begin{landscape}
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=1.3\textwidth]{Picture1.png}
-      \caption{Gantt chart where "w" stands for weeks dedicated to the development of each task}
+      \caption{Gantt chart describing project progress throughout the semester, where "w" stands for weeks dedicated to the development of each task}
 \label{gantt}
  \end{table}
  \end{landscape}
@@ -103,51 +104,51 @@ Work packages were allocated according to each team members’ strengths and wea
 
 In order to be able to complete the project to both a high standard an within a timely manner, a design process was following both process and agile design methods to reach the projects objectives. The project was spilt into three phases: *definition, design* and *development*. Figure \ref{designprocess}, shows an overview of the projects workflows and a breakdown of the key steps of each phase.
 
-\begin{table}[H]
+\begin{figure}[H]
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{DesignProcess.eps}
-\caption{Diagram illustrating the design process progressing the from the initial briefing to implementation}
+\caption{Diagram illustrating the design process progressing the from the initial briefing right through all stages of implementation.}
 \label{designprocess}
-\end{table}
+\end{figure}
 
-## Definition Phase:
+## Definition Phase
 
 This phase focused on collecting requirements and defining the objectives of the project. In order to capture all the information correctly, several meetings were held with the client these meetings meetings were used to capture the main features of the site, creating and organising the content that would be displayed. User research was then embarked, refining the objectives and content of the site. These stages all worked towards providing all the prior research required to begin designing, prototyping and envisioning how the website would function.
 
-## Design Phase:
+## Design Phase
 
 The design phase applied human computer interaction (HCI) principles in an agile to approach, to mock up variety of different solutions and refine the solutions quickly. By following of the process of creating sketches of different components of the website, whittling these sketches down to wireframes and prototypes. Solutions could be quickly tested by the designers, client and user groups providing feedback to take back and learn upon, improving the overall design of the website until a rough solution was generated which met both the design objectives and the met HCI objectives. Spending time before writing any code was key to making sure the solution was user friendly and visual meeting one of the key objectives of the project. After rough solution was created through user interface (UI) design cycle, this was then padded out and refined creating a static draft of the design which could be directly copied in the development phase. A large amount of time could be saved in the development phase of the project by having a finalised design template to work of which included the typography, components and the page layouts of the site.
 
-## Development Phase:
+## Development Phase
 
 Development was the final phase of the project. A complete understanding of how the final product will look and function, based on the research conducted in the definition phase and the detailed design template in the design phase meant that all the technology required to required to implement the solution can be selected. A local development environment shared amongst all the developers enabled the use of an agile build cycle, using git to mediate between the different versions. The build cycle consisted of a developer taking a UI component from the template and creating the design in code. This would then be connected to the PHP database using word-press and the tested. Any bugs in either the design or functionality could then be ironed out through iteration through the cycle eventually integrating all the components together into the final site. Once the entire design template was implemented the project could then be deployed onto the web.
 
 ## Site Map
-\begin{table}[H]
+\begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=1\textwidth]{ph16.png}
-      \caption{Site Map}
+      \caption{Site Map indicating the features availabe within each section.}
       \label{sitemap}
- \end{table}
+ \end{figure}
 
 ## Page Flow
- \begin{table}[H]
+ \begin{figure}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.82\textwidth]{PageFlow.png}
-      \caption{Page Flow}
+      \caption{Page Flow showing how the sections/pages of the site are interconnected. }
       \label{pageflow}
- \end{table}
+ \end{figure}
 
 \newpage
 # Requirements Definition
 
 ## Client Requirements
 
-The primary requirements of the IXN website were highlighted in the first meeting with Dr Yun Fu.  The client explained that the aim of the Industry Exchange Network website is to encourage new industry partners to join the programme. Therefore, new website had to be a high quality example of what the department is capable of and the following features were required by the client:
+The primary requirements of the IXN website were highlighted in the first meeting with Dr Yun Fu.  The client explained that the aim of the Industry Exchange Network website is to encourage new industry partners to join the programme. Therefore, new website had to be a high quality example of what the department is capable of. Consequently, the following features were required by the client:
 
 -    High quality and professional design
 -    Fully responsive website
--    Content management system to allow the Administrator to update the website without touching code
+-    Content Management System to allow the Administrator to update the website without touching code
 -    Separate pages for Events, News, Contact and Featured Projects.
 -    A navigation bar always present at the top of the website
 
@@ -165,7 +166,7 @@ There are two types of requirements in web development: functional and non-funct
 
 ### Non-functional Requirements
 
--    Content Management System allows and admin to update the website without having to modify the code directly.
+-    Content Management System which allows an admin to update the website without having to modify the code directly.
 -    Scalability when inserting new projects, news and events
 
 ## MoSCoW
@@ -178,13 +179,13 @@ To distinguish between Must-Have requirements, Should and Could-Haves the team u
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=1.3\textwidth]{ph2.png}
-      \caption{MoSCoW framework applied to IXN website requirements}
+      \caption{MoSCoW framework applied to IXN website laying out the site requirements.}
  \end{table}
  \end{landscape}
 # User Definition
 
 ## Round One User Feedback
-Evaluation is concerned with gathering data regarding the usability of a design or a product by a specified group of users within a specified environment or work context. The first round of user surveys was taken based on sketches in order to assess essential site content. The results were used to inform a MoSCoW, storyboards, and subsequent sketches. The results of the survey are outlined below:
+Evaluation is concerned with gathering data regarding the usability of a design or a product by a specified group of users within a specified environment or work context. The first round of user surveys was taken based on sketches in order to assess essential site content. The results were used to inform a MoSCoW, storyboards and subsequent sketches. The results of the survey are outlined below:
 
 \begin{table}[H]
       \centering
@@ -197,12 +198,12 @@ As can be seen, the features which were given highest importance were project-re
 
 ## Related Research
 
-Related research was highly important due to the red tape imposed by regulations at UCL. External sources were used to understand the type of audience that the website would appeal to and what level of digital ability the users typical would have. The image below outlines the outcomes of such research:
+Related research was highly important due to the red tape imposed by regulations at UCL. External sources were used to understand the type of audience that the website would appeal to and what level of digital ability the typical users would have. The image below outlines the outcomes of such research:
 
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{p21.png}
-      \caption{Summarized statistics extracted from the readings explaied below}
+      \caption{Summarisation of the the information obtained during user research.}
  \end{table}
 
 Data providing a fuller picture of the demographics of IXN Students was found primarily using UCL student statistics \cite{ps1}. This information was provided on the UCL website. It was determined that the IXN student audience is typically British and male. This evidence helped us develop a data-driven persona. The client indicated that this is not a target-user, but never the less, user research determined that UCL IXN students would be an audience regardless of the website’s intent since they would like to see their work, the work of other students, and possible industry partners.
@@ -219,7 +220,7 @@ The main limitations were imposed by the HCI department which did not allow surv
 
 ## Users and personas
 
-Based on client specification and demographics research, 5 personas were created to gain understanding of the end user of the product. Please refer to Figure “X” in the Appendix for detailed personas. The two main user categories that were focused on were: ​
+Based on client specification and demographics research, 5 personas were created to gain understanding of the end user of the product. The two main user categories that were focused on were: ​
 
 • Technology industry employees: ​
 -    Digital Native Users who have got strong tech background​
@@ -234,7 +235,7 @@ affordance: for an intuitive interaction with the platform. ​
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph1.png}
-      \caption{SME Tech Enterprise Owner}
+      \caption{SME Tech Enterprise Employee Persona}
 \end{table}
 
 • UCL Computer Science Students: ​
@@ -249,17 +250,17 @@ visibility: especially in relation to how the projects are showcased. ​
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{persona1.png}
-      \caption{UCL Computer Science Student}
+      \caption{UCL Computer Science Student Persona}
 \end{table}
 
-Use Cases
+##Use Cases
 
 Use cases were constructed to represent the standard user navigation and interaction with the platform needed to accomplish a given task \cite{g3}. These were useful in shaping the development and design of the website, and facilitating the interaction between the website and its users. In the case of the IXN website the role of the administrator was also taken into account. 
 
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph9.png}
-      \caption{Use case graph}
+      \caption{Use case graph indicating the different ways in which an admin or user may use the IXN website.}
 \end{table}
 
 An outline of the use cases can be found below. This is essentially a list of the actions realated to the Must and Should sections of the MoSCoW.  To avoid repetition, the main routes (in bold) have been outlined in detail.
@@ -267,32 +268,32 @@ An outline of the use cases can be found below. This is essentially a list of th
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph10.png}
-      \caption{Use case list}
+      \caption{List outlining some prospective use cases. The cases in bold are discussed further below.}
  \end{table}
 
  \begin{table}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{UCA2.png}
-      \caption{Detailed UCA2}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{UCA2.png}
+      \caption{Detailed UCA2 use case describing how an admin would post a new project on the IXN site using WordPress.}
  \end{table}
 
 \begin{table}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph12.png}
-      \caption{Detailed UCU3}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{ph12.png}
+      \caption{Detailed UCU3 use case describing how a user could sort through displayed projects to see only mobile app projects. }
  \end{table}
 
 \begin{table}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph11.png}
-      \caption{Detailed UCU4}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{ph11.png}
+      \caption{Detailed UCU4 use case describing how a user would contact Yun Fu, an IXN coordinator. }
  \end{table}
 
 # User Interface Design
 
 ## UI Design Cycle
 
-After the initial debrief with the client, describing what the Industry exchange Network does and the primary website requirements, the HCI design process began. Initial research into competing solutions revealed that there was no exact equivalent to IXN. However, there were specific features of similar sites that would later inspire IXN content, such as "How to use" sections, "Events" sections and prominent placement of industry links.
+After the initial debrief with the client, describing what the Industry Exchange Network does and the primary website requirements, the HCI design process began. Initial research into competing solutions revealed that there was no exact equivalent to IXN. However, there were specific features of similar sites that would later inspire IXN content, such as "How to use" sections, "Events" sections and prominent placement of industry links.
 
 Based on initial research including competing solutions, initial user surveys and client meetings, a shortlist of potential user types was obtained and was used to inform several personas and use-case scenarios. Throughout the entire research process, iterations of hand-drawn sketches were made in an attempt to hone in on an ideal data-driven design. Additionally, storyboards were made to outline specific user experiences.
 
@@ -301,7 +302,7 @@ After the second round of user feedback, a MoSCow requirements table was defined
 \begin{table}[H]
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{UIDesign.png}
-\caption{UI Design Cycle}
+\caption{UI design process starting from iterative hand-drawn sketches and leading through to the final design that was implemented on the IXN site.}
 \label{UIDesign}
 \end{table}
 
@@ -310,7 +311,7 @@ Various tools were used to turn handmade sketches into a final prototype. The ta
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph19.png}
-      \caption{Prototyping methods and tools used}
+      \caption{An outline of the prototyping methods and tools used}
  \end{table}
 
 
@@ -323,7 +324,7 @@ After components were individually designed, the team came together to ensure a 
 \begin{table}[H]
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{SketchDD.png}
-\caption{Diagram showing an overview of the final detailed design Sketch template}
+\caption{An overview of the final detailed design Sketch template that was used in for the front-end development of the site.}
 \label{sketchdd}
 \end{table}
 
@@ -371,7 +372,7 @@ Bedrock is a modern WordPress stack that brings more automation to web developme
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.85\textwidth]{ph20.png}
-      \caption{Difference between Bedrock and standard Wordpress Structure}
+      \caption{Difference between Bedrock and standard Wordpress File Structure}
 \label{bedrockfolder}
  \end{table}
 
@@ -406,7 +407,7 @@ To add dynamic functionality to a website JavaScript (JS) is used.  JS is a fron
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.8\textwidth]{ph18.png}
-      \caption{Front-End and Back-End Interaction}
+      \caption{Front-End to Back-End Interaction}
  \end{table}
 
 ## Back-End
@@ -419,7 +420,7 @@ Blade by Laravel was is a templating engine used in conjunction with PHP, after 
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph17.png}
-      \caption{Front-End and Back-End interaction}
+      \caption{Back-End interaction to Front End interaction}
  \end{table}
 
  \newpage
@@ -461,11 +462,11 @@ Due to the complexity of the IXN website's system architecture, multiple design 
 \newpage
 # Implementation
 
-After down researching and down-selecting the most appropriate technologies to meet the project requirement goals, a development environment was created and shared amongst all the members of the team. The local development environment was then used to codify the detailed design template (formed at the end of the design phase) into the final product. This section discusses, the methodology and workflow of the build cycle and deployment stages within the development phase of the project.
+After researching and down-selecting the most appropriate technologies to meet the project requirement goals, a development environment was created and shared amongst all the members of the team. The local development environment was then used to codify the detailed design template (formed at the end of the design phase) into the final product. This section discusses the methodology and workflow of the build cycle and deployment stages within the development phase of the project.
 
 ## Local Development
 
-Due to the advantages discussed in Section \ref{roots-technology-stack-sage-bedrock-and-trellis}, Trellis was used to set up a local Ubuntu server on a virtual machine. The virtual machine provided a sandbox to test and develop the IXN website replicating the characteristics of a live production server.  After installing Trellis's dependencies on a developers computer, and configuring specific files; Trellis can be run to create a local development environment automatically; building a local server on a virtual machine, provisions all full LEMP stack and Wordpress installation \cite{p21}.
+Due to the advantages discussed in Section \ref{roots-technology-stack-sage-bedrock-and-trellis}, Trellis was used to set up a local Ubuntu server on a virtual machine. The virtual machine provided a sandbox to test and develop the IXN website replicating the characteristics of a live production server.  After installing Trellis's dependencies on a developers computer, and configuring specific files; Trellis can be run to create a local development environment automatically; building a local server on a virtual machine, and provisioning a full LEMP stack and Wordpress installation \cite{p21}.
 
 ### File Configuration
 Configuring of the Trellis requires few simple steps. Within the Trellis file directory a collection of files were edited including:  
@@ -473,75 +474,75 @@ Configuring of the Trellis requires few simple steps. Within the Trellis file di
 - `group_vars/development/wordpress_sites.yml`
 - `group_vars/development/vault.yml`
 
-These files configure the server name and allow for multisite installation to be created. Using Ansible's inbuilt encryption software, all `.vault` files were encrypted; preventing any passwords to be read when committing the code to github.com. Files setup only required completing once, shared across GitHub to other team members.
+These files configure the server name and allow for multisite installation to be created. Using Ansible's inbuilt encryption software, all `.vault` files were encrypted, preventing any passwords to be read when committing the code to github.com. File setup only required completing once, shared across GitHub to all team members.
 
 ### Server Provisioning
 
-Finally, typing `vagrant up` and `vagrant provision` in the command line while within the Trellis directory would run the Trellis software. Vagrant and Ansible complete most of the heavy lifting, two Trellis dependency packages, which uses a Vagrantfile and a collection of Ansible `*.yml`  files to set up a virtual machine \cite{p22}. By using the Trellis setup, a similar workflow can be used to provision and deploy to a production server.
+Finally, typing `vagrant up` and `vagrant provision` in the command line while in the Trellis directory ran the Trellis software. Vagrant and Ansible did most of the heavy lifting,configuring two Trellis dependency packages, which used a Vagrantfile and a collection of Ansible `*.yml`  files to set up a virtual machine \cite{p22}. By using the Trellis setup, a similar workflow was used to provision and deploy to a production server.
 
 ## Development Tools
 
-On completing the design phase discussed in Section \ref{user-interface-design}, the design template could be split up into components that could be individually codified by each team member, and then brought together into the final Wordpress theme.  Through combining Bedrock with the Sage starter theme with a collection of development tools, an efficient workspace and workflow were used.
+On completing the design phase discussed in Section \ref{user-interface-design}, the design template was split up into components that were individually codified by each team member, and then brought together into the final Wordpress theme.  Through combining Bedrock with the Sage starter theme with a collection of development tools, an efficient workspace and workflow were used.
 
 ### Text Editors / Intergrated Development Environmets (IDEs)
 
-- *CodePen:*  Used to make each component for the website before all of the sections were integrated into the appropriate page layouts. The benefit of using CodePen is that HTML, CSS and JavaScript code can be written in the browser, and compiled in real time, with the result visible in the same window. \cite{p19}  Ultimately, it allows for faster development and easy troubleshooting focusing on design problems alone
-- *Atom/ Sublime*: These are lightweight text editors that utilise plugins to give additional functionality. These tools useful for tweaking the site and writing HTML code
+- *CodePen:*  Used to make each component for the website before all of the sections were integrated into the appropriate page layouts. The benefit of using CodePen is that HTML, CSS and JavaScript code can be written in the browser, and compiled in real time, with the result visible in the same window. \cite{p19}  Ultimately, it allowed for faster development and easy troubleshooting, focusing on design problems alone.
+- *Atom/ Sublime*: These are lightweight text editors that utilise plugins to give additional functionality. These tools were useful for tweaking the site and writing HTML code
 - *PHP Storm:*, An advanced IDE, used predominantly for writing PHP and optimising SCSS code.
 
 ### Collaboration
-GitHub was used as the version control system for creating the IXN website. Github allows revisions in the code to be stored neatly and chronologically. The changes can then be seen by other developers who can download and modify it using tools such as Github Desktop. \cite{p20}  GitHub is the community of developers and where they store their work.
-For the IXN website there was a group repository where code was shared and updated. To organise project code and ensure the integrity of the site, five branches were made; two master branches and a branch for each developer (Alexcode, PhoebeCode and GioCode). When updates were finalised, code from the developer branches was merged into the Dev branch.  This code was reviewed, and if there were no clashes, the code could then be to the master branch. The master housed the cleanest and most current version of the site at any given time and was used. The master branch was used as the code base for deployment ensuring only stable code would be deployed. Figure \ref{githubcollab} highlights the branch structured used in code collaboration.
+GitHub was used as the version control system for creating the IXN website. Git allows revisions the code to be stored neatly and chronologically. The changes can then be seen by other developers who can download and modify it using tools such as Github Desktop. \cite{p20}  GitHub is the community of developers and where they store their work.
+For the IXN website there was a group repository where code was shared and updated. To organise project code and ensure the integrity of the site, five branches were made; two master branches and a branch for each developer (Alexcode, PhoebeCode and GioCode). When updates were finalised, code from the developer branches was merged into the Dev branch.  This code was reviewed, and if there were no clashes, the code could then be pushed to the master branch. The master branch housed the cleanest and most current version of the site at any given time. The master branch was used as the code base for deployment ensuring only stable code would be deployed. Figure \ref{githubcollab} highlights the branch structured used in code collaboration.
 
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph15.png}
       \caption{Overview of Github Collaboration Workflow}
 \label{githubcollab}
- \end{table}
+ \end{figure}
 
 ### Web Technologies
-The following technologies were used to create the front end interface of the IXN website. After using the Trellis development environment, the team could fully focus on creating a Wordpress theme. A theme acts like a skin which sits on top of the Wordpress CMS, providing the look and feel users interact with. Through using the Sage starter template, the following list of web technologies could be used out of the box.
+The following technologies were used to create the front end interface of the IXN website. After using the Trellis development environment, the team could fully focus on creating a Wordpress theme. A theme acts like a skin which sits on top of the Wordpress CMS, providing the interface that users interact with. Using the Sage starter template, the following list of web technologies could be used out of the box.
 
 - *HTML:* used for organising webpage structure
 - *Bootstrap 4:* enhancing HTML code through providing easy to use classes making the website responsive. Bootstrap 4 offers many advantages over Bootstrap 3 including an enhanced grid system and SCSS as standard \cite{Differen19:online}
 - *SCSS:* a pre-processor styling language providing additional functionality to basic CSS and allowing the styling sheet to be compiled, optimised and minified into a single CSS file named `main.css`. SCSS was organised into three main folders holding the components, layouts and global styles. This framework greatly improved the readability of the code and SCSS *variables*and *mixins* could then be used throughout the files to enable quick revision throughout the entire code base
-- *JavaScript + (JQuery):* used to make pages interactive adding client-side programming functionality to the site. Javascript was used to make the nav-bars interactive, add video and map support among other features
-- *PHP 7.1:* used as the server side language to interact with the server pulling out the correct content to display such as news and event post content.
+- *JavaScript + (JQuery):* used to make pages interactive, adding client-side programming functionality to the site. Javascript was used to make the nav-bars interactive, add video and map support among other features
+- *PHP 7.1:* used as the server side language to interact with the server pulling out the correct content to display such as news and event post content
 - *Larvavel (Blade): * This is the templating engine used to avoid code repetition in keeping with the design patterns discussed in Section \ref{design-patterns}
 - *AJAX:* used to allow the website to send and retrieve data from a PHP server asynchronously without refreshing the page. This technology was key to create an effective project post sorter
 - *Shell Scripting: * small shell scripts were written to automate database and upload syncing between different server environments
 
 ## Build Cycle
 
-To implement the IXN website efficiently, a build cycle highlighted in Figure \ref{designprocess} was followed to allow for an agile development process. Each team member was assigned single components to design, construct and test. This decision was made to streamline and facilitate the process making the webpage testing and tweaking components for different screen sizes and browsers until the element was ready to integrate into the final code base.
+To implement the IXN website efficiently, the build cycle highlighted in Figure \ref{designprocess} was followed to allow for an agile development process. Each team member was assigned single components to design, construct and test. This decision was made to streamline and facilitate the process making the webpage testing and tweaking components for different screen sizes and browsers until the element was ready to integrate into the final code base.
 The build process can be summarised in the following steps:
 
-1.   Using the Sketch detailed design template, the component CSS could be exported giving the rough parameters for font shape and size
+1.   Using the Sketch detailed design template, CSS  components could be exported giving the rough parameters for font shape and size
 2.    CSS code was placed into CodePen where HTML and JS  were used to construct the component in full-screen size. This tool was chosen due to its' ability to display new changes in the HTML and CSS instantly without the need of any local development setup.
 3. Bootstrap 4 code would then be added to, and the code base would be tweaked to make the component fully responsive working in every screen size
 4. Code created on Codepen was then transferred to a text editor and integrated into the development site. This was statically tested in the local environment, fixing any integration problems that may have occurred
 5. Once the local environment displayed positive static results, PHP was embedded in the HTML code to enable and simplify the connection to WordPress and the Maria DB database.
 6. Another element was chosen, and the iterative process was followed all over again.
-7. On completion of all components, the integrated site would be tested across a range of browsers, and any fixes would then be made
+7. On completion of all components, the integrated site was tested across a range of browsers, and any issues were resolved.
 
 Through following the build cycle, a minimum viable product (MVP) could be quickly created allowing progress to be shown to the client and enhancements to be made with ease.  Figure \ref{buildcycleimg} shows an overview of the different steps of the build cycle.
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph21.png}
-      \caption{Iteration process followed to create the footer of the IXN website}
+      \caption{An example of the iterative process used to develop all site components, in this case, the footer.}
 \label{buildcycleimg}
  \end{table}
 
 ## Deployment
 
-On completion of the build cycle, the code base was ready to be deployed to a live production server. Due to the client's relationship with Microsoft, Azure was selected as the production server to use providing more than enough performance to run the IXN website.
+On completion of the build cycle, the code base was ready to be deployed to the live production server. Due to the client's relationship with Microsoft, Azure was selected as the production server to use, providing more than enough performance to run the IXN website.
 
 ### Azure Setup
 Using the Azure dashboard, a new blank Ubuntu 16.0.4 server was deployed on a paid service plan which met the websites performance requirements. The lead developers SSH key added enabling easy access to connect to the remote server. The domain name `ixn.host` was purchased via Namecheap selected due to its low cost. This was directed to the production server using A name records. Finally, to allow inbound connections to the server, port 80 required being changed to open.
 
 ### Remote Server Connection
-To deploy to the remote server via the local development environment, a couple of extra steps were needed the production server required Trellis to connect, Provision and Deploy. Provisioning was done to ensure MariaDB, Wordpress and Nginx were installed. Nginx was configured, and a database was set up for the IXN site. The server was provisioned using server.yml. The deployment was done using deploy.yml which compiles the codebase from the master branch on GitHub created config files and reloaded Nginx. \cite{p23}.
+To deploy to the remote server via the local development environment, a couple of extra steps were needed since the production server required Trellis to connect, Provision and Deploy. Provisioning was done to ensure MariaDB, Wordpress and Nginx were installed. Nginx was configured, and a database was set up for the IXN site. The server was provisioned using server.yml. The deployment was done using deploy.yml which compiled the codebase from the master branch on GitHub created config files and reloaded Nginx. \cite{p23}.
 
 Code can be deployed after writing the following lines on the command line in the Trellis directory:
 
@@ -559,7 +560,7 @@ The team researched which browser simulators to use for testing the compatibilit
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph7.1.png}
-      \caption{Laptop/Desktop browser testing results}
+      \caption{Laptop/Desktop browser testing results, where green indicates a pass and red indicates a fail.}
  \end{table}
 
 In regards to testing on mobile devices, BrowserStack was the chosen platform. However, physical device testing also played a very important role. The webpage appears fully responsive on the most current browsers, however, as occurred with the desktop devices older versions of software (around 2012/2013) struggle with the design, SCSS and Bootstrap 4. The mobile testing results are displayed below:
@@ -580,7 +581,7 @@ The team has encountered issues in launching the website through Microsoft Azure
 
 The IXN User Acceptance Testing (UAT) has been generated around the requirements of the website \cite{g7} . Use Cases have been used to pick and prepare tasks for users to perform during testing. The procedure that the IXN team followed for User Acceptance Testing is the following:
 1.    Design tests for users to cover functional scenarios of the website
-2.    Select a testing team of individuals from a variety of backgrounds
+2.    Select a testing team of individuals from a variety of technical backgrounds
 3.    Perform the tests and record the results
 4.    Fix the bugs encountered or improve the inadequate features.
 
@@ -589,12 +590,12 @@ For the IXN website UAT, thirty-five individuals of varied technical backgrounds
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph4.png}
-      \caption{User Acceptance Testing summarised results}
+      \caption{Summarised results from User Acceptance Testing, indicating a good user response to the IXN website's UI. }
  \end{table}
 
 ## Error Guessing
 
-Error guessing has been put into practice by making the most of the expertise of fellow UCL Computer Science Students. The IXN team asked members of the Department of Computer Science to come up with, consider and assess circumstances in which the software behind the website might have had problems in coping with the requests made. The efficiency of this testing technique depends on the tester’s abilities. In the case of the IXN website, some minor bugs were spotted in the news section. Consequently, the team went on to fixing them.# Conclusion
+Error guessing has been put into practice by making the most of the expertise of fellow UCL computer science students. The IXN team asked members of the Department of Computer Science to come up with, consider and assess circumstances in which the software behind the website might have had problems in coping with the requests made. The efficiency of this testing technique depends on the tester’s abilities. In the case of the IXN website, some minor bugs were spotted in the news section. Consequently, the team went on to fixing them.# Conclusion
 
 ## Requirements Accomplishments
 When comparing the MoSCoW requirements to the team achievements, it is evident that all of the “Must-have” (in green) and “Should-have” (in yellow) requirements were fulfilled. An extra “Could-have” (in red) feature was also included to give a more comprehensive user experience.  An annotated MoSCoW, explaining how the requirements were implemented, can be found below:
@@ -602,7 +603,7 @@ When comparing the MoSCoW requirements to the team achievements, it is evident t
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph5.png}
-      \caption{Post implementation annotated MoSCoW}
+      \caption{Post implementation annotated MoSCoW showing the progress made throughout the term.}
  \end{table}
 
 ## Team achievements
@@ -628,5 +629,5 @@ Moreover, the additional and less requested requirements of the “Could” sect
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph6.png}
-      \caption{Possible features to be implemented in the future}
+      \caption{Features that were not obtained in this body of work but could be implemented in the future.}
  \end{table}

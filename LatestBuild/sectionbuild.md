@@ -179,7 +179,11 @@ To distinguish between Must-Have requirements, Should and Could-Haves the team u
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=1.3\textwidth]{ph2.png}
+<<<<<<< HEAD
       \caption{MoSCoW framework applied to IXN website laying out the site requirements.}
+=======
+      \caption{MoSCoW framework applied to IXN website requirements}
+>>>>>>> master
  \end{table}
  \end{landscape}
 # User Definition
@@ -203,7 +207,11 @@ Related research was highly important due to the red tape imposed by regulations
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{p21.png}
+<<<<<<< HEAD
       \caption{Summarisation of the the information obtained during user research.}
+=======
+      \caption{Summarized statistics extracted from the readings explaied below}
+>>>>>>> master
  \end{table}
 
 Data providing a fuller picture of the demographics of IXN Students was found primarily using UCL student statistics \cite{ps1}. This information was provided on the UCL website. It was determined that the IXN student audience is typically British and male. This evidence helped us develop a data-driven persona. The client indicated that this is not a target-user, but never the less, user research determined that UCL IXN students would be an audience regardless of the website’s intent since they would like to see their work, the work of other students, and possible industry partners.
@@ -235,7 +243,11 @@ affordance: for an intuitive interaction with the platform. ​
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph1.png}
+<<<<<<< HEAD
       \caption{SME Tech Enterprise Employee Persona}
+=======
+      \caption{SME Tech Enterprise Owner}
+>>>>>>> master
 \end{table}
 
 • UCL Computer Science Students: ​
@@ -250,7 +262,11 @@ visibility: especially in relation to how the projects are showcased. ​
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{persona1.png}
+<<<<<<< HEAD
       \caption{UCL Computer Science Student Persona}
+=======
+      \caption{UCL Computer Science Student}
+>>>>>>> master
 \end{table}
 
 ##Use Cases
@@ -260,7 +276,11 @@ Use cases were constructed to represent the standard user navigation and interac
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph9.png}
+<<<<<<< HEAD
       \caption{Use case graph indicating the different ways in which an admin or user may use the IXN website.}
+=======
+      \caption{Use case graph}
+>>>>>>> master
 \end{table}
 
 An outline of the use cases can be found below. This is essentially a list of the actions realated to the Must and Should sections of the MoSCoW.  To avoid repetition, the main routes (in bold) have been outlined in detail.
@@ -268,25 +288,44 @@ An outline of the use cases can be found below. This is essentially a list of th
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph10.png}
+<<<<<<< HEAD
       \caption{List outlining some prospective use cases. The cases in bold are discussed further below.}
+=======
+      \caption{Use case list}
+>>>>>>> master
  \end{table}
 
  \begin{table}[H]
       \centering
+<<<<<<< HEAD
       \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{UCA2.png}
       \caption{Detailed UCA2 use case describing how an admin would post a new project on the IXN site using WordPress.}
+=======
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{UCA2.png}
+      \caption{Detailed UCA2}
+>>>>>>> master
  \end{table}
 
 \begin{table}[H]
       \centering
+<<<<<<< HEAD
       \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{ph12.png}
       \caption{Detailed UCU3 use case describing how a user could sort through displayed projects to see only mobile app projects. }
+=======
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph12.png}
+      \caption{Detailed UCU3}
+>>>>>>> master
  \end{table}
 
 \begin{table}[H]
       \centering
+<<<<<<< HEAD
       \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{ph11.png}
       \caption{Detailed UCU4 use case describing how a user would contact Yun Fu, an IXN coordinator. }
+=======
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph11.png}
+      \caption{Detailed UCU4}
+>>>>>>> master
  \end{table}
 
 # User Interface Design
@@ -407,7 +446,11 @@ To add dynamic functionality to a website JavaScript (JS) is used.  JS is a fron
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.8\textwidth]{ph18.png}
+<<<<<<< HEAD
       \caption{Front-End to Back-End Interaction}
+=======
+      \caption{Front-End and Back-End Interaction}
+>>>>>>> master
  \end{table}
 
 ## Back-End
@@ -420,7 +463,11 @@ Blade by Laravel was is a templating engine used in conjunction with PHP, after 
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph17.png}
+<<<<<<< HEAD
       \caption{Back-End interaction to Front End interaction}
+=======
+      \caption{Front-End and Back-End interaction}
+>>>>>>> master
  \end{table}
 
  \newpage
@@ -560,7 +607,11 @@ The team researched which browser simulators to use for testing the compatibilit
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph7.1.png}
+<<<<<<< HEAD
       \caption{Laptop/Desktop browser testing results, where green indicates a pass and red indicates a fail.}
+=======
+      \caption{Laptop/Desktop browser testing results}
+>>>>>>> master
  \end{table}
 
 In regards to testing on mobile devices, BrowserStack was the chosen platform. However, physical device testing also played a very important role. The webpage appears fully responsive on the most current browsers, however, as occurred with the desktop devices older versions of software (around 2012/2013) struggle with the design, SCSS and Bootstrap 4. The mobile testing results are displayed below:
@@ -590,7 +641,11 @@ For the IXN website UAT, thirty-five individuals of varied technical backgrounds
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph4.png}
+<<<<<<< HEAD
       \caption{Summarised results from User Acceptance Testing, indicating a good user response to the IXN website's UI. }
+=======
+      \caption{User Acceptance Testing summarised results}
+>>>>>>> master
  \end{table}
 
 ## Error Guessing
@@ -603,7 +658,11 @@ When comparing the MoSCoW requirements to the team achievements, it is evident t
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph5.png}
+<<<<<<< HEAD
       \caption{Post implementation annotated MoSCoW showing the progress made throughout the term.}
+=======
+      \caption{Post implementation annotated MoSCoW}
+>>>>>>> master
  \end{table}
 
 ## Team achievements
@@ -629,5 +688,9 @@ Moreover, the additional and less requested requirements of the “Could” sect
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph6.png}
+<<<<<<< HEAD
       \caption{Features that were not obtained in this body of work but could be implemented in the future.}
+=======
+      \caption{Possible features to be implemented in the future}
+>>>>>>> master
  \end{table}
