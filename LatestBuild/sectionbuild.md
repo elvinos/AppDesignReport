@@ -3,11 +3,11 @@
 This report describes the creation of the new Industry Exchange Network (IXN) website showcasing UCL Computer Science students' projects and marketing the organisation to attract new industry partners.
 
 ## The Client
-The IXN project was appointed by Dr Yun Fu, a Teaching Fellow, App Project Manager and Student Internship Manager at University College London (UCL). An essential part of Dr Fu’s profession is to connect students to the industry; where, having an online environment to showcase the work done by UCL CS students and market the IXN is key to attracting new industry partners. Consequently, the IXN website was commissioned as an educational methodology enabling students to engage in real-world problem based learning through term-based client projects.
+The IXN project was appointed by Dr Yun Fu, a Teaching Fellow, App Project Manager and Student Internship Manager at University College London (UCL). An essential part of Dr Fu’s profession is to connect students to the industry. Consequently, the IXN was commissioned as an educational methodology enabling students to engage in real-world problem based learning through term-based client projects. Typical industry partners include entrepreneurs, charities, healthcare companies, researchers, SMEs, government organisations and large enterprises.
 
 ## The Project
 
-The Industry Exchange Network website allows UCL Computer Science students to get involved with term-based client projects \cite{g1}. The website showcases a variety of student projects, ranging from 1st Year Students to the more advanced MSc Data Science endeavours.  Typical industry partners include entrepreneurs, charities, healthcare companies, researchers, SMEs, government organisations and large enterprises.  The IXN constantly requires new industry projects for its students. Therefore, the main objective of the website was to market IXN to professionals; showcasing the abilities of UCL Computer Science students.
+The Industry Exchange Network allows UCL Computer Science students to get involved with term-based client projects \cite{g1}. Therefor, the IXN required a website to showcase a variety of student projects, ranging from 1st Year Students to the more advanced MSc Data Science endeavours. The main objective of the website was to market IXN to professionals; showcasing the capabilities of UCL Computer Science students.
 
 ## Project Goals
 
@@ -78,7 +78,7 @@ A graduate of the BSc Chemistry Programme at University College Dublin, Phoebe h
 
 ## Team Coordination
 
-For the project to be successful, good co-ordination was fundamental for the team to collaborate effectively. Productivity tools and workflow management has been key to the team working efficiently. The key technologies used by the IXN team included:
+For the project to be successful, good co-ordination was fundamental for the team to collaborate effectively. Productivity tools and workflow management were key to the team working efficiently. The key technologies used by the IXN team included:
 
 - **Slack:** allowing team members to communicate. Chosen due to its ability to share files, track conversations via thread and create alerts
 - **Trello:** used as a dashboard to distinguish between work to be done, in progress or completed
@@ -87,7 +87,7 @@ For the project to be successful, good co-ordination was fundamental for the tea
 
 ## Scheduling
 
-Work packages were allocated according to each team members’ strengths and weaknesses. Jobs were distributed to optimise team members' time while allowing all individuals to learn.  A Gantt chart was used to map out the timeline of the project to keep tasks on track and manage deadlines. Figure \ref{gantt}, shows a slimmed down version of the Gantt chart used.
+Work packages were allocated according to each team member's strengths and weaknesses. Jobs were distributed to optimise team members' time while allowing all individuals to learn.  A Gantt chart was used to map out a timeline for the project to keep tasks on track and manage deadlines. Figure \ref{gantt}, shows a slimmed down version of the Gantt chart used.
 
 \begin{landscape}
 \begin{table}[H]
@@ -119,11 +119,11 @@ This phase focused on collecting requirements and defining the objectives of the
 
 The design phase applied human-computer interaction (HCI) principles in an agile to approach, to mock up a variety of different solutions and refine these solutions quickly. A process of sketching different components of the website, whittling these sketches down to wireframes then further downselecting to prototypes was followed. The designers, client and user groups tested the solutions, providing feedback and learning that was fed back into the design, improving the overall design of the website. This process was iterated multiple times until a rough solution was generated, which met both the requirements and the met HCI objectives. This process was called the user interface (UI) design cycle.
 
-Spending time upfront to make all design decision for the website, before writing any code was key to making sure the solution was user-friendly and visual while saving a lot of time. The rough solution created by UI design cycle stage was padded out; refined into a static representation of the final look a feel of the site. This template could then be directly copied in the development phase. A large amount of time could be saved in the development phase of the project by having a finalised design template to work of which included;  typography, UI components, page layouts and mobile views of the site.
+Spending time upfront to make all design decisions for the website, before writing any code was key to making sure the solution was user-friendly and visual while saving a significant amount of time. The rough solution created by UI design cycle stage was padded out; refined into a static representation of the final look a feel of the site. This template could then be directly copied in the development phase. A large amount of time could be saved in the development phase of the project by having a finalised design template to work of which included;  typography, UI components, page layouts and mobile views of the site.
 
 ## Development Phase
 
-Development was the final phase of the project. A complete understanding of how the final product will look and function, based on the research conducted in the definition phase and the detailed design template in the design phase meant that all the technology required to required to implement the solution can be selected. A local development environment shared amongst all the developers enabled the use of an agile build cycle, using git to mediate between the different versions. The build cycle consisted of a developer taking a UI component from the template and creating the design in code. This would then be connected to the PHP database using WordPress and the tested. Any bugs in either the design or functionality could then be ironed out through iteration through the cycle eventually integrating all the components together into the final site. Once the entire design template was implemented, the project could then be deployed on the web.
+Development was the final phase of the project. A complete understanding of how the final product would look and function, based on the research conducted in the definition phase and the detailed design template in the design phase meant that all of the technology required to implement the solution could be selected. A local development environment shared amongst all the developers enabled the use of an agile build cycle, using git to mediate between the different versions. The build cycle consisted of a developer taking a UI component from the template and creating the design in code. This would then be connected to the PHP database using WordPress and the tested. Any bugs in either the design or functionality could then be ironed out by iterating through the cycle leading to the eventual integration of all of the components together into the final site. Once the entire design template was implemented, the project could then be deployed on the web.
 
 ## Site Map
 \begin{figure}[H]
@@ -146,7 +146,7 @@ Development was the final phase of the project. A complete understanding of how 
 
 ## Client Requirements
 
-The primary requirements of the IXN website were highlighted in the first meeting with Dr Yun Fu; highlighting the IXN website aim was to encourage new industry partners to join the programme. Therefore, the new website had to be a high-quality example of the department capabilities while employing the following requirements:
+The primary requirements of the IXN website were highlighted in the first meeting with Dr Yun Fu. The main ain of the IXN website was to encourage new industry partners to join the programme. Therefore, the new website had to be a high-quality example of the department capabilities while employing the following requirements:
 
 -    High quality and professional design
 -    Fully responsive website
@@ -155,7 +155,7 @@ The primary requirements of the IXN website were highlighted in the first meetin
 -    A navigation bar always present at the top of the website
 
 ## Types of Requirements
-There are two types of requirements in web development: functional and non-functional. The former define specific tasks and activities that the project must be able to perform. The latter outlines the way that a system operates and is strongly related to the architecture of the system \cite{g5}. Due to the nature of a website used to showcase projects, most of the requirements fall under the functional category. Nonetheless, all of the most important requirements are listed below:
+There are two types of requirements in web development: functional and non-functional. The former define specific tasks and activities that the project must be able to perform. The latter outline the way that a system operates and are strongly related to the architecture of the system \cite{g5}. Due to the nature of a website used to showcase projects, most of the requirements fall under the functional category. Nonetheless, all of the most important requirements are listed below:
 
 ### Functional Requirements
 
@@ -219,7 +219,7 @@ To obtain a profile for a technology employee, sources such as the Atlantic \cit
 
 ## Limitations
 
-The main limitations were imposed by the HCI department which did not allow surveys to be taken from those other than immediate family members or UCL CS students. Fortunately, in the case of the Industrial Exchange Network, UCL Computer Science students account for a high percentage of users.  Had more time and leniency been given for user research, a broader audience could have been surveyed resulting in a more in-depth study of user requirements. Having a budget to dedicate to research could have also helped to obtain more statistically significant results. For example, questionnaires could have been sponsored to attract a larger public to complete them.
+The main limitations were imposed by the HCI department which did not allow surveys to be taken from those other than immediate family members or UCL CS students. Fortunately, in the case of the Industry Exchange Network, UCL Computer Science students account for a high percentage of users.  Had more time and leniency been given for user research, a broader audience could have been surveyed resulting in a more in-depth study of user requirements. Having a budget to dedicate to research could have also helped to obtain more statistically significant results. For example, questionnaires could have been sponsored to attract a larger public to complete them.
 
 ## Personas for Users
 
@@ -417,7 +417,7 @@ To add dynamic functionality to a website JavaScript (JS) is used. JS is a front
  \end{figure}
 
 ## Back-End
-Backend development refers to the server-side code written to ensure that a site is robust and usable. This is the code that is run on the server and is responsible for things such as database interactions, logic, and calculations. PHP is a server-side scripting language used to query a database such as MariaDB or MySQL \cite{p17}. MariaDB is a fork of MySQL and as such has the same database structure and indexes.
+Back-end development refers to the server-side code written to ensure that a site is robust and usable. This is the code that is run on the server and is responsible for things such as database interactions, logic, and calculations. PHP is a server-side scripting language used to query a database such as MariaDB or MySQL \cite{p17}. MariaDB is a fork of MySQL and as such has the same database structure and indexes.
 
 If WordPress is used as the content management system, it is also deployed on the server so that content can be updated via the user-friendly dashboard. This then updates the database and strategically placed PHP embedded in HTML can be used to display the content in the appropriate part of the site.
 
