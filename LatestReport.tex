@@ -17,7 +17,7 @@
 % ----------NEW BIBLATEX BIBLIOGRAPHY-----------------------------------------------
 \usepackage[eprint=false,backend=bibtex,style = ieee]{biblatex} % Upgrades Bibliography Block Ragged helps break lines in url fixes error
 
-\addbibresource{../BibFile.bib} %%% For biblatex
+\addbibresource{BibFile.bib} %%% For biblatex
 %e.g to add page number \footfullcite[chapter, p.~215]{AAIB}
 % of \footnote{Footnote text goes here}
 % This allows can use footfullcite commands
@@ -60,7 +60,7 @@
 \usepackage{lipsum}
 \usepackage{float}
 \usepackage{graphicx}
-\graphicspath{{../TempImg/}{../Img/}}%<<<<<<<<< Location of Template Images and Other Images, Add folders here
+\graphicspath{{TempImg/}{Img/}}%<<<<<<<<< Location of Template Images and Other Images, Add folders here
 \usepackage{subfig}
 \usepackage{wrapfig}
 \usepackage[font ={small,it}]{caption}
@@ -388,7 +388,15 @@
 
 \addcontentsline{toc}{section}{Abstract}
 \begin{abstract}
+<<<<<<< HEAD
   A fundamental understanding of modern web development techniques is an essential part of any computer science degree programme. In GC02, MSc Computer Science candidates take on a development project with an industry client in the tech, health, or education sector. This body of work describes the design and technical implementation carried out for the Industry Exchange Network (IXN) as a part of the GC02 module coursework during the first term of the 2017-18 academic year. IXN is an educational methodology enabling UCL computer science students to enhance their degree training in a wide variety of real-world problem-solving projects as part of their courses. The IXN provides a variety of opportunities for students to work with a wide variety of clients ranging from small charities to large corporate partners. The IXN team required a new modern designed website, to attract new industry partners and market past student work. This report will discuss the full cycle of development for the creation of a new IXN website, marketing the IXN describing what the organisation is about and promoting past student work.
+=======
+The Department of Computer Science at Univerisity College London (UCL) is strongly linked with industry partners all over the world, collaborating with and connecting such businesses to driven, capable student engineers. The Industry Exchange Network (IXN) is an educational methodology enabling UCL computer science students to enhance their degree training in a wide variety of real-world problem-solving projects as part of their courses. They work with a wide variety of clients ranging from small charities to large corporate partners. This work will discuss the full cycle development of a website for IXN intended display student work as well as useful information pertaining to the organisation. 
+
+Effective and responsive UI design was essential to the site's development and as such, the team worked through an iterative design process, utilizing modern design tools. Subsequently, front-end and back-end development were done based on industry standards using a Roots development and production environment. 
+
+The result was a WordPress website meeting all the necessary client requirements and more.  Responsive design, elegant and modern features and as well as practical functionality were achieved through a collaborative effort over a few short months. 
+>>>>>>> gioReport
 
   Creating an efficient and responsive User Interface design was essential to meeting the website's requirements.  As such, front-end and back-end development were done based on the latest industry standards using a Roots.io open source software.  The result was a WordPress website meeting all the necessary client requirements and more.  Responsive design, elegant and modern features and as well as practical functionality were achieved through a collaborative effort over a few short months.
 \end{abstract}
@@ -820,8 +828,13 @@ project is displayed below:
 \begin{landscape}
 \begin{table}[H]
       \centering
+<<<<<<< HEAD
       \includegraphics[trim = 0 0 0 0, clip, width=1.35\textwidth]{moscowv2.pdf}
       \caption{MoSCoW framework applied to IXN website laying out the site requirements.}
+=======
+      \includegraphics[trim = 0 0 0 0, clip, width=1.3\textwidth]{ph2.png}
+      \caption{MoSCoW framework applied to IXN website requirements}
+>>>>>>> gioReport
  \end{table}
  \end{landscape}
 
@@ -840,12 +853,12 @@ based on sketches to assess essential site content. The results were
 used to inform a MoSCoW, storyboards, and subsequent sketches. The
 results of the survey are outlined below:
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{ph3.png}
       \caption{IXN network round one User Feedback result summary}
 \label{userfeedback}
- \end{figure}
+ \end{table}
 
 As can be seen, the features which were given highest importance were
 project-related features and IXN information-related features shown in
@@ -863,11 +876,17 @@ audience that the website would appeal to and what level of digital
 ability the users would typically have. The image below outlines the
 outcomes of such research:
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
+<<<<<<< HEAD
       \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{p21.png}
       \caption{Summarisation of the the information obtained during user research.}
  \end{figure}
+=======
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{p21.png}
+      \caption{Summarized statistics extracted from the readings explaied below}
+ \end{table}
+>>>>>>> gioReport
 
 Data providing a fuller picture of the demographics of IXN Students were
 found primarily using UCL student statistics \cite{ps1}. This
@@ -942,11 +961,16 @@ Consistency and affordance were the main design principles considered
 for this persona. These were essential for a professional looking
 website ​with intuitive an interaction with the platform. ​
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph1.png}
+<<<<<<< HEAD
       \caption{SME Tech Enterprise Employee Persona}
 \end{figure}
+=======
+      \caption{SME Tech Enterprise Owner}
+\end{table}
+>>>>>>> gioReport
 
 \emph{UCL Computer Science Students: ​}
 
@@ -965,11 +989,16 @@ website ​with intuitive an interaction with the platform. ​
 Visibility was the main design principle considered for this persona,
 concerning how the projects were showcased. ​
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{persona1.png}
+<<<<<<< HEAD
       \caption{UCL Computer Science Student Persona}
 \end{figure}
+=======
+      \caption{UCL Computer Science Student}
+\end{table}
+>>>>>>> gioReport
 
 \hypertarget{use-cases}{%
 \subsection{Use Cases}\label{use-cases}}
@@ -984,7 +1013,11 @@ also taken into account.
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph9.png}
+<<<<<<< HEAD
       \caption{Use case graph indicating the different ways in which an admin or user may use the IXN website.}
+=======
+      \caption{Use case graph}
+>>>>>>> gioReport
 \end{table}
 
 An outline of the use cases can be found below. This is a list of the
@@ -994,28 +1027,48 @@ repetition, the main routes (in bold) have been outlined in detail.
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph10.png}
+<<<<<<< HEAD
       \caption{List outlining some prospective use cases. The cases in bold are discussed further below.}
+=======
+      \caption{Use case list}
+>>>>>>> gioReport
  \end{table}
 
 \begin{table}[H]
       \centering
+<<<<<<< HEAD
       \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{UCA2.png}
       \caption{Detailed UCA2 use case describing how an admin would post a new project on the IXN site using WordPress.}
+=======
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{UCA2.png}
+      \caption{Detailed UCA2}
+>>>>>>> gioReport
  \end{table}
 
 \begin{table}[H]
       \centering
+<<<<<<< HEAD
       \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{ph12.png}
       \caption{Detailed UCU3 use case describing how a user could sort through displayed projects to see only mobile app projects.}
+=======
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph12.png}
+      \caption{Detailed UCU3}
+>>>>>>> gioReport
  \end{table}
 
 \begin{table}[H]
       \centering
+<<<<<<< HEAD
       \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{ph11.png}
       \caption{Detailed UCU4 use case describing how a user would contact Yun Fu, an IXN coordinator. }
  \end{table}
 
 \newpage
+=======
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph11.png}
+      \caption{Detailed UCU4}
+ \end{table}
+>>>>>>> gioReport
 
 \hypertarget{user-interface-design}{%
 \section{User Interface Design}\label{user-interface-design}}
@@ -1038,12 +1091,24 @@ sketches were made in an attempt to hone in on an ideal data-driven
 design. Additionally, storyboards were made to outline specific user
 experiences.
 
+<<<<<<< HEAD
 \begin{figure}[H]
+=======
+After the second round of user feedback, a MoSCow requirements table was
+defined in order to inform several generations of wireframes.
+Down-selection of such wireframes gave way to an initial prototype which
+was then scrutinised via Heuristic and Think-Aloud user evaluation. The
+final prototype that inspired the IXN website design was developed over
+several iterations based on all of the data obtained during the HCI
+portion of the course.
+
+\begin{table}[H]
+>>>>>>> gioReport
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{UIDesign.png}
 \caption{UI design process starting from iterative hand-drawn sketches and leading through to the final design that was implemented on the IXN site.}
 \label{UIDesign}
-\end{figure}
+\end{table}
 
 After the second round of user feedback, a MoSCoW requirements table was
 defined to inform several generations of wireframes. Down-selection of
@@ -1232,12 +1297,12 @@ apps\cite{p5}. The main goal of this methodology is to improve work on a
 growing codebase
 \footnote{The details of underlying principles of this methodology are beyond the scope of this work but can be found in \cite{p8}.}.
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.85\textwidth]{ph20.png}
       \caption{Difference between Bedrock and standard Wordpress File Structure}
 \label{bedrockfolder}
- \end{figure}
+ \end{table}
 
 Composer, a tool for dependency management in PHP, is used to pull in
 both *.dotenv and WordPress, along with WordPress plugins \cite{p7}.
@@ -1302,6 +1367,7 @@ is where a site's content is kept. It is in the HTML documents where a
 developer uses embedded PHP to connect the site to the content
 management system.
 
+<<<<<<< HEAD
 Cascading style sheets (CSS) are where a websites look is created. SCSS
 is a version of CSS written for SASS, a program written in Ruby that
 assembles CSS style sheets for a browser. The advantage of using SASS is
@@ -1314,6 +1380,21 @@ consistent, responsive interface, Bootstrap 4, a front-end web framework
 based on CSS styling, can be used. It has set of fixed classes that
 allow developers to quickly create applications that scale to a variety
 of device sizes. Additionally, Bootstrap aids developers in adding
+=======
+Cascading style sheets (CSS) are where a sites unique style is
+developed. SCSS is a version of CSS written for SASS, a program written
+in Ruby that assembles CSS style sheets for a browser. The advantage of
+using SASS is that is has added functionality, allowing the use of
+variables, nested rules, mixins and more within CSS-compatible syntax
+\cite{p14}.
+
+Resposive design is critical for modern websites since they are accessed
+from a variety of browsers and screen sizes. To achieve a consistent,
+responsive interface, Bootstrap 4, a front-end web framework based on
+CSS styling, can be used. It has set of fixed classes that allow
+developers to quickly create applications that scale to a variety of
+device sizes. Additionally, Bootstrap aids developers in adding
+>>>>>>> gioReport
 conventional components such as navigation bars and panels to a site. It
 has become the industry standard for responsive web development
 \cite{p15}.
@@ -1324,11 +1405,16 @@ by all modern web browsers. JQuery is a JavaScript library that
 simplifies animation, event handling and much more. It is also used to
 add functionality to a website \cite{p16}.
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.8\textwidth]{ph18.png}
+<<<<<<< HEAD
       \caption{Front-End to Back-End Interaction}
  \end{figure}
+=======
+      \caption{Front-End and Back-End Interaction}
+ \end{table}
+>>>>>>> gioReport
 
 \hypertarget{back-end}{%
 \subsection{Back-End}\label{back-end}}
@@ -1339,6 +1425,7 @@ server and is responsible for things such as database interactions,
 logic, and calculations. PHP is a server-side scripting language used to
 query a database such as MariaDB or MySQL \cite{p17}. MariaDB is a fork
 of MySQL and as such has the same database structure and indexes.
+<<<<<<< HEAD
 
 If WordPress is used as the content management system, it is also
 deployed on the server so that content can be updated via the
@@ -1349,17 +1436,35 @@ content in the appropriate part of the site.
 Blade by Laravel is a templating engine used in conjunction with PHP,
 after appending the file extension \emph{blade.php}. Blade employs the
 concepts of template inheritance and sections. The \emph{@section}
+=======
+\cite{p24}
+
+If WordPress is used as the content management system, it is also
+deployed on the server so that content can be updated via the
+user-friendly dashboard. This then updates the database, and
+strategically placed PHP embedded in HTML can be used to display the
+content in the appropriate part of the site.
+
+Blade by Laravel was is a templating engine used in conjunction with
+PHP, after appending the file extension \emph{blade.php}. Blade employs
+the concepts of template inheritance and sections. The \emph{@section}
+>>>>>>> gioReport
 notation allows for easy organisation of a site and can be embedded
 inside HTML code. The \emph{@extends} notation can be used to inherit
 other layouts. These tools are extremely convenient for effectively
 organising code \cite{p18} meeting some of the design patterns further
 discussed in Section \ref{design-patterns}.
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph17.png}
+<<<<<<< HEAD
       \caption{Back-End interaction to Front End interaction}
  \end{figure}
+=======
+      \caption{Front-End and Back-End interaction}
+ \end{table}
+>>>>>>> gioReport
 
 \newpage
 
@@ -1379,12 +1484,12 @@ a professional standard. Figure \ref{systemarchitecture} shows the
 relationship between the three roots technologies; Sage, Bedrock and
 Trellis, and their relationship to the system architecture.
 
-\begin{figure}[H]
+\begin{table}[H]
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.77\textwidth]{SystemArchitecture.eps}
 \caption{Diagram showing the websites systems architecture, highlighting the relationship between different technologies}
 \label{systemarchitecture}
-\end{figure}
+\end{table}
 
 \hypertarget{design-patterns}{%
 \subsection{Design Patterns}\label{design-patterns}}
@@ -1430,12 +1535,12 @@ templating engine, a skeleton for each view could be defined in the
 \texttt{app.blade.php}, different templates files could then be selected
 and swapped out depending on the page selected.
 
-\begin{figure}[H]
+\begin{table}[H]
 \centering
 \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{ddcode.png}
 \caption{Overview of project code structure, including singleton design pattern in extras.php}
 \label{ddcode}
-\end{figure}
+\end{table}
 
 \newpage
 
@@ -1548,12 +1653,22 @@ time. The master branch was used as the code base for deployment
 ensuring only stable code would be deployed. Figure \ref{githubcollab}
 highlights the branch structured used in code collaboration.
 
+<<<<<<< HEAD
 \begin{figure}[H]
     \centering
     \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph15.png}
     \caption{Overview of Github Collaboration Workflow}
   \label{githubcollab}
 \end{figure}
+=======
+\textbackslash{}begin\{table\}{[}H{]} \centering
+\includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph15.png}
+
+\caption{Overview of Github Collaboration Workflow}
+\label{githubcollab}
+
+\textbackslash{}end\{figure\}
+>>>>>>> gioReport
 
 \hypertarget{web-technologies}{%
 \subsubsection{Web Technologies}\label{web-technologies}}
@@ -1653,12 +1768,12 @@ be quickly created allowing progress to be shown to the client and
 enhancements to be made with ease. Figure \ref{buildcycleimg} shows an
 overview of the different steps of the build cycle.
 
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph21.png}
       \caption{An example of the iterative process used to develop all site components, in this case, the footer.}
 \label{buildcycleimg}
- \end{figure}
+ \end{table}
 
 \hypertarget{deployment}{%
 \subsection{Deployment}\label{deployment}}
@@ -1722,8 +1837,13 @@ The results obtained for desktops and laptops are displayed below:
 
 \begin{table}[H]
       \centering
+<<<<<<< HEAD
       \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph7.1.png}
       \caption{Laptop/Desktop browser testing results, where green indicates a pass and red indicates a fail.}
+=======
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph7.1.png}
+      \caption{Laptop/Desktop browser testing results}
+>>>>>>> gioReport
  \end{table}
 
 In regards to testing on mobile devices, BrowserStack was the chosen
@@ -1735,13 +1855,18 @@ mobile testing results are displayed below:
 
 \begin{table}[H]
       \centering
+<<<<<<< HEAD
       \includegraphics[trim = 0 0 0 0, clip, width=0.65\textwidth]{ph8.png}
+=======
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph8.png}
+>>>>>>> gioReport
       \caption{Mobile browser testing results}
  \end{table}
 
 \hypertarget{server-stability-issues}{%
 \subsection{Server Stability Issues}\label{server-stability-issues}}
 
+<<<<<<< HEAD
 The team encountered issues in launching the website through Microsoft
 Azure due to the complexity involved in the process of setting up a
 stable server. Initially, following deployment, browsers sporadically
@@ -1753,6 +1878,17 @@ Since this solution was implemented during the final days of the
 project, future teams working on the IXN website will have to run more
 robust tests to determine the extent to which the issue is still
 present.
+=======
+The team has encountered issues in launching the website through
+Microsoft Azure due to the complexity involved in the process of setting
+up a stable server. The browsers sporadically showed that the page was
+not redirecting properly or that the page was in a redirect loop. The
+problem seemed to disappear after the website had been reloaded a second
+time. The team, in the last days before the deadline, was able nearly
+totally fix this problem resulting in a very improved server stability.
+Future teams working on the IXN project will have to run more robust
+tests to see to what extent the issue is still present.
+>>>>>>> gioReport
 
 \hypertarget{acceptance-testing}{%
 \subsection{Acceptance Testing}\label{acceptance-testing}}
@@ -1782,8 +1918,13 @@ obtained:
 
 \begin{table}[H]
       \centering
+<<<<<<< HEAD
       \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{ph4.png}
       \caption{Summarised results from User Acceptance Testing, indicating a good user response to the IXN website's UI. }
+=======
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph4.png}
+      \caption{User Acceptance Testing summarised results}
+>>>>>>> gioReport
  \end{table}
 
 \hypertarget{error-guessing}{%
@@ -1816,8 +1957,13 @@ can be found below:
 
 \begin{table}[H]
       \centering
+<<<<<<< HEAD
       \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{ph5.png}
       \caption{Post implementation annotated MoSCoW showing the progress made throughout the term.}
+=======
+      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph5.png}
+      \caption{Post implementation annotated MoSCoW}
+>>>>>>> gioReport
  \end{table}
 
 \hypertarget{team-achievements}{%
@@ -1882,7 +2028,11 @@ how the features can be realised, is present below:
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph6.png}
+<<<<<<< HEAD
       \caption{Features that were not obtained in this body of work but could be implemented in the future.}
+=======
+      \caption{Possible features to be implemented in the future}
+>>>>>>> gioReport
  \end{table}
 % -----------------------------------------------------------------------------------
 %                               BIBLIOGRAPHY - Insert Name of BIB File Here
@@ -1983,7 +2133,11 @@ how the features can be realised, is present below:
 \subsection{Wire-Framing}
 \begin{figure}[H]
       \centering
+<<<<<<< HEAD
       \includegraphics[trim = 0 0 0 0, clip, width=0.99\textheight]{app1.png}
+=======
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{app1.png}
+>>>>>>> gioReport
       \caption{Down selection of wire-frames.}
  \end{figure}
 \end{landscape}
@@ -2015,6 +2169,38 @@ how the features can be realised, is present below:
       \caption{Down selection of wire-frames.}
  \end{figure}
 
+
+
+ \begin{landscape}
+\subsection{IXN Poll}
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{Poll1.png}
+      \caption{IXN poll example page 1. }
+ \end{figure}
+
+ \begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{Poll2.png}
+      \caption{IXN poll example page 2.}
+ \end{figure}
+
+ \begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{Poll3.png}
+      \caption{IXN poll example page 3.}
+ \end{figure}
+
+ \end{landscape}
+
+ \begin{landscape}
+\subsection{IXN-Poll-Results}
+\begin{figure}[H]
+      \centering
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{PollResults.png}
+      \caption{Down selection of wire-frames.}
+ \end{figure}
+ \end{landscape}
 
 
 \end{document}
