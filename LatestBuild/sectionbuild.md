@@ -52,7 +52,7 @@ Alexander obtained a Bachelor of Engineering in Engineering Design specialising 
 
 ### Giovanni Tenderini
 
-Giovanni obtained a Bachelor of Science in Economics and Finance at the University of Exeter. His work experience includes a Summer Internship in the Investment Banking division of a Family Office in Milan named CFO and another internship at Generali Italia insurance sales division. His overall knowledge of programming is basic. However, he is an expert in statistical analysis and some related programs.
+Giovanni obtained a Bachelor of Science in Economics and Finance at the University of Exeter. His work experience includes a Summer Internship in the Investment Banking division of a Family Office in Milan named CFO and another internship at Generali Italia insurance sales division. His overall knowledge of programming is basic. However, he is an expert in statistical analysis and related programs.
 
 **Roles:**
 
@@ -87,15 +87,15 @@ For the project to be successful, good co-ordination was fundamental for the tea
 
 ## Scheduling
 
-Work packages were allocated according to each team members’ strengths and weaknesses. Jobs were distributed to optimise team members time while allowing all individuals to learn.  A Gantt chart was used to map out the timeline of the project to keep tasks on track and manage deadlines. Figure \ref{gantt}, shows a slimmed down version of the Gantt chart used.
+Work packages were allocated according to each team members’ strengths and weaknesses. Jobs were distributed to optimise team members' time while allowing all individuals to learn.  A Gantt chart was used to map out the timeline of the project to keep tasks on track and manage deadlines. Figure \ref{gantt}, shows a slimmed down version of the Gantt chart used.
 
 \begin{landscape}
-\begin{figure}[H]
+\begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=1.3\textwidth]{Picture1.png}
       \caption{Gantt chart describing project progress throughout the semester, where "w" stands for weeks dedicated to the development of each task}
 \label{gantt}
- \end{figure}
+ \end{table}
  \end{landscape}
 
  \newpage
@@ -150,7 +150,7 @@ The primary requirements of the IXN website were highlighted in the first meetin
 
 -    High quality and professional design
 -    Fully responsive website
--    Content management system to allow the Administrator to update the website without touching code
+-    Content Management System to allow the Administrator to update the website without touching code
 -    Separate pages for Events, News, Contact and Featured Projects.
 -    A navigation bar always present at the top of the website
 
@@ -605,6 +605,7 @@ For the IXN website UAT, thirty-five individuals of varied technical backgrounds
 Error guessing has been put into practice by making the most of the expertise of fellow UCL Computer Science Students. The IXN team asked members of the Department of Computer Science to come up with, consider and assess circumstances in which the software behind the website might have had problems in coping with the requests made. The efficiency of this testing technique depends on the tester’s abilities. In the case of the IXN website, some minor bugs were spotted in the news section. Consequently, the team went on to fix them.
 
 \newpage
+
 
 # Conclusions
 

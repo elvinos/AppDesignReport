@@ -7,7 +7,7 @@ The primary requirements of the IXN website were highlighted in the first meetin
 
 -    High quality and professional design
 -    Fully responsive website
--    Content management system to allow the Administrator to update the website without touching code
+-    Content Management System to allow the Administrator to update the website without touching code
 -    Separate pages for Events, News, Contact and Featured Projects.
 -    A navigation bar always present at the top of the website
 
