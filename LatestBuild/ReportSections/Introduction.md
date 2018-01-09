@@ -3,11 +3,11 @@
 This report describes the creation of the new Industry Exchange Network (IXN) website showcasing UCL Computer Science students' projects and marketing the organisation to attract new industry partners.
 
 ## The Client
-The IXN project was appointed by Dr Yun Fu, a Teaching Fellow, App Project Manager and Student Internship Manager at University College London (UCL). An essential part of Dr Fu’s profession is to connect students to the industry. Therefore, having a place to showcase the work done by UCL CS students to industry partners is of utmost importance. Consequently, the Industry Exchange Network website was commissioned as an educational methodology enabling students to engage in real-world problem based learning through term-based client projects.
+The IXN project was appointed by Dr Yun Fu, a Teaching Fellow, App Project Manager and Student Internship Manager at University College London (UCL). An essential part of Dr Fu’s profession is to connect students to the industry; where, having an online environment to showcase the work done by UCL CS students and market the IXN is key to attracting new industry partners. Consequently, the IXN website was commissioned as an educational methodology enabling students to engage in real-world problem based learning through term-based client projects.
 
 ## The Project
 
-The Industry Exchange Network website allows UCL Computer Science students to get involved with term-based client projects \cite{g1}. The website showcases a variety of student projects, ranging from 1st Year Students to the more advanced MSc Data Science endeavours.  The clients are entrepreneurs, charities, healthcare companies, researchers, SMEs, government organisations and large enterprises.  The IXN website is a platform to allow individuals in the industry to get in touch with the members of the IXN team. The main objective of the website, therefore, is to market IXN to professionals; showcasing the abilities of UCL Computer Science students.
+The Industry Exchange Network website allows UCL Computer Science students to get involved with term-based client projects \cite{g1}. The website showcases a variety of student projects, ranging from 1st Year Students to the more advanced MSc Data Science endeavours.  Typical industry partners include entrepreneurs, charities, healthcare companies, researchers, SMEs, government organisations and large enterprises.  The IXN constantly requires new industry projects for its students. Therefore, the main objective of the website was to market IXN to professionals; showcasing the abilities of UCL Computer Science students.
 
 ## Project Goals
 
@@ -65,7 +65,7 @@ Giovanni obtained a Bachelor of Science in Economics and Finance at the Universi
 
 ### Phoebe Staab
 
-A graduate of the BSc Chemistry Programme at University College Dublin, Phoebe had little to no real programming experience before attending UCL. She had done a couple of online courses in Java and Python and did some novice-level statistics programming in R during her undergraduate degree. Outside of technology-related work, Phoebe has completed several lab-based research internships at University of Queensland and University College Dublin. 
+A graduate of the BSc Chemistry Programme at University College Dublin, Phoebe had little to no real programming experience before attending UCL. She had done a couple of online courses in Java and Python and did some novice-level statistics programming in R during her undergraduate degree. Outside of technology-related work, Phoebe has completed several lab-based research internships at University of Queensland and University College Dublin.
 
 **Roles:**
 
@@ -78,11 +78,11 @@ A graduate of the BSc Chemistry Programme at University College Dublin, Phoebe h
 
 ## Team Coordination
 
-In team projects, good organisation is fundamental to effective collaboration. Productivity tools and workflow management has been key to the team working efficiently. The key technologies used by the IXN team included:
+For the project to be successful, good co-ordination was fundamental for the team to collaborate effectively. Productivity tools and workflow management has been key to the team working efficiently. The key technologies used by the IXN team included:
 
 - **Slack:** allowing team members to communicate. Chosen due to its ability to share files, track conversations via thread and create alerts
 - **Trello:** used as a dashboard to distinguish between work to be done, in progress or completed
-- **OneDrive:** used as a cloud sharing tool 
+- **OneDrive:** used as a cloud sharing tool
 - **GitHub:** used to share code between developers, provide version control, manage conflicts and deploy the site to the live server. A private repository provided by UCL was used to keep any work out of the public domain
 
 ## Scheduling

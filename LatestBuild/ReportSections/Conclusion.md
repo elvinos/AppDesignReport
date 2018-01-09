@@ -1,14 +1,15 @@
 
 
-# Conclusion
+# Conclusions
 
 ## Requirements Accomplishments
-When comparing the MoSCoW requirements to the team achievements, it is evident that all of the “Must-have” (in green) and “Should-have” (in yellow) requirements were fulfilled. An extra “Could-have” (in red) feature was also included to give a more comprehensive user experience.  An annotated MoSCoW, explaining how the requirements were implemented, can be found below:
+When comparing the MoSCoW requirements to the team achievements, it is evident that all of the “Must-have” (in green) and “Should-have” (in yellow) requirements were fulfilled. An extra “Could-have” (in red) feature was also included to give a more comprehensive user experience.  Table \ref{conreq} shows an annotated MoSCoW, explaining how the requirements were implemented.
 
 \begin{table}[H]
       \centering
       \includegraphics[trim = 0 0 0 0, clip, width=0.9\textwidth]{ph5.png}
       \caption{Post implementation annotated MoSCoW showing the progress made throughout the term.}
+\label{conreq}
  \end{table}
 
 ## Team achievements
@@ -24,8 +25,8 @@ The project was highly design-focused. Therefore, the team worked tirelessly to 
 - Improving/expanding site content: Continuously updating the latest projects, news, and events
 - Improving/expanding upon the WordPress Admin Panel: Optimizing the panel to exact admin specifications
 - Simplifying the post-adding method: Make adding new project, news and events posts more intuitive
-- Improve site speeds and performance: Optimize Azure server configuration and site file optimization (minifying CSS, JS etc.) to avoid current occasional redirect errors. Use Google site speed checks to find weaknesses in current performance
-- Improved search optimisation: Use of plugins (eg: YOAST)
+- Improve site speeds and performance: Optimize Azure server configuration and site file optimisation (minifying CSS, JS etc.) to avoid current occasional redirect errors. Use Google site speed checks to find weaknesses in current performance
+- Improved search optimisation: Use of plugins (e.g., YOAST)
 - Improved data analytics: Connect to client's Google analytics account
 - Further improvements based on more thorough user-testing: Evaluate user response to current site through exhaustive user-based testing to make a more data-driven site design and functionality
 
@@ -33,6 +34,6 @@ Moreover, the additional and less requested requirements of the “Could” sect
 
 \begin{table}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph6.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{ph6.png}
       \caption{Features that were not obtained in this body of work but could be implemented in the future.}
  \end{table}

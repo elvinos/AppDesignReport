@@ -8,7 +8,7 @@ The team researched which browser simulator would be most suitable for testing t
 
 \begin{table}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph7.1.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.98\textwidth]{ph7.1.png}
       \caption{Laptop/Desktop browser testing results, where green indicates a pass and red indicates a fail.}
  \end{table}
 
@@ -16,14 +16,14 @@ In regards to testing on mobile devices, BrowserStack was the chosen platform. H
 
 \begin{table}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph8.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.65\textwidth]{ph8.png}
       \caption{Mobile browser testing results}
  \end{table}
 
 
 ## Server Stability Issues
 
-The team encountered issues in launching the website through Microsoft Azure due to the complexity involved in the process of setting up a stable server. Initially following deployment, browsers sporadically showed that the page was not redirecting properly or that the page was in a redirect loop. The problem seemed to disappear after the website had been reloaded a second time. However, the team was able to come up with a solution to this problem resulting in reliable server stability. Since this solution was implemented during the final days of the project, future teams working on the IXN website will have to run more robust tests to determine the extent to which the issue is still present.
+The team encountered issues in launching the website through Microsoft Azure due to the complexity involved in the process of setting up a stable server. Initially, following deployment, browsers sporadically showed that the page was not redirecting properly or that the page was in a redirect loop. The problem seemed to disappear after the website had been reloaded a second time. However, the team was able to come up with a solution to this problem resulting in reliable server stability. Since this solution was implemented during the final days of the project, future teams working on the IXN website will have to run more robust tests to determine the extent to which the issue is still present.
 
 
 ## Acceptance Testing
@@ -39,7 +39,7 @@ For the IXN website UAT, thirty-five individuals of varied technical backgrounds
 
 \begin{table}[H]
       \centering
-      \includegraphics[trim = 0 0 0 0, clip, width=0.7\textwidth]{ph4.png}
+      \includegraphics[trim = 0 0 0 0, clip, width=0.99\textwidth]{ph4.png}
       \caption{Summarised results from User Acceptance Testing, indicating a good user response to the IXN website's UI. }
  \end{table}
 
