@@ -32,7 +32,7 @@ To obtain a profile for a technology employee, sources such as the Atlantic \cit
 
 ## Limitations
 
-The main limitations were imposed by the HCI department which did not allow surveys to be taken from those other than immediate family members or UCL CS students. Fortunately, in the case of the Industrial Exchange Network, UCL Computer Science students account for a high percentage of users.  Had more time and leniency been given for user research, a broader audience could have been surveyed resulting in a more in-depth study of user requirements. Having a budget to dedicate to research could have also helped to obtain more statistically significant results. For example, questionnaires could have been sponsored to attract a larger public to complete them.
+The main limitations were imposed by the HCI department which did not allow surveys to be taken from those other than immediate family members or UCL CS students. Fortunately, in the case of the Industry Exchange Network, UCL Computer Science students account for a high percentage of users.  Had more time and leniency been given for user research, a broader audience could have been surveyed resulting in a more in-depth study of user requirements. Having a budget to dedicate to research could have also helped to obtain more statistically significant results. For example, questionnaires could have been sponsored to attract a larger public to complete them.
 
 ## Personas for Users
 

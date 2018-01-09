@@ -3,11 +3,11 @@
 This report describes the creation of the new Industry Exchange Network (IXN) website showcasing UCL Computer Science students' projects and marketing the organisation to attract new industry partners.
 
 ## The Client
-The IXN project was appointed by Dr Yun Fu, a Teaching Fellow, App Project Manager and Student Internship Manager at University College London (UCL). An essential part of Dr Fu’s profession is to connect students to the industry; where, having an online environment to showcase the work done by UCL CS students and market the IXN is key to attracting new industry partners. Consequently, the IXN website was commissioned as an educational methodology enabling students to engage in real-world problem based learning through term-based client projects.
+The IXN project was appointed by Dr Yun Fu, a Teaching Fellow, App Project Manager and Student Internship Manager at University College London (UCL). An essential part of Dr Fu’s profession is to connect students to the industry. Consequently, the IXN was commissioned as an educational methodology enabling students to engage in real-world problem based learning through term-based client projects. Typical industry partners include entrepreneurs, charities, healthcare companies, researchers, SMEs, government organisations and large enterprises.
 
 ## The Project
 
-The Industry Exchange Network website allows UCL Computer Science students to get involved with term-based client projects \cite{g1}. The website showcases a variety of student projects, ranging from 1st Year Students to the more advanced MSc Data Science endeavours.  Typical industry partners include entrepreneurs, charities, healthcare companies, researchers, SMEs, government organisations and large enterprises.  The IXN constantly requires new industry projects for its students. Therefore, the main objective of the website was to market IXN to professionals; showcasing the abilities of UCL Computer Science students.
+The Industry Exchange Network allows UCL Computer Science students to get involved with term-based client projects \cite{g1}. Therefor, the IXN required a website to showcase a variety of student projects, ranging from 1st Year Students to the more advanced MSc Data Science endeavours. The main objective of the website was to market IXN to professionals; showcasing the capabilities of UCL Computer Science students.
 
 ## Project Goals
 
@@ -78,7 +78,7 @@ A graduate of the BSc Chemistry Programme at University College Dublin, Phoebe h
 
 ## Team Coordination
 
-For the project to be successful, good co-ordination was fundamental for the team to collaborate effectively. Productivity tools and workflow management has been key to the team working efficiently. The key technologies used by the IXN team included:
+For the project to be successful, good co-ordination was fundamental for the team to collaborate effectively. Productivity tools and workflow management were key to the team working efficiently. The key technologies used by the IXN team included:
 
 - **Slack:** allowing team members to communicate. Chosen due to its ability to share files, track conversations via thread and create alerts
 - **Trello:** used as a dashboard to distinguish between work to be done, in progress or completed
@@ -87,7 +87,7 @@ For the project to be successful, good co-ordination was fundamental for the tea
 
 ## Scheduling
 
-Work packages were allocated according to each team members’ strengths and weaknesses. Jobs were distributed to optimise team members' time while allowing all individuals to learn.  A Gantt chart was used to map out the timeline of the project to keep tasks on track and manage deadlines. Figure \ref{gantt}, shows a slimmed down version of the Gantt chart used.
+Work packages were allocated according to each team member's strengths and weaknesses. Jobs were distributed to optimise team members' time while allowing all individuals to learn.  A Gantt chart was used to map out a timeline for the project to keep tasks on track and manage deadlines. Figure \ref{gantt}, shows a slimmed down version of the Gantt chart used.
 
 \begin{landscape}
 \begin{table}[H]
