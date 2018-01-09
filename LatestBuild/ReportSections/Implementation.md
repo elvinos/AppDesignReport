@@ -17,21 +17,21 @@ These files configure the server name and allow for multisite installation to be
 
 ### Server Provisioning
 
-Finally, typing `vagrant up` and `vagrant provision` in the command line while in the Trellis directory ran the Trellis software. Vagrant and Ansible did most of the heavy lifting,configuring two Trellis dependency packages, which used a Vagrantfile and a collection of Ansible `*.yml`  files to set up a virtual machine \cite{p22}. By using the Trellis setup, a similar workflow was used to provision and deploy to a production server.
+Finally, typing `vagrant up` and `vagrant provision` in the command line while in the Trellis directory ran the Trellis software. Vagrant and Ansible did most of the heavy lifting, configuring two Trellis dependency packages, which used a Vagrantfile and a collection of Ansible `*.yml`  files to set up a virtual machine \cite{p22}. By using the Trellis setup, a similar workflow was used to provision and deploy to a production server.
 
 ## Development Tools
 
-On completing the design phase discussed in Section \ref{user-interface-design}, the design template was split up into components that were individually codified by each team member, and then brought together into the final Wordpress theme.  Through combining Bedrock with the Sage starter theme with a collection of development tools, an efficient workspace and workflow were used.
+On completing the design phase discussed in Section \ref{user-interface-design}, the design template was split up into components that were individually codified by each team member and then brought together into the final Wordpress theme.  Through combining Bedrock with the Sage starter theme with a collection of development tools, an efficient workspace and workflow were used.
 
 ### Text Editors / Intergrated Development Environmets (IDEs)
 
 - *CodePen:*  Used to make each component for the website before all of the sections were integrated into the appropriate page layouts. The benefit of using CodePen is that HTML, CSS and JavaScript code can be written in the browser, and compiled in real time, with the result visible in the same window. \cite{p19}  Ultimately, it allowed for faster development and easy troubleshooting, focusing on design problems alone.
-- *Atom/ Sublime*: These are lightweight text editors that utilise plugins to give additional functionality. These tools were useful for tweaking the site and writing HTML code
+- *Atom/ Sublime*: These are lightweight text editors that utilise plugins to give additional functionality. These tools were used for tweaking the site and writing HTML code
 - *PHP Storm:*, An advanced IDE, used predominantly for writing PHP and optimising SCSS code.
 
 ### Collaboration
 GitHub was used as the version control system for creating the IXN website. Git allows revisions the code to be stored neatly and chronologically. The changes can then be seen by other developers who can download and modify it using tools such as Github Desktop. \cite{p20}  GitHub is the community of developers and where they store their work.
-For the IXN website there was a group repository where code was shared and updated. To organise project code and ensure the integrity of the site, five branches were made; two master branches and a branch for each developer (Alexcode, PhoebeCode and GioCode). When updates were finalised, code from the developer branches was merged into the Dev branch.  This code was reviewed, and if there were no clashes, the code could then be pushed to the master branch. The master branch housed the cleanest and most current version of the site at any given time. The master branch was used as the code base for deployment ensuring only stable code would be deployed. Figure \ref{githubcollab} highlights the branch structured used in code collaboration.
+For the IXN website, there was a group repository where the code was shared and updated. To organise project code and ensure the integrity of the site, five branches were made; two master branches and a branch for each developer (Alexcode, PhoebeCode and GioCode). When updates were finalised, code from the developer branches was merged into the Dev branch.  This code was reviewed, and if there were no clashes, the code could then be pushed to the master branch. The master branch housed the cleanest and most current version of the site at any given time. The master branch was used as the code base for deployment ensuring only stable code would be deployed. Figure \ref{githubcollab} highlights the branch structured used in code collaboration.
 
 \begin{figure}[H]
     \centering
@@ -43,9 +43,9 @@ For the IXN website there was a group repository where code was shared and updat
 ### Web Technologies
 The following technologies were used to create the front end interface of the IXN website. After using the Trellis development environment, the team could fully focus on creating a Wordpress theme. A theme acts like a skin which sits on top of the Wordpress CMS, providing the interface that users interact with. Using the Sage starter template, the following list of web technologies could be used out of the box.
 
-- *HTML:* used for organising webpage structure
+- *HTML:* used for creating webpage content structure
 - *Bootstrap 4:* enhancing HTML code through providing easy to use classes making the website responsive. Bootstrap 4 offers many advantages over Bootstrap 3 including an enhanced grid system and SCSS as standard \cite{Differen19:online}
-- *SCSS:* a pre-processor styling language providing additional functionality to basic CSS and allowing the styling sheet to be compiled, optimised and minified into a single CSS file named `main.css`. SCSS was organised into three main folders holding the components, layouts and global styles. This framework greatly improved the readability of the code and SCSS *variables*and *mixins* could then be used throughout the files to enable quick revision throughout the entire code base
+- *SCSS:* a pre-processor styling language providing additional functionality to basic CSS and allowing the styling sheet to be compiled, optimised and minified into a single CSS file named `main.css` by webpack. SCSS was organised into three main folders holding the components, layouts and global styles. This framework greatly improved the readability of the code and SCSS *variables*and *mixins* could then be used throughout the files to enable quick revision throughout the entire code base
 - *JavaScript + (JQuery):* used to make pages interactive, adding client-side programming functionality to the site. Javascript was used to make the nav-bars interactive, add video and map support among other features
 - *PHP 7.1:* used as the server side language to interact with the server pulling out the correct content to display such as news and event post content
 - *Larvavel (Blade): * This is the templating engine used to avoid code repetition in keeping with the design patterns discussed in Section \ref{design-patterns}
@@ -54,7 +54,7 @@ The following technologies were used to create the front end interface of the IX
 
 ## Build Cycle
 
-To implement the IXN website efficiently, the build cycle highlighted in Figure \ref{designprocess} was followed to allow for an agile development process. Each team member was assigned single components to design, construct and test. This decision was made to streamline and facilitate the process making the webpage testing and tweaking components for different screen sizes and browsers until the element was ready to integrate into the final code base.
+To implement the IXN website efficiently, the build cycle highlighted in Figure \ref{designprocess} was followed to allow for an agile development process. Each team member was assigned components to design, construct and test; to streamline the process of making, testing and tweaking for different screen sizes and browsers until the element was ready to integrate into the final code base.
 The build process can be summarised in the following steps:
 
 1.   Using the Sketch detailed design template, CSS  components could be exported giving the rough parameters for font shape and size
